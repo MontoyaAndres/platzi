@@ -4,21 +4,15 @@ https://platzi.com/clases/1183-bd/8736-constrains-o-restricciones/
 
 https://platzi.com/clases/ingles-conversacion/
 
+## How to download platzi courses
+
+[![asciicast](https://cdn-b-east.streamable.com/image/el3xb_first.jpg?token=f7VbJ1WUmUaIpBCXWNXEEQ&expires=1550444421)](https://cdn-b-east.streamable.com/video/mp4/el3xb.mp4?token=VIMgDATVRryNxVF05g4HIg&expires=1550444324)
+
 ## Tools for learning
 
 webrtc
 
 ## Questions
-
-### React
-
-¿Cómo puedo asignar propiedades base a componentes?
-
-¿En que método del ciclo de vida podemos poner nuestro estado inicial? (Constructor)
-
-¿Qué método de react-dom nos permite renderizar componentes en diferentes etiquetas del dom?
-
-¿Qué método del ciclo de vida es llamado cuando un componente desaparece de nuestra aplicación?
 
 ### Nextjs
 
