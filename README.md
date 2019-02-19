@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1183-bd/8752-metodologia-de-diseno-pasos-5-6-y-2/
+https://platzi.com/clases/1183-bd/8747-atomicidad-y-consistencia/
 
 https://platzi.com/clases/1371-ingles-conversacion/13755-task-describe-your-family-using-the-simple-present/
 
