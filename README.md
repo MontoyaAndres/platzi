@@ -11,3 +11,23 @@ https://platzi.com/clases/1371-ingles-conversacion/13755-task-describe-your-fami
 ## Tools for learning
 
 webrtc
+
+## Questions
+
+### Webpack
+
+¿Para qué sirven los loaders?
+
+El comando para instalar webpack como dependencia de desarrollo es:
+
+El comando webpack index.js bundle.js sirve para
+
+¿Con qué loader imprimimos estilos en el navegador? (not css-loader)
+
+¿Con que plugin podemos extraer estilos a archivos css?
+
+¿Qué ocurre cuando el peso de un archivo supera la opción “limit” del url-loader?
+
+¿Si quieres personalizar la ruta de un archivo exportado, con qué comodín puedes asignar múltiples extensiones? (not {})
+
+Con qué comodín puedo asignar un valor “aleatorio”al nombre de un archivo
