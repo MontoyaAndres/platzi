@@ -2,7 +2,7 @@
 
 https://platzi.com/clases/1183-bd/8747-atomicidad-y-consistencia/
 
-https://platzi.com/clases/1371-ingles-conversacion/13755-task-describe-your-family-using-the-simple-present/
+https://platzi.com/clases/1371-ingles-conversacion/13764-vocabulary-parts-of-the-house-and-furniture/
 
 ## How to download platzi courses
 
