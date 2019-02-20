@@ -2,7 +2,7 @@
 
 https://platzi.com/clases/1183-bd/8760-proyecto-paso-3-y-4/
 
-https://platzi.com/clases/1371-ingles-conversacion/13764-vocabulary-parts-of-the-house-and-furniture/
+https://platzi.com/clases/1371-ingles-conversacion/13772-pronunciation-places-in-the-city/
 
 ## How to download platzi courses
 
