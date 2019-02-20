@@ -18,16 +18,14 @@ webrtc
 
 ¿Para qué sirven los loaders?
 
-El comando para instalar webpack como dependencia de desarrollo es:
-
-El comando webpack index.js bundle.js sirve para
-
-¿Con qué loader imprimimos estilos en el navegador? (not css-loader)
-
 ¿Con que plugin podemos extraer estilos a archivos css?
+
+Con qué comodín puedo asignar un valor “aleatorio” al nombre de un archivo (not [name])
 
 ¿Qué ocurre cuando el peso de un archivo supera la opción “limit” del url-loader?
 
-¿Si quieres personalizar la ruta de un archivo exportado, con qué comodín puedes asignar múltiples extensiones? (not {})
+El comando para instalar webpack como dependencia de desarrollo es: (not -S --save-dev)
 
-Con qué comodín puedo asignar un valor “aleatorio”al nombre de un archivo
+¿Con qué loader imprimimos estilos en el navegador? (style-loader)
+
+¿Si quieres personalizar la ruta de un archivo exportado, con qué comodín puedes asignar múltiples extensiones? ([ext])
