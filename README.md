@@ -16,7 +16,7 @@ webrtc
 
 ### Webpack
 
-¿Para qué sirven los loaders?
+¿Para qué sirven los loaders? dar soporte a multiples archivos
 
 ¿Con que plugin podemos extraer estilos a archivos css?
 
