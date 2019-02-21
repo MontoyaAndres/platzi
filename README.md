@@ -29,3 +29,7 @@ El comando para instalar webpack como dependencia de desarrollo es: (not -S --sa
 ¿Con qué loader imprimimos estilos en el navegador? (style-loader)
 
 ¿Si quieres personalizar la ruta de un archivo exportado, con qué comodín puedes asignar múltiples extensiones? ([ext])
+
+css-loader: cargar css
+
+style-loader: css en html
