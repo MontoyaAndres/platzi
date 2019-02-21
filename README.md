@@ -29,15 +29,3 @@ El comando para instalar webpack como dependencia de desarrollo es: (not -S --sa
 ¿Con qué loader imprimimos estilos en el navegador? (style-loader)
 
 ¿Si quieres personalizar la ruta de un archivo exportado, con qué comodín puedes asignar múltiples extensiones? ([ext])
-
-### Express
-
-El resultado de escribir div.class1.class2 y .class1.class2 es el mismo en Pug: verdadero
-
-Si quieres carga los archivos estáticos de la carpeta public, pero que la ruta tenga de prefijo static debemos usar:
-
-La responsabilidad de una capa de servicios es:
-
-Los parámetros que recibe una función middleware para el manejo de errores son: (not req, res, nexxt)
-
-Joi y Boom son librerias que hacen parte del ecosistema de: (not node)
