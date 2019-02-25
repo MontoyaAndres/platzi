@@ -11,25 +11,3 @@ https://platzi.com/clases/ingles-gramatica/
 ## Tools for learning
 
 webrtc
-
-## Questions
-
-### Webpack
-
-¿Para qué sirven los loaders? dar soporte a multiples archivos
-
-¿Con que plugin podemos extraer estilos a archivos css?
-
-Con qué comodín puedo asignar un valor “aleatorio” al nombre de un archivo (not [name])
-
-¿Qué ocurre cuando el peso de un archivo supera la opción “limit” del url-loader?
-
-El comando para instalar webpack como dependencia de desarrollo es: (not -S --save-dev)
-
-¿Con qué loader imprimimos estilos en el navegador? (style-loader)
-
-¿Si quieres personalizar la ruta de un archivo exportado, con qué comodín puedes asignar múltiples extensiones? ([ext])
-
-css-loader: cargar css
-
-style-loader: css en html
