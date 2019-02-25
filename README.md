@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1183-bd/8760-proyecto-paso-3-y-4/
+https://platzi.com/clases/1183-bd/8763-metodologia-de-diseno-paso-6-y-7/
 
 https://platzi.com/clases/1371-ingles-conversacion/13772-pronunciation-places-in-the-city/
 
