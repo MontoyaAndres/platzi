@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1183-bd/8763-metodologia-de-diseno-paso-6-y-7/
+https://platzi.com/clases/1183-bd/8768-dependencias-funcionales/
 
 https://platzi.com/clases/1370-ingles-gramatica/13953-listening-abilities/
 
