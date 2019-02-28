@@ -2,7 +2,7 @@
 
 https://platzi.com/clases/1183-bd/8768-dependencias-funcionales/
 
-https://platzi.com/clases/1370-ingles-gramatica/13959-listening-exercise-simple-present/
+https://platzi.com/clases/1370-ingles-gramatica/13969-my-childhood/
 
 ## How to download platzi courses
 
