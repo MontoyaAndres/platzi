@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1183-bd/8773-comenzando-con-sql/
+https://platzi.com/clases/1183-bd/8782-estructura-basica-del-query-2/
 
 https://platzi.com/clases/1370-ingles-gramatica/13971-grammar-the-past/
 
