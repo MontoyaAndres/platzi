@@ -11,3 +11,13 @@ https://platzi.com/clases/1370-ingles-gramatica/13982-plans-for-the-future/
 ## Tools for learning
 
 webrtc
+
+## Questions
+
+Un sistema no estructurado es fuerte candidato para utilizar una estrategia y arquitectura
+
+Una estrategia válida y sencilla para acelerar algunas cargas de bases de datos con problemas de performance podría ser
+
+Para tener continuidad y durabilidad en mis datos es importante considerar un esquema de 
+
+Una de las estrategias a implementar una base de datos distribuida es
