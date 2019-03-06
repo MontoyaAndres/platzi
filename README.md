@@ -2,7 +2,7 @@
 
 https://platzi.com/clases/1301-expresiones-regulares/11854-el-caso-de-como-delimitador/
 
-https://platzi.com/clases/escritura-ingles/
+https://platzi.com/clases/1279-escritura-ingles/11352-basics-for-writing/
 
 ## How to download platzi courses
 
