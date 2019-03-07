@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1301-expresiones-regulares/11854-el-caso-de-como-delimitador/
+https://platzi.com/clases/1301-expresiones-regulares/11860-urls9102/
 
 https://platzi.com/clases/1279-escritura-ingles/11352-basics-for-writing/
 
