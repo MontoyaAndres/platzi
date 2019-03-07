@@ -2,7 +2,7 @@
 
 https://platzi.com/clases/1301-expresiones-regulares/11860-urls9102/
 
-https://platzi.com/clases/1279-escritura-ingles/11352-basics-for-writing/
+https://platzi.com/clases/1279-escritura-ingles/11354-different-types-of-outlines/
 
 ## How to download platzi courses
 
