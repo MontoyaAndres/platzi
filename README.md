@@ -14,9 +14,9 @@ webrtc
 
 ## Questions
 
-¿Cuál de las siguientes expresiones sería útil para encontrar palabras que empiecen con letra mayúscula?
+¿Cuál de las siguientes expresiones sería útil para encontrar palabras que empiecen con letra mayúscula? [A-Z][a-z]+ <- asi
 
-El patrón /(\d+?),.*/ qué match tendría? (representando al match de la forma [ab]):
+El patrón /(\d+?),.*/ qué match tendría? (representando al match de la forma [ab]): (no first, and last)
 
 Una expresión greedy (?) significa que se intentará encontrar el patrón:
 
