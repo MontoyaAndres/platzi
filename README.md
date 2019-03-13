@@ -1,8 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1301-expresiones-regulares/11860-urls9102/
-
-https://platzi.com/clases/1279-escritura-ingles/11354-different-types-of-outlines/
+https://platzi.com/clases/1279-escritura-ingles/11356-relevant-tips-to-take-into-account-when-writing-em/
 
 ## How to download platzi courses
 
