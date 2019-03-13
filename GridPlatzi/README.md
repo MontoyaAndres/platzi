@@ -1,1 +1,1 @@
-https://platzi.com/clases/1229-css-grid-layout/10077-espaciado-entre-filas-y-columnas/
+https://platzi.com/clases/1229-css-grid-layout/10083-manejando-el-grid-implicito/
