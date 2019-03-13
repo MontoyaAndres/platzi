@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 25% 200px 25%;
+  grid-template-rows: 300px 300px; */
+
+  /* grid-template: rows / columns; */
+
+  grid-template: 300px 100px 100px / 50% 200px 100px;
+}
+
+.item {
+  background: lightblue;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.item:nth-of-type(4) {
+  background: blue;
+  overflow: auto;
+  /* display: subgrid; heredar lo del padre not supported */
+  /* display: inline-grid; not supported */
+  display: grid;
+  grid-template: repeat(3, 50px) / repeat(3, 200px);
+}
+
+.item .item {
+  background: yellow;
+}
