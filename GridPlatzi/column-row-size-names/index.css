@@ -9,6 +9,9 @@ body {
   grid-template-rows: [start] 200px [row2] 200px [end];
   grid-gap: 5px;
   height: 100vh;
+  /* grid-auto-flow: column; */
+  /* grid-auto-columns: 50px 100px; */
+  grid-auto-rows: 50px 100px;
 }
 
 .item {

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pinterest</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="item level-1">
+        <img src="./img/landing.jpg" alt="landing" />
+      </div>
+      <div class="item level-2">
+        <img src="./img/tshirt.jpg" alt="tshirt" />
+      </div>
+      <div class="item level-3">
+        <img src="./img/house.jpg" alt="house" />
+      </div>
+    </div>
+
+    <script>
+      async function main() {
+        const container = document.querySelector(".container");
+        const measurement = ["500x250", "500x500", "500x750"];
+
+        async function fetchImage() {
+          const randomNumber = Math.floor(Math.random() * 3);
+          const response = await fetch(
+            `https://source.unsplash.com/random/${measurement[randomNumber]}`
+          );
+          let className = "";
+
+          if (measurement[randomNumber] === "500x250") {
+            className = "level-3";
+          }
+          if (measurement[randomNumber] === "500x500") {
+            className = "level-2";
+          }
+          if (measurement[randomNumber] === "500x750") {
+            className = "level-1";
+          }
+
+          return {
+            url: response.url,
+            class: className
+          };
+        }
+
+        for (let i = 0; i < 30; i++) {
+          const image = await fetchImage();
+          container.innerHTML += `
+<div class="item ${image.class}">
+  <img src="${image.url}">
+</div>
+          `;
+        }
+      }
+
+      main();
+    </script>
+  </body>
+</html>
