@@ -9,3 +9,9 @@ https://platzi.com/clases/1279-escritura-ingles/11356-relevant-tips-to-take-into
 ## Tools for learning
 
 webrtc
+
+## Questions
+
+El espacio entre 2 filas y columnas adyacentes es:
+
+Propiedad usada para alinear el contenido dentro de los grid items de forma horizontal

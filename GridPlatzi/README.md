@@ -1,1 +1,0 @@
-https://platzi.com/clases/1229-css-grid-layout/10083-manejando-el-grid-implicito/
