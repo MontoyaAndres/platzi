@@ -1,6 +1,10 @@
 ## Courses
 
-https://platzi.com/clases/1279-escritura-ingles/11356-relevant-tips-to-take-into-account-when-writing-em/
+https://platzi.com/clases/1247-arquitectura-software/10372-dificultades-en-el-desarrollo-de-software/
+
+https://platzi.com/clases/1362-responsive-design/13539-medidas-relativas-utiles-en-responsive-design/
+
+https://platzi.com/clases/1279-escritura-ingles/11362-relevant-tips-for-writing-business-proposals/
 
 ## How to download platzi courses
 
@@ -9,9 +13,3 @@ https://platzi.com/clases/1279-escritura-ingles/11356-relevant-tips-to-take-into
 ## Tools for learning
 
 webrtc
-
-## Questions
-
-El espacio entre 2 filas y columnas adyacentes es:
-
-Propiedad usada para alinear el contenido dentro de los grid items de forma horizontal
