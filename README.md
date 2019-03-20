@@ -4,7 +4,7 @@ https://platzi.com/clases/1247-arquitectura-software/10372-dificultades-en-el-de
 
 https://platzi.com/clases/1362-responsive-design/13543-ajustando-el-header/
 
-https://platzi.com/clases/1279-escritura-ingles/11362-relevant-tips-for-writing-business-proposals/
+https://platzi.com/clases/1362-responsive-design/13546-ajustando-la-seccion-de-contacto-y-footer/
 
 ## How to download platzi courses
 
