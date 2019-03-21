@@ -40,8 +40,8 @@ What are the components of a topic sentence?
 
 What is the role of a topic sentence in a paragraph?
 
-All of the following are useful tips when creating an outline, except for:
+All of the following are useful tips when creating an outline, except for: (write text??)
 
-What is a cover letter?
+What is a cover letter? (bien)
 
 All these elements should be included in formal and cover letters except for:
