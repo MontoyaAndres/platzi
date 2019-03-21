@@ -2,7 +2,7 @@
 
 https://platzi.com/clases/1247-arquitectura-software/10372-dificultades-en-el-desarrollo-de-software/
 
-https://platzi.com/clases/1362-responsive-design/13543-ajustando-el-header/
+https://platzi.com/clases/1362-responsive-design/13551-fuentes-de-iconos/
 
 ## Tools for learning
 
