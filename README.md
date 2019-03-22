@@ -36,7 +36,7 @@ You have a spotted a client, what is the first thing to do to see if it can be a
 
 *7.5 QUESTIONS*
 
-What are the components of a topic sentence?
+What are the components of a topic sentence? (not support)
 
 What is the role of a topic sentence in a paragraph?
 
