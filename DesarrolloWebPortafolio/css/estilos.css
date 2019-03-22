@@ -215,23 +215,16 @@ figure {
 
 .social-link {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  font-size: 50px;
+  border: 1px solid white;
+  color: white;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+  background-size: 60px 60px;
+  border-radius: 100%;
   margin: 0 10px;
-  background-size: 50px 50px;
-}
-
-.social-link.twitter {
-  background-image: url("../images/twitter.svg");
-}
-.social-link.facebook {
-  background-image: url("../images/facebook.svg");
-}
-.social-link.github {
-  background-image: url("../images/github.svg");
-}
-.social-link.instagram {
-  background-image: url("../images/instagram.svg");
 }
 
 .form-email input {
@@ -269,6 +262,21 @@ figure {
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+}
+
+.burger-buttom {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  left: 5px;
+  top: 5px;
+  color: white;
 }
 
 @media screen and (max-width: 1024px) {
@@ -322,6 +330,10 @@ figure {
 }
 
 @media screen and (max-width: 767px) {
+  .burger-buttom {
+    display: block;
+  }
+
   .header {
     display: block;
     height: auto;
@@ -334,9 +346,32 @@ figure {
   }
   .header a {
     justify-content: center;
+    height: 40px;
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: 0.5em;
   }
   .header .logo {
     text-align: center;
+  }
+
+  .menu {
+    position: fixed;
+    background: rgba(5, 111, 255, 0.9);
+    z-index: 3;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    /* height: 100vh; */
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  /* Cuando tenga estas dos clases, hara lo que se diga aquí */
+  .menu.is-active {
+    left: 0;
   }
 
   .project {
@@ -372,36 +407,6 @@ figure {
     font-size: 0.8em;
   }
 
-  .event {
-    width: auto;
-    flex-shrink: initial;
-  }
-  .event img {
-    width: 100%;
-    height: 100%;
-    /* two ways */
-    /*
-    object-fit: cover;
-    object-position: 50% 17%;
-
-    height: 100%;
-    */
-  }
-}
-
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 1.5em;
-  }
-
-  .project-details {
-    font-size: 12px;
-  }
-  .event-detail {
-    margin: -2em 0.5em 0.5em;
-    padding: 1em;
-  }
-
   .contact {
     display: block;
     height: auto;
@@ -419,6 +424,40 @@ figure {
     text-align: center;
     /* other way instead border -> padding: 1px; */
     border: 1px solid transparent;
+  }
+
+  .event {
+    width: auto;
+    flex-shrink: initial;
+  }
+  .event img {
+    width: 100%;
+    height: 100%;
+    /* two ways */
+    /*
+    object-fit: cover;
+    object-position: 50% 17%;
+
+    height: 100%;
+    */
+  }
+
+  .social-link:nth-last-child(4) {
+    margin-top: 2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .project-details {
+    font-size: 12px;
+  }
+  .event-detail {
+    margin: -2em 0.5em 0.5em;
+    padding: 1em;
   }
 }
 

@@ -2,7 +2,7 @@
 
 https://platzi.com/clases/1247-arquitectura-software/10372-dificultades-en-el-desarrollo-de-software/
 
-https://platzi.com/clases/1362-responsive-design/13551-fuentes-de-iconos/
+https://platzi.com/clases/1362-responsive-design/13554-anadiendo-javascript-para-deteccion-de-eventos/
 
 ## Tools for learning
 
