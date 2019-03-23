@@ -38,10 +38,10 @@ You have a spotted a client, what is the first thing to do to see if it can be a
 
 What are the components of a topic sentence? (not support) the 3??
 
-What is the role of a topic sentence in a paragraph?
+What is the role of a topic sentence in a paragraph? not (a)
 
 All of the following are useful tips when creating an outline, except for: (write text??)
 
 What is a cover letter? (bien)
 
-All these elements should be included in formal and cover letters except for: (the address of the client??)
+All these elements should be included in formal and cover letters except for: (your address)
