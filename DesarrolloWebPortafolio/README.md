@@ -14,3 +14,18 @@ Con las otras opciones, se activan las propiedades de top, bottom, left, right y
 - absolute: el objeto se ubica de manera absoluta con el elemento más cercano que tenga posición relativa o con el body.
 - fixed: el elemento se muestra de manera fija en el viewport.
 - sticky: el elemento se queda de menera dija una vez aparece en pantalla.
+
+## Questions
+
+¿Cuánto valdría 1.5em en el borde en .body ?
+
+¿En qué atributo del meta viewport se configura el tamaño inicial de escala del navegador?
+
+¿Qué meta permite redimensionar la escala del navegador?
+
+¿Cuál de estas NO es una medida relativa?
+
+¿Qué propiedad ayuda a ordenar el apilamiento de elementos con un position asignado? (not flex)
+
+¿A qué reacciona este media query? @media screen and (min-width: 768px)
+
