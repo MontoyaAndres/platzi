@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <i class="fas fa-bars burger-buttom"></i>
+    <i class="fas fa-bars burger-buttom" id="burger-menu"></i>
     <header class="header">
       <div class="container">
         <figure class="logo">
@@ -266,5 +266,21 @@
         </div>
       </div>
     </footer>
+    <script>
+      const menu = document.querySelector(".menu");
+      const burgerButton = document.querySelector("#burger-menu");
+
+      burgerButton.addEventListener("click", function() {
+        menu.classList.toggle("is-active");
+      });
+
+      const menuLink = document.querySelectorAll(".link");
+
+      menuLink.forEach(function(element) {
+        element.addEventListener("click", function() {
+          menu.classList.remove("is-active");
+        });
+      });
+    </script>
   </body>
 </html>

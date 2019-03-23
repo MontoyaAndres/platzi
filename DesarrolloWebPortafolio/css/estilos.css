@@ -280,6 +280,9 @@ figure {
 }
 
 @media screen and (max-width: 1024px) {
+  .portfolio {
+    padding: 0;
+  }
   .container {
     padding: 0 1em;
   }
@@ -404,7 +407,7 @@ figure {
     font-size: 1em;
   }
   .project-description {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .contact {
@@ -453,7 +456,7 @@ figure {
   }
 
   .project-details {
-    font-size: 12px;
+    font-size: 14px;
   }
   .event-detail {
     margin: -2em 0.5em 0.5em;
