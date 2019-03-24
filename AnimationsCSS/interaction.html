@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Interaction</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .ball {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        transition: 1s;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+
+      .ball.a {
+        background-color: red;
+        left: 0;
+      }
+
+      .ball.b {
+        background-color: blue;
+        right: 0;
+      }
+
+      .basket {
+        border: 1px solid red;
+        position: relative;
+        height: 100px;
+        width: 100%;
+      }
+
+      .basket:hover .ball.a {
+        left: calc(50% - 100px);
+      }
+
+      .basket:hover .ball.b {
+        right: calc(50% - 100px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="basket">
+      <div class="ball a">hola</div>
+      <div class="ball b">mundo</div>
+    </div>
+  </body>
+</html>
