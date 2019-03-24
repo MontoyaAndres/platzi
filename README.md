@@ -45,3 +45,13 @@ All of the following are useful tips when creating an outline, except for: (writ
 What is a cover letter? (bien)
 
 All these elements should be included in formal and cover letters except for: (your address)
+
+:(((
+
+What is the purpose of the pre-writing section?
+
+What is the re-writing stage for?
+
+Why is persuasive communication relevant?
+
+All these elements should be included in formal and cover letters except for:
