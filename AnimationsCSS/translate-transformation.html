@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rotate transformation</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        /* transform 3d */
+        perspective: 200px;
+        /* default perspective
+        perspective-origin: center; */
+        /* perspective-origin: x y; */
+        /* perspective-origin: top; */
+        /* perspective-origin: bottom; */
+        /* perspective-origin: left; */
+        perspective-origin: bottom right;
+      }
+
+      .container {
+        border: 1px solid red;
+      }
+
+      .container:hover .square {
+        /* transform: translate(x, y); */
+        /* transform: translate3d(x, y, z); */
+        transform-style: preserve-3d; /* only for firefox */
+        transform: translate3d(100px, 100px, 100px);
+      }
+
+      .square {
+        width: 200px;
+        height: 200px;
+        background: #7dc900;
+        margin: 20px;
+        transition: 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="square">
+        Hola mundo
+      </div>
+    </div>
+  </body>
+</html>

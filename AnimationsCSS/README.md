@@ -1,1 +1,1 @@
-https://platzi.com/clases/1103-animaciones-web/6824-sintaxis-de-transformaciones/
+https://platzi.com/clases/1103-animaciones-web/6830-sintaxis/
