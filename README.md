@@ -48,6 +48,8 @@ All these elements should be included in formal and cover letters except for: (y
 
 :(((
 
+https://www.google.com/search?ei=b4-aXMWaAs_t5gKUgq2gBA&q=purpose+pre-writing+section&oq=purpose+pre-writing+section&gs_l=psy-ab.3...244046.245547..245734...0.0..0.231.1333.0j7j1......0....1..gws-wiz.......0i71j35i304i39j0i13i5i30.N92LJFpMghY
+
 What is the purpose of the pre-writing section?
 
 What is the re-writing stage for? (start not)
