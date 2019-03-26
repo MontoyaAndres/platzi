@@ -50,7 +50,7 @@ All these elements should be included in formal and cover letters except for: (y
 
 What is the purpose of the pre-writing section?
 
-What is the re-writing stage for?
+What is the re-writing stage for? (start not)
 
 Why is persuasive communication relevant?
 
