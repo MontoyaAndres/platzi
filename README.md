@@ -54,4 +54,4 @@ What is the re-writing stage for? (start not)
 
 Why is persuasive communication relevant?
 
-All these elements should be included in formal and cover letters except for:
+All these elements should be included in formal and cover letters except for: the problem
