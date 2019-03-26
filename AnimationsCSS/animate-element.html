@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>element animate</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        width: 600px;
+        border: 1px solid red;
+      }
+
+      .ball {
+        width: 100px;
+        height: 100px;
+        background: red;
+        border-radius: 50%;
+      }
+
+      .btn {
+        text-align: center;
+        background: #7dc800;
+        padding: 0.6em 0.8em 0.8em;
+        border: none;
+        color: white;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: inset 0 -0.2em rgba(0, 0, 0, 0.2);
+        outline: 0;
+        transition: 0.2s;
+        will-change: transform;
+      }
+
+      .btn:active {
+        transform: scale(0.9);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ball" id="ball"></div>
+      <div class="buttons">
+        <button class="btn" id="play">Play</button>
+        <button class="btn" id="pause">Pause</button>
+        <button class="btn" id="stop">Stop</button>
+        <button class="btn" id="reverse">Reverse</button>
+        <button class="btn" id="more">+</button>
+        <button class="btn" id="less">-</button>
+      </div>
+    </div>
+
+    <script>
+      const ball = document.querySelector("#ball");
+
+      const animation = ball.animate(
+        [
+          {
+            // from
+            transform: "translateX(0)"
+          },
+          {
+            // to
+            transform: "translateX(500px)"
+          }
+        ],
+        {
+          duration: 1000,
+          delay: 1000, // iniciar despues de 1s
+          direction: "alternate",
+          fill: "forwards",
+          easing: "linear",
+          iterations: Infinity,
+          iterationStart: 0.5, // 1 - 0 = iniciar en el 50%
+          endDelay: 5000 // 5s
+        }
+      );
+
+      const play = document.querySelector("#play");
+      const pause = document.querySelector("#pause");
+      const stop = document.querySelector("#stop");
+      const reverse = document.querySelector("#reverse");
+      const more = document.querySelector("#more");
+      const less = document.querySelector("#less");
+
+      play.addEventListener("click", function play(e) {
+        animation.play();
+      });
+
+      pause.addEventListener("click", function pause(e) {
+        animation.pause();
+      });
+
+      stop.addEventListener("click", function stop(e) {
+        animation.cancel();
+      });
+
+      reverse.addEventListener("click", function reverse(e) {
+        animation.reverse();
+      });
+
+      more.addEventListener("click", function more(e) {
+        animation.playbackRate += 1;
+      });
+
+      less.addEventListener("click", function less(e) {
+        if (animation.playbackRate > 0) {
+          animation.playbackRate -= 1;
+        }
+      });
+    </script>
+  </body>
+</html>

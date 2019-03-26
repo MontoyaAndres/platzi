@@ -1,1 +1,1 @@
-https://platzi.com/clases/1103-animaciones-web/6830-sintaxis/
+https://platzi.com/clases/1103-animaciones-web/6840-animaciones-de-entrada-y-salida/
