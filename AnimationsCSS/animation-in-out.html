@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Animations</title>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .square {
+        width: 200px;
+        height: 200px;
+        background: #7dc900;
+        /* animation: name time state; */
+        /* animation: animationIn 0.8s; */
+        animation: animationOut 0.8s forwards;
+      }
+
+      @keyframes animationIn {
+        0% {
+          transform: translateY(-3000px);
+        }
+
+        60% {
+          transform: translateY(25px);
+        }
+
+        75% {
+          transform: translateY(-10px);
+        }
+
+        90% {
+          transform: translateY(5px);
+        }
+      }
+
+      @keyframes animationOut {
+        0% {
+          transform: translateY(5px);
+        }
+
+        60% {
+          transform: translateY(-10px);
+        }
+
+        75% {
+          transform: translateY(25px);
+        }
+
+        100% {
+          transform: translateY(-3000px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="square"></div>
+  </body>
+</html>
