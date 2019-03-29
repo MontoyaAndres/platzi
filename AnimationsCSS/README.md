@@ -1,1 +1,1 @@
-https://platzi.com/clases/1103-animaciones-web/6845-olas-explicacion/
+https://platzi.com/clases/1103-animaciones-web/6848-configurando-una-aplicacion-en-react-js/
