@@ -1,1 +1,1 @@
-https://platzi.com/clases/1103-animaciones-web/6852-pasando-de-una-pagina-estatica-a-una-dinamica-con-/
+https://platzi.com/clases/1103-animaciones-web/6856-animando-las-guitarras/
