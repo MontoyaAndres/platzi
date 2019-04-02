@@ -108,6 +108,41 @@ textarea:focus {
   background-size: cover;
 }
 
+.portada.background.is-animated {
+  background-image: url("../images/team-platzi-azul.jpg");
+  background-repeat: no-repeat;
+  animation: background-platzi 15s linear infinite alternate;
+}
+
+@keyframes background-platzi {
+  0% {
+    background-size: 200%;
+    background-position: center;
+  }
+
+  20% {
+    background-position: right top;
+  }
+
+  40% {
+    background-size: 100%;
+    background-position: center;
+  }
+
+  60% {
+    background-position: left top;
+  }
+
+  80% {
+    background-position: left -100px;
+  }
+
+  100% {
+    background-size: 200%;
+    background-position: right -100px;
+  }
+}
+
 .button {
   border-radius: 12px;
   border: none;

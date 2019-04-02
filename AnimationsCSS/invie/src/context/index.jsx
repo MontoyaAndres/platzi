@@ -3,8 +3,11 @@ import React, { useState } from "react";
 import logoPortada from "../images/invie.png";
 import acustica from "../images/invie-acustica.png";
 import classic from "../images/invie-classic.png";
+import easterA from "../images/easter-a.png";
+import easterB from "../images/easter-b.png";
 
 const data = {
+  isAnimated: false,
   menu: [
     {
       href: "index.html",
@@ -33,8 +36,36 @@ const data = {
     },
     {
       image: classic,
-      alt: "Guitarra Invie Acustica",
+      alt: "Guitarra Invie Classic",
       name: "Invie Classic",
+      features: ["Estilo vintage", "Liviana", "Empieza tu camino como Rockstar"]
+    }
+  ]
+};
+
+const easter = {
+  isAnimated: "is-animated",
+  menu: [
+    {
+      href: "index.html",
+      title: "home"
+    }
+  ],
+  guitarras: [
+    {
+      image: easterA,
+      alt: "Guitarra padre de familia",
+      name: "Invie Familiar",
+      features: [
+        "Lista para copiar a los Simpsons",
+        "Aire puro",
+        "Chistes malos"
+      ]
+    },
+    {
+      image: easterB,
+      alt: "Guitarra Invie Classic",
+      name: "Invie Anime",
       features: ["Estilo vintage", "Liviana", "Empieza tu camino como Rockstar"]
     }
   ]
@@ -45,8 +76,12 @@ export const DataContext = React.createContext(null);
 export function DataContextProvier({ children }) {
   const [value, setValue] = useState(data);
 
-  function setData() {
-    setValue({ ...value, menu: [{ href: "index.html", title: "home" }] });
+  function setData(initial) {
+    if (initial) {
+      setValue({ ...value, ...easter });
+    } else {
+      setValue({ ...easter, ...data });
+    }
   }
 
   return (

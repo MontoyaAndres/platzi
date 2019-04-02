@@ -5,6 +5,7 @@
   "dependencies": {
     "cheet.js": "^0.3.3",
     "react": "^16.8.6",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8"
   },

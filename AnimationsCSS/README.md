@@ -1,1 +1,1 @@
-https://platzi.com/clases/1103-animaciones-web/6856-animando-las-guitarras/
+https://platzi.com/clases/1103-animaciones-web/6860-multiplicando-y-animando-los-corazones/

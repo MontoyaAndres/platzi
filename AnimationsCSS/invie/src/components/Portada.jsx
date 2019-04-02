@@ -1,7 +1,11 @@
 import React, { memo } from "react";
+import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 
-const portada = ({ menu, logo }) => (
-  <section id="portada" className="portada background">
+const portada = ({ menu, logo, isAnimated }) => (
+  <section
+    id="portada"
+    className={`portada background ${isAnimated ? isAnimated : ""}`}
+  >
     <header id="header" className="header contenedor">
       <figure className="logotipo">
         <img src={logo} width="186" height="60" alt="Invie logotipo" />
@@ -17,17 +21,25 @@ const portada = ({ menu, logo }) => (
         </ul>
       </nav>
     </header>
-    <div className="contenedor">
-      <h1 className="titulo">
-        Guitarras <span>invie</span>sibles
-      </h1>
-      <h3 className="title-a">
-        Sé la estrella de rock que siempre quisiste ser
-      </h3>
-      <a className="button" href="#guitarras">
-        Conoce más
-      </a>
-    </div>
+    <ReactCSSTransitionGroup
+      transitionName="animationInOut"
+      transitionEnterTimeout={800}
+      transitionLeaveTimeout={800}
+    >
+      {!isAnimated && (
+        <div className="contenedor" key="portada">
+          <h1 className="titulo">
+            Guitarras <span>invie</span>sibles
+          </h1>
+          <h3 className="title-a">
+            Sé la estrella de rock que siempre quisiste ser
+          </h3>
+          <a className="button" href="#guitarras">
+            Conoce más
+          </a>
+        </div>
+      )}
+    </ReactCSSTransitionGroup>
   </section>
 );
 
