@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import logoPortada from "../images/invie.png";
+import logoPlatzi from "../images/platzi.png";
 import acustica from "../images/invie-acustica.png";
 import classic from "../images/invie-classic.png";
 import easterA from "../images/easter-a.png";
@@ -45,12 +46,8 @@ const data = {
 
 const easter = {
   isAnimated: "is-animated",
-  menu: [
-    {
-      href: "index.html",
-      title: "home"
-    }
-  ],
+  menu: [],
+  logoPortada: logoPlatzi,
   guitarras: [
     {
       image: easterA,

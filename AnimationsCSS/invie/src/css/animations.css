@@ -202,3 +202,43 @@
     transform: translateY(-3000px);
   }
 }
+
+.like {
+  cursor: pointer;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/heart.png");
+  background-size: 1450px 50px;
+  bottom: -100px;
+}
+
+.like.is-liked {
+  animation-name: like, like-move;
+  animation-duration: 0.8s, 5s;
+  animation-timing-function: steps(28), linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite, 1;
+}
+
+@keyframes like {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
+@keyframes like-move {
+  from {
+    position: absolute;
+    bottom: 0;
+  }
+
+  to {
+    position: absolute;
+    bottom: 110%;
+  }
+}
