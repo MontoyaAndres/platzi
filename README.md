@@ -16,6 +16,6 @@ Qué keyframes corresponden a mover la caja roja de izquierda a derecha si tenem
 
 Cual es la curva de bezier más aproximada para lograr el siguiente resultado de rebote (es el ultimo, que más se acerca a 2 a lo ultimo)
 
-¿Cómo configuro el punto de transformación en la esquina inferior derecha del un elemento?
+¿Cómo configuro el punto de transformación en la esquina inferior derecha del un elemento? (100%, 100%) i guess
 
 ¿Cuál es la pseudoclase css que se activa al pulsar un elemento <button>?
