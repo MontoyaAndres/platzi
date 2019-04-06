@@ -12,7 +12,7 @@ webrtc
 
 ### React
 
-El hecho de que React sea declarativo quiere decir que:
+El hecho de que React sea declarativo quiere decir que: (podemos cambiar el estado y ser más libres)
 
 ¿Cuál es la diferencia entre <Navbar /> y Navbar?
 
@@ -20,8 +20,8 @@ El hecho de que React sea declarativo quiere decir que:
 
 ¿Cómo se llama el primer método que se ejecuta cuando se monta un componente?
 
-¿Cuál es el último método que se llama cuando se desmonta un componente?
+¿Cuál es el último método que se llama cuando se desmonta un componente? (componentdidmount)
 
-En algunas ocasiones podemos definir dos sub-estados para los datos que obtenemos de una peticion. Esto son:
+En algunas ocasiones podemos definir dos sub-estados para los datos que obtenemos de una peticion. Esto son: (dato, no datos)
 
-En pseudocódigo, decimos que ReactDOM.createPortal recibe los siguientes argumentos: (not component)
+En pseudocódigo, decimos que ReactDOM.createPortal recibe los siguientes argumentos: (not component) (donde, que elemento)
