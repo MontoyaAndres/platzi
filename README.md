@@ -25,3 +25,11 @@ El hecho de que React sea declarativo quiere decir que: (podemos cambiar el esta
 En algunas ocasiones podemos definir dos sub-estados para los datos que obtenemos de una peticion. Esto son: (dato, no datos)
 
 En pseudocódigo, decimos que ReactDOM.createPortal recibe los siguientes argumentos: (not component) (donde, que elemento)
+
+### MySQL
+
+Según lo visto en el curso, ¿cuál de los siguientes formatos es correcto (por convención) para nombrar una tabla?
+
+Una vez que estamos dentro de la base de datos “library”, ¿cuál de los siguientes comandos sirve para listar todas las tablas que contengan la cadena de caracteres “books” en su nombre?
+
+Asumiendo un query que está bien escrito y que las dos tablas en cuestión no son vacías, ¿cuál es el principal problema cuando se omite el campo de unión entre dos tablas tras cualquier JOIN? (no vacio)
