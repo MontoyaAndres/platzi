@@ -2,7 +2,7 @@
 
 https://platzi.com/clases/react/
 
-https://platzi.com/clases/1499-ingles-1/16774-grammar-the-use-of-the-expressions-if-and-when/
+https://platzi.com/clases/ingles-2/
 
 ## Tools for learning
 
@@ -25,11 +25,3 @@ El hecho de que React sea declarativo quiere decir que:
 En algunas ocasiones podemos definir dos sub-estados para los datos que obtenemos de una peticion. Esto son:
 
 En pseudocódigo, decimos que ReactDOM.createPortal recibe los siguientes argumentos: (not component)
-
-### English
-
-Correct the following sentence: We enjoy to walk in the morning (it is incorrect)
-
-Correct the following sentence: He can cooks pasta and meat (not to cook)
-
-What do we use object pronouns for? (not b)
