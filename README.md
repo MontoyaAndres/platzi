@@ -1,8 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/react/
-
-https://platzi.com/clases/ingles-2/
+https://platzi.com/clases/1500-ingles-2/17352-grammar-expressions-to-give-directions-in-the-city/
 
 ## Tools for learning
 
