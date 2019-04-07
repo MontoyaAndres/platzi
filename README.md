@@ -2,6 +2,8 @@
 
 https://platzi.com/clases/1500-ingles-2/17352-grammar-expressions-to-give-directions-in-the-city/
 
+https://platzi.com/clases/1200-redux/9620-principios-a-tener-presentes-al-trabajar-con-redux/
+
 ## Tools for learning
 
 webrtc
