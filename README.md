@@ -10,16 +10,18 @@ webrtc
 
 ## Questions
 
-### MySQL
+### Redux
 
-Según lo visto en el curso, ¿cuál de los siguientes formatos es correcto (por convención) para nombrar una tabla?
+Es un parámetro requerido en una acción:
 
-Una vez que estamos dentro de la base de datos “library”, ¿cuál de los siguientes comandos sirve para listar todas las tablas que contengan la cadena de caracteres “books” en su nombre?
+¿Con qué método del store podemos ejecutar una función al momento de actualizar el estado?
 
-Asumiendo un query que está bien escrito y que las dos tablas en cuestión no son vacías, ¿cuál es el principal problema cuando se omite el campo de unión entre dos tablas tras cualquier JOIN? (los datos se unian algo asi...)
+Método de react-redux para usar el estado en componentes de React:
 
-Los dos tipos más comunes de tablas (por diseño) son: (transaciones y el otro)
+Librería para utilizar redux en una aplicación react:
 
-El tipo de tablas MYSIAM es mejor para:
+¿Con qué evitamos repetir los strings de cada acción como ‘ADD_SONG’? (no async)
 
-El wildcard (caracter para denotar “lo que sea”) en una cadena de caracteres en MySQL es: (*) y (^)  no son
+¿Cómo evitamos escribir toda la acción y reutilizarla? (no types)
+
+¿Cómo juntamos los creadores de acciones con las propiedades del componente?
