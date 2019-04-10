@@ -1,5 +1,3 @@
-importScripts("/precache-manifest.d8a0b52fa3227e4edc593fc13430de96.js", "https://storage.googleapis.com/workbox-cdn/releases/4.2.0/workbox-sw.js");
-
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
  * requests for URLs in the manifest.
@@ -40,4 +38,3 @@ workbox.routing.registerRoute(
   new RegExp(/^https?.*/),
   new workbox.strategies.NetworkFirst()
 );
-

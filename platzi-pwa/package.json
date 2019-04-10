@@ -5,17 +5,19 @@
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
     "react": "^16.4.1",
+    "react-app-rewire-workbox": "^2.0.1",
+    "react-app-rewired": "^2.1.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
-    "serve": "^9.1.0"
+    "serve": "^9.1.0",
+    "workbox-webpack-plugin": "^4.2.0"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "dev": "react-app-rewired start",
     "start": "serve ./build -s -p ${PORT:-4000}",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "build": "react-app-rewired build",
     "eject": "react-scripts eject"
   }
 }
