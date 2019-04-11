@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.d8a0b52fa3227e4edc593fc13430de96.js", "https://storage.googleapis.com/workbox-cdn/releases/4.2.0/workbox-sw.js");
+importScripts("/precache-manifest.12805a41c263e63b1fccb06bebf6de20.js", "https://storage.googleapis.com/workbox-cdn/releases/4.2.0/workbox-sw.js");
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -15,6 +15,8 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 workbox.routing.registerNavigationRoute(
   workbox.precaching.getCacheKeyForURL("/index.html")
 );
+
+workbox.googleAnalytics.initialize();
 
 // La API usa Stale White Revalidate para mayor velocidad
 workbox.routing.registerRoute(

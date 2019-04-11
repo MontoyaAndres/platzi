@@ -14,6 +14,8 @@ workbox.routing.registerNavigationRoute(
   workbox.precaching.getCacheKeyForURL("/index.html")
 );
 
+workbox.googleAnalytics.initialize();
+
 // La API usa Stale White Revalidate para mayor velocidad
 workbox.routing.registerRoute(
   new RegExp(/^https?:\/\/www.themealdb.com\/api\/.*/),

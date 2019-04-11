@@ -8,6 +8,7 @@
     "react-app-rewire-workbox": "^2.0.1",
     "react-app-rewired": "^2.1.1",
     "react-dom": "^16.4.1",
+    "react-ga": "^2.5.7",
     "react-helmet": "^5.2.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
@@ -16,7 +17,7 @@
   },
   "scripts": {
     "dev": "react-app-rewired start",
-    "start": "serve ./build -s -p ${PORT:-4000}",
+    "start": "serve ./build -s -p ${PORT:-5000}",
     "build": "react-app-rewired build",
     "eject": "react-scripts eject"
   }
