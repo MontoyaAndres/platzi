@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/hablar-en-publico/
+https://platzi.com/clases/1285-hablar-en-publico/11597-como-investigar-y-entender-a-tu-audiencia/
 
 https://platzi.com/clases/1292-react-native/11689-separadores-y-listas-vacias/
 
