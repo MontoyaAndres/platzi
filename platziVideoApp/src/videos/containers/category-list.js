@@ -1,19 +1,20 @@
 import React from "react";
 import { FlatList } from "react-native";
 
-import Layout from "../components/suggestion-list-layout";
 import Empty from "../components/empty";
-import Separator from "../../sections/components/vertical-separator";
+import Separator from "../../sections/components/horizontal-separator";
 import Suggestion from "../components/suggestion";
+import Layout from "../components/category-list-layout";
 
-const suggestionList = ({ list }) => {
+const categoryList = ({ list }) => {
   function keyExtractor(item) {
     return item.id.toString();
   }
 
   return (
-    <Layout title="Recomendado para ti">
+    <Layout title="Categorías">
       <FlatList
+        horizontal
         keyExtractor={keyExtractor}
         data={list}
         ListEmptyComponent={() => <Empty text="No hay sugerencias" />}
@@ -24,4 +25,4 @@ const suggestionList = ({ list }) => {
   );
 };
 
-export default suggestionList;
+export default categoryList;

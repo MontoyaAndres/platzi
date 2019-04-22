@@ -9,4 +9,11 @@ async function getSuggestion(id) {
   return data.movies;
 }
 
-export { getSuggestion };
+async function getMovies() {
+  const query = await fetch(`${BASE_API}/list_movies.json`);
+  const { data } = await query.json();
+
+  return data.movies;
+}
+
+export { getSuggestion, getMovies };
