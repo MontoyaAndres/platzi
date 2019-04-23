@@ -5,6 +5,7 @@ import Home from "./src/screens/containers/home";
 import Header from "./src/sections/components/header";
 import SuggestionList from "./src/videos/containers/suggestion-list";
 import CategoryList from "./src/videos/containers/category-list.js";
+import Player from "./src/player/containers/player";
 import { getSuggestion, getMovies } from "./utils/api";
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
   return (
     <Home>
       <Header />
+      <Player />
       <Text>Buscador</Text>
       <CategoryList list={categoryList} />
       <SuggestionList list={suggestionList} />

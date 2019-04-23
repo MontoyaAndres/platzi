@@ -3,7 +3,7 @@ import { FlatList } from "react-native";
 
 import Empty from "../components/empty";
 import Separator from "../../sections/components/horizontal-separator";
-import Suggestion from "../components/suggestion";
+import Category from "../components/category";
 import Layout from "../components/category-list-layout";
 
 const categoryList = ({ list }) => {
@@ -19,7 +19,7 @@ const categoryList = ({ list }) => {
         data={list}
         ListEmptyComponent={() => <Empty text="No hay sugerencias" />}
         ItemSeparatorComponent={() => <Separator />}
-        renderItem={({ item }) => <Suggestion {...item} />}
+        renderItem={({ item }) => <Category {...item} />}
       />
     </Layout>
   );
