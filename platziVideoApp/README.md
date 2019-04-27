@@ -1,3 +1,9 @@
+## This project is broken
+
+This is beacuse the API causes weird problems that does not let to continue with this app.
+
+The complete code from Platzi, you can find it [here](https://github.com/LeonidasEsteban/platzi-video-react-native)
+
 ## Tips
 
 El comando `react-native android` es para generar la apk a nuestro dispositivo android y el comando `react-native start` es para empezar a trabajar.
