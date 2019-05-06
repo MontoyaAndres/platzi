@@ -10,11 +10,11 @@ webrtc
 
 ## Questions
 
-Por defecto, ¿cuál archivo declara al correo electrónico en el que el formulario de contacto de mensajes será entregado durante el desarrollo?
-
 Asumiendo que las credenciales de Mailgun y Stripe ya han sido configuradas, al utilizar la plantilla ‘‘Web App’’ ¿cuál de las siguientes características NO está incluida fuera de la caja en una aplicación Sails recién generada?
 
 De acuerdo a este curso, ¿cuál es la mejor manera de escribir código que utilice una lógica asincrónica?
+
+Cuando realizaste los retos de este curso, ¿qué tuviste que hacer para implementar la protección CSRF? (not edit security.js)
 
 ## Correct
 
@@ -28,3 +28,5 @@ Hacia el final del curso, como reto, añadiste una función de invitación a la 
 
 
 En una aplicación generada con Sails utilizando la plantilla ‘‘Web App’’, asumiendo que las credenciaes Mailgun y Stripe han sido configuradas y que la función de verificación de correo electrónico ha sido habilitado, ¿cuál de los siguientes NO ocurre cuando un usuario se inscribe con éxito con hello@example.com como su correo electrónico? (enviar correo a hello@example.com)
+
+Por defecto, ¿cuál archivo declara al correo electrónico en el que el formulario de contacto de mensajes será entregado durante el desarrollo? (custom.js)
