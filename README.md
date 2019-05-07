@@ -10,7 +10,7 @@ webrtc
 
 ## Questions
 
-Asumiendo que las credenciales de Mailgun y Stripe ya han sido configuradas, al utilizar la plantilla ‘‘Web App’’ ¿cuál de las siguientes características NO está incluida fuera de la caja en una aplicación Sails recién generada? (recuperar contraseña I guess)
+Asumiendo que las credenciales de Mailgun y Stripe ya han sido configuradas, al utilizar la plantilla ‘‘Web App’’ ¿cuál de las siguientes características NO está incluida fuera de la caja en una aplicación Sails recién generada? always the aaaa
 
 De acuerdo a este curso, ¿cuál es la mejor manera de escribir código que utilice una lógica asincrónica?
 
