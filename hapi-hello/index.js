@@ -23,6 +23,15 @@ async function init() {
     await server.register(inert);
     await server.register(vision);
 
+    // Define cookie
+    server.state("user", {
+      ttl: 1000 * 60 * 60 * 24 * 7, // 1 week
+      isSecure: process.env.NODE_ENV === "production",
+      encoding: "base64json",
+      isHttpOnly: true,
+      strictHeader: true
+    });
+
     server.views({
       engines: {
         hbs: handlebars

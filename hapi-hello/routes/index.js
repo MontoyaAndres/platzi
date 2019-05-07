@@ -2,8 +2,8 @@
 
 const Joi = require("@hapi/joi");
 
-const { indexView, registerView } = require("../controllers/site");
-const { createUser } = require("../controllers/user");
+const { indexView, registerView, loginView } = require("../controllers/site");
+const { createUser, validateUser, logoutUser } = require("../controllers/user");
 
 module.exports = [
   {
@@ -35,6 +35,33 @@ module.exports = [
     },
     path: "/create-user",
     handler: createUser
+  },
+  {
+    method: "GET",
+    path: "/login",
+    handler: loginView
+  },
+  {
+    method: "GET",
+    path: "/logout",
+    handler: logoutUser
+  },
+  {
+    method: "POST",
+    options: {
+      validate: {
+        payload: {
+          email: Joi.string()
+            .required()
+            .email(),
+          password: Joi.string()
+            .required()
+            .min(6)
+        }
+      }
+    },
+    path: "/validate-user",
+    handler: validateUser
   },
   {
     method: "GET",
