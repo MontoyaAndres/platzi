@@ -2,8 +2,18 @@
 
 const Joi = require("@hapi/joi");
 
-const { indexView, registerView, loginView } = require("../controllers/site");
-const { createUser, validateUser, logoutUser } = require("../controllers/user");
+const {
+  indexView,
+  registerView,
+  loginView,
+  notFoundView
+} = require("../controllers/site");
+const {
+  createUser,
+  validateUser,
+  logoutUser,
+  failValidation
+} = require("../controllers/user");
 
 module.exports = [
   {
@@ -30,7 +40,8 @@ module.exports = [
           password: Joi.string()
             .required()
             .min(6)
-        }
+        },
+        failAction: failValidation
       }
     },
     path: "/create-user",
@@ -57,7 +68,8 @@ module.exports = [
           password: Joi.string()
             .required()
             .min(6)
-        }
+        },
+        failAction: failValidation
       }
     },
     path: "/validate-user",
@@ -65,11 +77,16 @@ module.exports = [
   },
   {
     method: "GET",
-    path: "/{param*}",
+    path: "/assets/{param*}",
     handler: {
       directory: {
         path: "."
       }
     }
+  },
+  {
+    method: ["GET", "POST"],
+    path: "/{any*}",
+    handler: notFoundView
   }
 ];

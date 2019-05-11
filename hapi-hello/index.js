@@ -7,6 +7,7 @@ const handlebars = require("handlebars");
 const vision = require("@hapi/vision");
 
 const routes = require("./routes");
+const site = require("./controllers/site");
 
 const server = hapi.server({
   port: process.env.PORT || 3000,
@@ -42,6 +43,7 @@ async function init() {
       layoutPath: "views"
     });
 
+    server.ext("onPreResponse", site.fileNotFoundView);
     server.route(routes);
 
     await server.start();
@@ -50,5 +52,13 @@ async function init() {
     process.exit(1);
   }
 }
+
+process.on("unhandleRejection", error => {
+  console.error("unhandleRejection", error.message);
+});
+
+process.on("unhandleException", error => {
+  console.error("unhandleException", error.message);
+});
 
 init();

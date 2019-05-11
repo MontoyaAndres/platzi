@@ -1,18 +1,24 @@
 "use strict";
 
+const Boom = require("@hapi/boom");
+
 const { user } = require("../models");
 
 async function createUser(request, h) {
-  let result = "";
-
   try {
-    result = await user.create(request.payload);
+    await user.create(request.payload);
   } catch (error) {
     console.error(error);
-    return h.response("Problemas creando el usuario").code(500);
+    return h.view("register", {
+      title: "Registro",
+      error: "Error creando el usuario"
+    });
   }
 
-  return h.response(`Usuario creado ID: ${result}`);
+  return h.view("register", {
+    title: "Registro",
+    success: "Usuario creado exitosamente"
+  });
 }
 
 async function validateUser(request, h) {
@@ -22,11 +28,17 @@ async function validateUser(request, h) {
     result = await user.validateUser(request.payload);
 
     if (!result) {
-      return h.response("Email y/o contraseña incorrecta").code(401);
+      return h.view("login", {
+        title: "Login",
+        error: "Email y/o contraseña incorrecta"
+      });
     }
   } catch (error) {
     console.error(error);
-    return h.response("Problemas validando el usuario").code(500);
+    return h.view("login", {
+      title: "Login",
+      error: "Problemas validando el usuario"
+    });
   }
 
   // Send cookie with data
@@ -40,4 +52,19 @@ async function logoutUser(request, h) {
   return h.redirect("/login").unstate("user");
 }
 
-module.exports = { createUser, validateUser, logoutUser };
+function failValidation(request, h, err) {
+  const templates = {
+    "/create-user": "register",
+    "/validate-user": "login"
+  };
+
+  return h
+    .view(templates[request.path], {
+      title: "Error de validación",
+      error: "Por favor, complete los campos requeridos"
+    })
+    .code(400)
+    .takeover();
+}
+
+module.exports = { createUser, validateUser, logoutUser, failValidation };

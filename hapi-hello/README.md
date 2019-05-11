@@ -1,1 +1,1 @@
-https://platzi.com/clases/1376-hapi-js/14018-manejando-errores/
+https://platzi.com/clases/1376-hapi-js/14021-repaso-creacion-del-modelo-y-controlador-para-preg/
