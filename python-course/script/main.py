@@ -1,4 +1,4 @@
-import random
+import random, copy
 
 list_elements = list(range(100))
 
@@ -21,9 +21,8 @@ def add_word(word):
 
 def student_list():
     student_uid = [1, 2, 3]
-    students = ['Juan', 'Jose', 'Larsen']
-    student_with_uid = {uid: student for uid,
-                        student in zip(student_uid, students)}
+    students = ["Juan", "Jose", "Larsen"]
+    student_with_uid = {uid: student for uid, student in zip(student_uid, students)}
     print(student_with_uid)
 
 
@@ -36,5 +35,6 @@ def number_list():
     print(non_repeated)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     number_list()
+

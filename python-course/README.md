@@ -1,4 +1,4 @@
-https://platzi.com/clases/1378-python/14164-uso-de-listas/
+https://platzi.com/clases/1378-python/14173-busquedas-binarias/
 
 ## Create virual env
 
