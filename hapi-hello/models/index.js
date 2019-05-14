@@ -7,6 +7,7 @@ const serviceAccount = require("../config/firebase.json");
 
 // Models db
 const User = require("./user");
+const Question = require("./question");
 
 firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccount),
@@ -16,5 +17,6 @@ firebase.initializeApp({
 const db = firebase.database();
 
 module.exports = {
-  user: new User(db)
+  user: new User(db),
+  question: new Question(db)
 };

@@ -6,7 +6,9 @@ const {
   indexView,
   registerView,
   loginView,
-  notFoundView
+  notFoundView,
+  askView,
+  oneQuestionView
 } = require("../controllers/site");
 const {
   createUser,
@@ -14,6 +16,7 @@ const {
   logoutUser,
   failValidation
 } = require("../controllers/user");
+const { createQuestion } = require("../controllers/question");
 
 module.exports = [
   {
@@ -74,6 +77,30 @@ module.exports = [
     },
     path: "/validate-user",
     handler: validateUser
+  },
+  {
+    method: "GET",
+    path: "/ask",
+    handler: askView
+  },
+  {
+    method: "POST",
+    path: "/create-question",
+    options: {
+      validate: {
+        payload: {
+          title: Joi.string().required(),
+          description: Joi.string().required()
+        },
+        failAction: failValidation
+      }
+    },
+    handler: createQuestion
+  },
+  {
+    method: "GET",
+    path: "/question/{id}",
+    handler: oneQuestionView
   },
   {
     method: "GET",

@@ -1,1 +1,1 @@
-https://platzi.com/clases/1376-hapi-js/14021-repaso-creacion-del-modelo-y-controlador-para-preg/
+https://platzi.com/clases/1376-hapi-js/14026-enrutamiento-avanzado-respondiendo-una-pregunta/
