@@ -1,4 +1,4 @@
-https://platzi.com/clases/1378-python/14173-busquedas-binarias/
+https://platzi.com/clases/1378-python/14177-decoradores-en-python/
 
 ## Create virual env
 
