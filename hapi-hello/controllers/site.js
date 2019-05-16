@@ -3,13 +3,7 @@
 const { question } = require("../models");
 
 async function indexView(request, h) {
-  let data;
-
-  try {
-    data = await question.getLast(10);
-  } catch (e) {
-    console.error(e);
-  }
+  const data = await request.server.methods.getLast(10);
 
   return h.view("index", {
     title: "home",
@@ -54,8 +48,8 @@ async function oneQuestionView(request, h) {
     if (!data) {
       return notFoundView(request, h);
     }
-  } catch (e) {
-    console.error(e);
+  } catch (error) {
+    request.log("error", error);
   }
 
   return h.view("question", {

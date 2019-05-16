@@ -16,12 +16,22 @@ const {
   logoutUser,
   failValidation
 } = require("../controllers/user");
-const { createQuestion } = require("../controllers/question");
+const {
+  createQuestion,
+  answerQuestion,
+  setAnswerRight
+} = require("../controllers/question");
 
 module.exports = [
   {
     method: "GET",
     path: "/",
+    options: {
+      cache: {
+        expiresIn: 1000 * 30, // 30s
+        privacy: "private"
+      }
+    },
     handler: indexView
   },
   {
@@ -90,7 +100,8 @@ module.exports = [
       validate: {
         payload: {
           title: Joi.string().required(),
-          description: Joi.string().required()
+          description: Joi.string().required(),
+          image: Joi.any().optional()
         },
         failAction: failValidation
       }
@@ -101,6 +112,25 @@ module.exports = [
     method: "GET",
     path: "/question/{id}",
     handler: oneQuestionView
+  },
+  {
+    path: "/answer-question",
+    method: "POST",
+    options: {
+      validate: {
+        payload: {
+          answer: Joi.string().required(),
+          id: Joi.string().required()
+        },
+        failAction: failValidation
+      }
+    },
+    handler: answerQuestion
+  },
+  {
+    method: "GET",
+    path: "/answer/{questionId}/{answerId}",
+    handler: setAnswerRight
   },
   {
     method: "GET",

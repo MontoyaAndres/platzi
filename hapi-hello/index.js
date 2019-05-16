@@ -1,13 +1,16 @@
 "use strict";
 
+const path = require("path");
 const hapi = require("@hapi/hapi");
 const inert = require("@hapi/inert");
-const path = require("path");
-const handlebars = require("handlebars");
 const vision = require("@hapi/vision");
+const good = require("@hapi/good");
+const goodConsole = require("@hapi/good-console");
 
+const handlebars = require("./lib/helper");
 const routes = require("./routes");
 const site = require("./controllers/site");
+const { setAnswerRight, getLast } = require("./lib/method");
 
 const server = hapi.server({
   port: process.env.PORT || 3000,
@@ -23,6 +26,27 @@ async function init() {
   try {
     await server.register(inert);
     await server.register(vision);
+    await server.register({
+      plugin: good,
+      options: {
+        reporters: {
+          console: [
+            {
+              module: goodConsole
+            },
+            "stdout"
+          ]
+        }
+      }
+    });
+
+    server.method("setAnswerRight", setAnswerRight);
+    server.method("getLast", getLast, {
+      cache: {
+        expiresIn: 1000 * 60, // 1m
+        generateTimeout: 2000
+      }
+    });
 
     // Define cookie
     server.state("user", {
@@ -48,17 +72,17 @@ async function init() {
 
     await server.start();
   } catch (err) {
-    console.error(err);
+    server.log("error", err);
     process.exit(1);
   }
 }
 
 process.on("unhandleRejection", error => {
-  console.error("unhandleRejection", error.message);
+  server.log("unhandleRejection", error);
 });
 
 process.on("unhandleException", error => {
-  console.error("unhandleException", error.message);
+  server.log("unhandleException", error);
 });
 
 init();

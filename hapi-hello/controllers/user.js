@@ -8,7 +8,8 @@ async function createUser(request, h) {
   try {
     await user.create(request.payload);
   } catch (error) {
-    console.error(error);
+    request.log("error", error);
+
     return h.view("register", {
       title: "Registro",
       error: "Error creando el usuario"
@@ -34,7 +35,8 @@ async function validateUser(request, h) {
       });
     }
   } catch (error) {
-    console.error(error);
+    request.log("error", error);
+
     return h.view("login", {
       title: "Login",
       error: "Problemas validando el usuario"

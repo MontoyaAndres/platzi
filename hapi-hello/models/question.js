@@ -7,8 +7,17 @@ class Question {
     this.collection = this.ref.child("question");
   }
 
-  async create(data, user) {
-    data.owser = user;
+  async create(info, user, filename) {
+    const data = {
+      title: info.title,
+      description: info.description,
+      owser: user
+    };
+
+    if (filename) {
+      data.filename = filename;
+    }
+
     const question = this.collection.push();
     question.set(data);
 
@@ -27,6 +36,37 @@ class Question {
     const data = query.val();
 
     return data;
+  }
+
+  async answer(data, user) {
+    const answer = await this.collection
+      .child(data.id)
+      .child("answer")
+      .push();
+    answer.set({ text: data.answer, user });
+
+    return answer;
+  }
+
+  async setAnswerRight(questionId, answerId, user) {
+    const query = await this.collection.child(questionId).once("value");
+    const question = query.val();
+    const answer = question.answer;
+
+    if (!user.email === question.owser.email) {
+      return false;
+    }
+
+    for (let key in answer) {
+      answer[key].correct = key === answerId;
+    }
+
+    const update = await this.collection
+      .child(questionId)
+      .child("answer")
+      .update(answer);
+
+    return update;
   }
 }
 

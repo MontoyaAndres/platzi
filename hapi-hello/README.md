@@ -1,1 +1,1 @@
-https://platzi.com/clases/1376-hapi-js/14026-enrutamiento-avanzado-respondiendo-una-pregunta/
+https://platzi.com/clases/1376-hapi-js/14033-creacion-de-plugins-teoria/
