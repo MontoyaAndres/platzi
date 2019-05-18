@@ -1,1 +1,0 @@
-https://platzi.com/clases/1376-hapi-js/14033-creacion-de-plugins-teoria/

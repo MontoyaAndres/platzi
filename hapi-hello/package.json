@@ -7,14 +7,18 @@
     "nodemon": "^1.19.0"
   },
   "dependencies": {
+    "@hapi/basic": "^5.1.0",
     "@hapi/boom": "^7.4.2",
+    "@hapi/crumb": "^7.3.0",
     "@hapi/good": "^8.2.0",
     "@hapi/good-console": "^8.1.0",
     "@hapi/hapi": "^18.3.1",
     "@hapi/inert": "^5.2.0",
     "@hapi/joi": "^15.0.1",
+    "@hapi/scooter": "^5.1.0",
     "@hapi/vision": "^5.5.2",
     "bcrypt": "^3.0.6",
+    "blankie": "^4.1.1",
     "firebase-admin": "^7.3.0",
     "handlebars": "^4.1.2",
     "uuid": "^3.3.2"

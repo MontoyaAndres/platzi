@@ -6,6 +6,9 @@ const inert = require("@hapi/inert");
 const vision = require("@hapi/vision");
 const good = require("@hapi/good");
 const goodConsole = require("@hapi/good-console");
+const crumb = require("@hapi/crumb");
+const scooter = require("@hapi/scooter");
+const blankie = require("blankie");
 
 const handlebars = require("./lib/helper");
 const routes = require("./routes");
@@ -37,6 +40,34 @@ async function init() {
             "stdout"
           ]
         }
+      }
+    });
+    await server.register({
+      plugin: crumb,
+      options: {
+        cookieOptions: {
+          isSecure: process.env.NODE_ENV === "production"
+        }
+      }
+    });
+    await server.register([
+      scooter,
+      {
+        plugin: blankie,
+        options: {
+          defaultSrc: `'self' 'unsafe-inline'`,
+          styleSrc: `'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com`,
+          fontSrc: `'self' 'unsafe-inline' data:`,
+          scriptSrc: `'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com/ https://code.jquery.com/`,
+          generateNonces: false
+        }
+      }
+    ]);
+
+    await server.register({
+      plugin: require("./lib/api"),
+      options: {
+        prefix: "api"
       }
     });
 

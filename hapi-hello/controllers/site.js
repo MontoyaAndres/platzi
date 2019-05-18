@@ -65,8 +65,12 @@ function notFoundView(request, h) {
   /* render other layout -> return h.view('404', {}, {layout: 'error-layout'}).code(404) */
 }
 
-function fileNotFoundView({ response }, h) {
-  if (response.isBoom && response.output.statusCode === 404) {
+function fileNotFoundView({ response, path }, h) {
+  if (
+    !path.startsWith("/api") &&
+    response.isBoom &&
+    response.output.statusCode === 404
+  ) {
     return h.view("404").code(404);
   }
 

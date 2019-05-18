@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "alias": "platzioverflow",
+  "name": "platzioverflow",
+  "builds": [{ "src": "**/*.js", "use": "@now/node" }]
+}
