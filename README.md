@@ -12,8 +12,20 @@ webrtc
 
 ## Questions
 
+### Hapi
+
 Para usar Handlebars con el plugin Vision es necesario configurarlo con la opción:
 
 Los eventos del sistema son registrados con good con el tipo:
 
 La opción para iniciar el debugger de Node parando antes de la primera línea es:
+
+### Python
+
+¿Un diccionario sólo permite iterar a lo largo de sus llaves?
+
+¿La siguiente expresión es válida? -> es valida xd
+x = ‘hello, ’ x += ‘world!’
+
+
+Python, al ser un lenguaje dinámico, no tiene tipos: -> false
