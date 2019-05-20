@@ -18,7 +18,7 @@ Para usar Handlebars con el plugin Vision es necesario configurarlo con la opci�
 
 Los eventos del sistema son registrados con good con el tipo:
 
-La opción para iniciar el debugger de Node parando antes de la primera línea es:
+La opción para iniciar el debugger de Node parando antes de la primera línea es: (no --dev --debug)
 
 ### Python
 
