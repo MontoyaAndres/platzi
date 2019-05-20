@@ -1,0 +1,12 @@
+{
+  "name": "electron-platzipics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron src/index.js"
+  },
+  "dependencies": {
+    "electron": "^5.0.1"
+  }
+}
