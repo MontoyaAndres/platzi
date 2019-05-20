@@ -1,1 +1,1 @@
-https://platzi.com/clases/1124-electron/7988-construyendo-el-layout/
+https://platzi.com/clases/1124-electron/7992-buscar-imagenes/

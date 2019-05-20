@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="../assets/css/photon.min.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
     <script src="frontend.js"></script>
     <title>Platzipics</title>
   </head>
@@ -12,11 +13,75 @@
     <div class="window">
       <div class="window-content">
         <div class="pane-group">
-          <div class="pane">...</div>
-          <div class="pane">...</div>
-          <div class="pane">...</div>
+          <div class="pane pane-sm sidebar">
+            <ul class="list-group">
+              <li class="list-group-header">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Search for someone"
+                />
+              </li>
+              <li class="list-group-item selected">
+                <img
+                  class="media-object pull-left"
+                  src="../assets/img/1.jpg"
+                  height="32"
+                />
+                <div class="media-body">
+                  <strong>1.jpg</strong>
+                  <p>1MB</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <img
+                  class="media-object pull-left"
+                  src="../assets/img/2.jpg"
+                  height="32"
+                />
+                <div class="media-body">
+                  <strong>2.jpg</strong>
+                  <p>1MB</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="pane">
+            <div class="image-view full-height">
+              <header class="toolbar toolbar-header image-toolbar">
+                <div class="toolbar-actions">
+                  <div class="btn-group">
+                    <button class="btn btn-default">
+                      <span class="icon icon-folder icon-text"></span>
+                      Abrir ubicación
+                    </button>
+                  </div>
+
+                  <button class="btn btn-default pull-right">
+                    <span class="icon icon-download icon-text"></span>
+                    Guardar
+                  </button>
+
+                  <select id="filters" class="pull-right">
+                    <option value="none">Ninguno</option>
+                    <option value="sepia">Sepia</option>
+                  </select>
+                  <label for="filters" class="pull-right filter-label"
+                    >Filtros:
+                  </label>
+                </div>
+              </header>
+
+              <div class="image-container">
+                <img id="image-displayed" src="../assets/img/1.jpg" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <footer class="toolbar toolbar-footer">
+        <h1 class="title">Footer</h1>
+      </footer>
     </div>
   </body>
 </html>
