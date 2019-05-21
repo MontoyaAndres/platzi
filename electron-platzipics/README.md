@@ -1,1 +1,1 @@
-https://platzi.com/clases/1124-electron/7992-buscar-imagenes/
+https://platzi.com/clases/1124-electron/7995-accesando-recursos-de-la-maquina/

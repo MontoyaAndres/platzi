@@ -1,6 +1,6 @@
 "use strict";
 
-const { app, BrowserWindow } = require("electron");
+const { app, BrowserWindow, ipcMain } = require("electron");
 
 app.on("ready", function() {
   let win = new BrowserWindow({
@@ -9,7 +9,10 @@ app.on("ready", function() {
     title: "Platzipics",
     center: true,
     maximizable: false, // only windows and macOs,
-    show: false
+    show: false,
+    webPreferences: {
+      nodeIntegration: true
+    }
   });
 
   win.once("ready-to-show", function() {
@@ -27,6 +30,11 @@ app.on("ready", function() {
   });
 
   win.loadURL(`file://${__dirname}/view/index.html`);
+});
+
+ipcMain.on("ping", function(event, arg) {
+  console.log("received", arg);
+  event.sender.send("pong", new Date());
 });
 
 app.on("before-quit", function() {
