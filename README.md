@@ -16,7 +16,7 @@ webrtc
 
 Para poder extraer la información de un nested type se requiere:
 
-Puedo identificar que ocurrio un error si:
+Puedo identificar que ocurrio un error si: arreglo
 
 La sintaxis correcta para definir una variable en una operacion es:
 
