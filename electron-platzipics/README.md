@@ -1,1 +1,1 @@
-https://platzi.com/clases/1124-electron/7995-accesando-recursos-de-la-maquina/
+https://platzi.com/clases/1124-electron/8003-organizando-el-codigo-del-proceso-principal/

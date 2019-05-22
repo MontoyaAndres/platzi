@@ -7,6 +7,8 @@
     "dev": "electron src/index.js"
   },
   "dependencies": {
-    "electron": "^5.0.1"
+    "electron": "^5.0.1",
+    "filesize": "^4.1.2",
+    "is-image": "^3.0.0"
   }
 }
