@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "electron": "^5.0.1",
+    "electron-settings": "^3.2.0",
     "filesize": "^4.1.2",
+    "fs-extra": "^8.0.1",
     "is-image": "^3.0.0"
   }
 }

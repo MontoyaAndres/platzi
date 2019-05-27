@@ -1,1 +1,1 @@
-https://platzi.com/clases/1124-electron/8003-organizando-el-codigo-del-proceso-principal/
+https://platzi.com/clases/1124-electron/8008-usuario-y-contrasena/
