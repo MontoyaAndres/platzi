@@ -2,12 +2,14 @@ const {
   setIpc,
   openDirectory,
   openPreferences,
-  saveFile
+  saveFile,
+  pasteImage
 } = require("./main-window/ipcRendererEvents");
 const {
   addImagesEvent,
   searchImagesEvent,
-  selectEvent
+  selectEvent,
+  print
 } = require("./main-window/images-ui");
 
 window.addEventListener("load", () => {
@@ -18,6 +20,8 @@ window.addEventListener("load", () => {
   buttonEvent("open-directory", openDirectory);
   buttonEvent("open-preferences", openPreferences);
   buttonEvent("save-button", saveFile);
+  buttonEvent("print-button", print);
+  buttonEvent("paste-button", pasteImage);
 });
 
 function buttonEvent(id, func) {

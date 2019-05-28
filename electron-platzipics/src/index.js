@@ -1,11 +1,14 @@
 "use strict";
 
-const { app, BrowserWindow } = require("electron");
+const os = require("os");
+const path = require("path");
+const { app, BrowserWindow, Tray } = require("electron");
 
 const { setupErrors } = require("./handle-errors");
 const setMainIpc = require("./ipcMainEvents");
 
 global.win;
+global.tray;
 
 app.on("ready", function() {
   global.win = new BrowserWindow({
@@ -35,6 +38,19 @@ app.on("ready", function() {
   global.win.on("closed", function() {
     global.win = null;
     app.quit();
+  });
+
+  let icon;
+  if (os.platform() === "win32") {
+    icon = path.join(__dirname, "assets", "icons", "tray-icon.ico");
+  } else {
+    icon = path.join(__dirname, "assets", "icons", "tray-icon.png");
+  }
+
+  global.tray = new Tray(icon);
+  global.tray.setToolTip("Platzipics");
+  global.tray.on("click", function() {
+    global.win.isVisible() ? global.win.hide() : global.win.show();
   });
 
   global.win.loadURL(`file://${__dirname}/view/index.html`);

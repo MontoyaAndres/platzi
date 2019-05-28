@@ -7,6 +7,7 @@
     "dev": "electron src/index.js"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "electron": "^5.0.1",
     "electron-settings": "^3.2.0",
     "filesize": "^4.1.2",

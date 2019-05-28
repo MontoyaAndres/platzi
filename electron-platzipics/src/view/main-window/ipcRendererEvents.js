@@ -2,7 +2,7 @@
 
 const path = require("path");
 const os = require("os");
-const { ipcRenderer, remote } = require("electron");
+const { ipcRenderer, remote, clipboard } = require("electron");
 const settings = require("electron-settings");
 
 const {
@@ -24,6 +24,7 @@ function setIpc() {
     addImagesEvent();
     selectFirstImage();
     settings.set("directory", dir);
+    document.getElementById("directory").innerHTML = dir;
   });
 
   ipcRenderer.on("save-image", function(event, file) {
@@ -48,7 +49,7 @@ function openPreferences() {
     center: true,
     modal: true,
     show: false,
-    frame: false,
+    frame: true,
     resizable: false,
     webPreferences: {
       nodeIntegration: true
@@ -87,10 +88,33 @@ function saveFile() {
   ipcRenderer.send("open-save-dialog", ext);
 }
 
+function uploadImage() {
+  // cloudup does not exist :(
+  // https://platzi.com/clases/1124-electron/8011-subir-una-imagen/
+}
+
+function pasteImage() {
+  const image = clipboard.readImage();
+  const data = image.toDataURL(); // return base64 image
+
+  if (data.indexOf("data:image/png;base64") !== -1 && !image.isEmpty()) {
+    let mainImage = document.getElementById("image-displayed");
+    mainImage.src = data;
+    mainImage.dataset.original = data;
+  } else {
+    showDialog(
+      "error",
+      "Platzipics",
+      "No hay una imagen valida en el portapapeles"
+    );
+  }
+}
+
 module.exports = {
   setIpc,
   openDirectory,
   showDialog,
   openPreferences,
-  saveFile
+  saveFile,
+  pasteImage
 };
