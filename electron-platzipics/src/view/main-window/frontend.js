@@ -11,8 +11,10 @@ const {
   selectEvent,
   print
 } = require("./main-window/images-ui");
+const createMenu = require("./main-window/menu");
 
 window.addEventListener("load", () => {
+  createMenu();
   setIpc();
   addImagesEvent();
   searchImagesEvent();

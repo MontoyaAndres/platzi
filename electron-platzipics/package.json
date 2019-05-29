@@ -1,17 +1,22 @@
 {
-  "name": "electron-platzipics",
+  "name": "platzipics",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "electron src/index.js"
+    "dev": "electron src/index.js",
+    "pack": "electron-builder --dir",
+    "build": "electron-builder"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "electron": "^5.0.1",
     "electron-settings": "^3.2.0",
     "filesize": "^4.1.2",
     "fs-extra": "^8.0.1",
     "is-image": "^3.0.0"
+  },
+  "devDependencies": {
+    "electron": "^5.0.2",
+    "electron-builder": "^20.41.0"
   }
 }

@@ -91,6 +91,8 @@ function saveFile() {
 function uploadImage() {
   // cloudup does not exist :(
   // https://platzi.com/clases/1124-electron/8011-subir-una-imagen/
+  // Cannot use loading and notifications exactly Platzi app
+  // https://platzi.com/clases/1124-electron/8013-emitiendo-notificaciones/
 }
 
 function pasteImage() {

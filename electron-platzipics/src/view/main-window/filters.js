@@ -26,10 +26,10 @@ function saveImage(filename, callback) {
 
     if (os.platform() === "win32") {
       // This is for windows systems
-      fileSrc = fileSrc.replace("file:///", "");
+      fileSrc = fileSrc.replace("plp:///", "");
     } else {
       // This is for linux/mac systems
-      fileSrc = fileSrc.replace("file://", "");
+      fileSrc = fileSrc.replace("plp://", "");
     }
 
     fs.copy(fileSrc, filename, callback);

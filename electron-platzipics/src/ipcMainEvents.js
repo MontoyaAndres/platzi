@@ -58,7 +58,7 @@ function loadImages(event, dir) {
 
       return {
         filename: image,
-        src: `file://${imageFile}`,
+        src: `plp://${imageFile}`,
         size
       };
     });
