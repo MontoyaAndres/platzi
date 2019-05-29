@@ -12,10 +12,10 @@ webrtc
 
 ## Questions
 
-¿Cuál de estas partes de la sintaxis no es estrictamente necesaria a la hora de hacer un Query?
+Un aplicativo de Electron corre en:
 
-Puedo identificar que ocurrio un error si: *arreglo*
+El método recomendado para mostrar un error en un aplicativo de Electron es:
 
-La sintaxis correcta para definir una variable en una operacion es:
+¿Cuál módulo de NPM me permite generar ejecutables para un aplicativo de Electron?
 
-¿Cuál fue el cliente que usamos para consumir el API desde un frontend simple? (not fetchql and apollo-client)
+¿Cuál es la forma recomendada para generar instaladores para Windows, Linux y Mac?
