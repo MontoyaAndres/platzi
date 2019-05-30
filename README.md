@@ -14,13 +14,13 @@ webrtc
 
 ## Electron
 
-Un aplicativo de Electron corre en:
+Un aplicativo de Electron corre en: [no único hilo de node]
 
-El método recomendado para mostrar un error en un aplicativo de Electron es:
+El método recomendado para mostrar un error en un aplicativo de Electron es: [not showDialog]
 
-¿Cuál módulo de NPM me permite generar ejecutables para un aplicativo de Electron?
+¿Cuál módulo de NPM me permite generar ejecutables para un aplicativo de Electron? [not electron-prebuilt]
 
-¿Cuál es la forma recomendada para generar instaladores para Windows, Linux y Mac?
+¿Cuál es la forma recomendada para generar instaladores para Windows, Linux y Mac? [3 systems i guess]
 
 ## Node.js
 
