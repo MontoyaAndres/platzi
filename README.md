@@ -26,17 +26,17 @@ El método recomendado para mostrar un error en un aplicativo de Electron es: [n
 
 ¿Cómo puedo limpiar el sandbox de Sinon después de la ejecución de cada test?
 
-¿Qué estructura de datos de ES6 me permite almacenar información de tipo llave - valor? [not WeakSet]
+¿Qué estructura de datos de ES6 me permite almacenar información de tipo llave - valor? [not WeakSet and Array]
 
 ¿Qué clase de Node.js me permite emitir y escuchar eventos? [not events]
 
 13
-¿Qué condicional puedo usar para no ejecutar código cuando requiero un módulo? (Muy útil para pruebas) [not (!module)]
+¿Qué condicional puedo usar para no ejecutar código cuando requiero un módulo? (Muy útil para pruebas) [not (!module) and not (!module.request)]
 
 5
-¿Con qué función puedo dejar un test en pendiente con Ava.js? [not pending]
+¿Con qué función puedo dejar un test en pendiente con Ava.js? [not pending and not skip]
 
-¿Cómo recibo el socket de conexión de socket.io en el cliente? [not io.on('connect')]
+¿Cómo recibo el socket de conexión de socket.io en el cliente? [io()]
 
 ¿En qué header debo enviar el Token JWT para autenticación?
 
