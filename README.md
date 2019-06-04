@@ -6,7 +6,7 @@ https://platzi.com/clases/1308-react-navigation/11975-hola-mundo-con-react-navig
 
 ## Continue: github
 
-https://platzi.com/clases/1557-git-github/19935-flujo-de-trabajo-basico-con-un-repositorio-remoto/
+https://platzi.com/clases/1557-git-github/19950-configurar-llaves-ssh-en-github/
 
 ## Tools for learning
 
