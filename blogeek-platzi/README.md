@@ -1,1 +1,1 @@
-https://platzi.com/clases/1435-firebase-web/15611-desarrollando-la-insercion-de-datos/
+https://platzi.com/clases/1435-firebase-web/15613-reglas-de-seguridad/
