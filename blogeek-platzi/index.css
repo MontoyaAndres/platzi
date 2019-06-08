@@ -25,31 +25,30 @@
 }
 @font-face {
   font-family: "icono_estrellita_vacia";
-  src: url("../fonts/icomoon.eot?n253df");
+  src: url("../fonts/icomoon.eot");
   src: url("../fonts/icomoon.eot?n253df#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?n253df") format("truetype"),
-    url("../fonts/icomoon.woff?n253df") format("woff"),
+    url("../fonts/icomoon.ttf") format("truetype"),
+    url("../fonts/icomoon.woff") format("woff"),
     url("../fonts/icomoon.svg?n253df#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "icono_estrellita_llena";
-  src: url("../fonts/estrellallena.eot?az4rfq");
-  src: url("../fonts/estrellallena.eot?az4rfq#iefix")
-      format("embedded-opentype"),
-    url("../fonts/estrellallena.ttf?az4rfq") format("truetype"),
-    url("../fonts/estrellallena.woff?az4rfq") format("woff"),
+  src: url("../fonts/estrellallena.eot");
+  src: url("../fonts/estrellallena.eot") format("embedded-opentype"),
+    url("../fonts/estrellallena.ttf") format("truetype"),
+    url("../fonts/estrellallena.woff") format("woff"),
     url("../fonts/estrellallena.svg?az4rfq#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "googleicon";
-  src: url("../fonts/googleicon.eot?9927647");
-  src: url("../fonts/googleicon.eot?9927647#iefix") format("embedded-opentype"),
-    url("../fonts/googleicon.woff?9927647") format("woff"),
-    url("../fonts/googleicon.ttf?9927647") format("truetype"),
+  src: url("../fonts/googleicon.eot");
+  src: url("../fonts/googleicon.eot") format("embedded-opentype"),
+    url("../fonts/googleicon.woff") format("woff"),
+    url("../fonts/googleicon.ttf") format("truetype"),
     url("../fonts/googleicon.svg?9927647#googleicon") format("svg");
   font-weight: normal;
   font-style: normal;

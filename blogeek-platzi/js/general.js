@@ -2,16 +2,69 @@ $(() => {
   $(".tooltipped").tooltip({ delay: 50 });
   $(".modal").modal();
 
-  // TODO: Adicionar el service worker
-
   // Init Firebase nuevamente
   firebase.initializeApp(config);
 
-  // TODO: Registrar LLave publica de messaging
+  navigator.serviceWorker
+    .register("notificaciones-sw.js")
+    .then(register => {
+      firebase.messaging().useServiceWorker(register);
+    })
+    .catch(err => {
+      console.log(err);
+    });
 
-  // TODO: Solicitar permisos para las notificaciones
+  const messaging = firebase.messaging();
 
-  // TODO: Recibir las notificaciones cuando el usuario esta foreground
+  // Registrar LLave publica de messaging
+  messaging.usePublicVapidKey(
+    "BAlRy_raBqFLKKRm01ScKk_QMLrO-FAFue55vsXLNU1VDyhxASXuIZ8vBsPQioEwnTEYHXM3QBvSrpYODjqeYgc"
+  );
+
+  // Solicitar permisos para las notificaciones
+  messaging
+    .requestPermission()
+    .then(() => {
+      console.log("permissions accepted");
+
+      return messaging.getToken();
+    })
+    .then(token => {
+      console.log("token", token);
+
+      const db = firebase.firestore();
+      db.collection("tokens")
+        .doc(token)
+        .set({ token });
+    })
+    .catch(err => {
+      console.error(err);
+    });
+
+  // Obtener token cuando se refresca
+  messaging.onTokenRefresh(() => {
+    messaging
+      .getToken()
+      .then(token => {
+        console.log("token refreshed");
+
+        const db = firebase.firestore();
+        db.collection("tokens")
+          .doc(token)
+          .set({ token });
+      })
+      .catch(err => {
+        console.error(err);
+      });
+  });
+
+  // Recibir las notificaciones cuando el usuario esta foreground
+  messaging.onMessage(payload => {
+    Materialize.toast(
+      `Ya tenemos un nuevo post. Revísalo en ${payload.data.titulo}`,
+      6000
+    );
+  });
 
   // TODO: Recibir las notificaciones cuando el usuario esta background
 
