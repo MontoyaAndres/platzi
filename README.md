@@ -6,11 +6,13 @@ https://platzi.com/clases/1308-react-navigation/11975-hola-mundo-con-react-navig
 
 ## Continue: github
 
-https://platzi.com/clases/1557-git-github/19950-configurar-llaves-ssh-en-github/
+https://platzi.com/clases/1557-git-github/19952-tags-y-versiones-en-git-y-github/
 
 ## Tools for learning
 
 webrtc
+
+https://angularfirebase.com/lessons/image-thumbnail-resizer-cloud-function/
 
 ## Firebase exam
 
