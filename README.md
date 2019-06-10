@@ -16,18 +16,18 @@ Los cambios a un archivo que están en "staging" están en...
 
 Los tags en Git crean...
 
-Un pull request es
+En un repositorio público en Github, los colaboradores pueden... (hacer de todo)
 
-Cuando hago un fork de un proyecto en Github, lo que logro es...
+git reset--hard (not check-perry)
 
-Si ya hiciste el desafío de “Hazme un pull request,” ¿Dentro de cuál etiqueta tenías que agregar el cambio? (not id="desafio")
+¿Cómo instalas Gitk? (no instalar desde mac y windows y mirar repos de linux)
 
-Si en el .gitignore agrego esto: images/*.js. ¿Cuál de los siguientes archivos sería ignorado?
+Si ya hiciste el desafío de “Hazme un pull request,” ¿Dentro de cuál etiqueta tenías que agregar el cambio? (id="post", la primera)
 
 Cuando usas git stash, los cambios que "guardas" temporalmente se guardan en... (not disco duro)
 
 Si usas:
 `git config --globalalias.platzi "shortlog"`
-¿Cómo invocar ese comando? (not shortlog)
+¿Cómo invocar ese comando? (git platzi)
 
 ¿Cuál es la diferencia entre git rm y git reset HEAD?
