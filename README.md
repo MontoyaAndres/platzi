@@ -10,6 +10,10 @@ webrtc
 
 https://angularfirebase.com/lessons/image-thumbnail-resizer-cloud-function/
 
+## Course
+
+https://platzi.com/clases/1472-firebase-cloud/16632-creacion-del-proyecto-de-cloud-functions/
+
 ## Github exam
 
 Los cambios a un archivo que están en "staging" están en...
