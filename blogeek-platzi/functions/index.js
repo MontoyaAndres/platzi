@@ -1,7 +1,24 @@
 const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 
+const {
+  userCreateController,
+  userDeleteController
+} = require("./components/auth/userController");
+
 admin.initializeApp();
+
+exports.createUser = functions
+  .auth()
+  .user()
+  .onCreate(userCreateController);
+
+exports.deleteUser = functions
+  .auth()
+  .user()
+  .onDelete(userDeleteController);
+
+// Notifications
 
 exports.topicRegister = functions.firestore
   .document("/tokens/{id}")
