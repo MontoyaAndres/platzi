@@ -144,7 +144,6 @@ class Post {
     imagenLink,
     fecha
   ) {
-    console.log(imagenLink);
     if (imagenLink) {
       return `<article class="post">
             <div class="post-titulo">

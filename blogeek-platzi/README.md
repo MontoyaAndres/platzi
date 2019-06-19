@@ -1,4 +1,4 @@
-https://platzi.com/clases/1472-firebase-cloud/16634-probando-y-desplegando-las-cloud-functions/
+https://platzi.com/clases/1472-firebase-cloud/16646-creacion-de-las-cloud-functions-que-se-dispare-cua/
 
 ## Tips
 
@@ -8,3 +8,7 @@ https://platzi.com/clases/1472-firebase-cloud/16634-probando-y-desplegando-las-c
 - Deploy only one function `firebase --only functions:NAME_OF_THE_FUNCTION`
 - Delete one function `firebase functions:delete NAME_OF_THE_FUNCTION`
 - Watch log `firebase functions:log`
+- Get config variables `firebase functions:config:get`
+- Define config variables `firebase functions:config:set configuration.email="EMAIL_HERE" configuration.password="PASSWORD_HERE"`
+- Variables in local `firebase functions:config:get | ac .runtimeconfig.json`
+- Run environment in local `firebase functions:shell`
