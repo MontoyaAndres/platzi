@@ -1,5 +1,3 @@
-https://platzi.com/clases/1472-firebase-cloud/16646-creacion-de-las-cloud-functions-que-se-dispare-cua/
-
 ## Tips
 
 - Create new functions project `firebase init functions`
