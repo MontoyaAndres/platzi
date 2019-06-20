@@ -12,8 +12,8 @@ https://angularfirebase.com/lessons/image-thumbnail-resizer-cloud-function/
 
 ## Questions cloud functions
 
-Una función se dispara cuando se cambia la info del usuario en la autenticación:
+Una función se dispara cuando se cambia la info del usuario en la autenticación: (false)
 
-El evento de onWrite dispara cuando:
+El evento de onWrite dispara cuando: (it is like "onUpdate")
 
 Es posible disparar una función solo cuando un evento de analytics es.
