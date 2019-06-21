@@ -10,6 +10,10 @@ webrtc
 
 https://angularfirebase.com/lessons/image-thumbnail-resizer-cloud-function/
 
-## Course
+## Questions cloud functions
 
-https://platzi.com/clases/1472-firebase-cloud/16632-creacion-del-proyecto-de-cloud-functions/
+Una función se dispara cuando se cambia la info del usuario en la autenticación: (false)
+
+El evento de onWrite dispara cuando: (it is like "onUpdate")
+
+Es posible disparar una función solo cuando un evento de analytics es.
