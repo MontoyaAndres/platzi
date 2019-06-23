@@ -16,4 +16,8 @@ Una función se dispara cuando se cambia la info del usuario en la autenticació
 
 El evento de onWrite dispara cuando: (it is like "onUpdate")
 
-Es posible disparar una función solo cuando un evento de analytics es.
+Es posible disparar una función solo cuando un evento de analytics es: (de conversion)
+
+Es posible disparar un evento cuando ocurre un error en la app webs:(false)
+
+Para brindar contenido dinámico desde el hosting con funciones se debe agregar en: (rewrites)
