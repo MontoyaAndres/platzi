@@ -1,16 +1,30 @@
 import React, { PureComponent } from "react";
+import { Animated } from "react-native";
+import { connect } from "react-redux";
 
 import MovieLayout from "../components/movie";
 import Player from "../../player/containers/player";
+import Details from "../../videos/components/details";
 import Header from "../../sections/components/header";
 import Close from "../../sections/components/close";
-import { connect } from "react-redux";
-import Details from "../../videos/components/details";
-import { Animated } from "react-native";
 
 class Movie extends PureComponent {
   state = {
     opacity: new Animated.Value(0)
+  };
+
+  static navigationOptions = ({ navigation }) => {
+    return {
+      header: (
+        <Header>
+          <Close
+            onPress={() => {
+              navigation.goBack();
+            }}
+          />
+        </Header>
+      )
+    };
   };
 
   closeVideo = () => {
@@ -38,9 +52,6 @@ class Movie extends PureComponent {
         }}
       >
         <MovieLayout>
-          <Header>
-            <Close onPress={this.closeVideo} />
-          </Header>
           <Player />
           <Details {...this.props.movie} />
         </MovieLayout>
@@ -51,7 +62,7 @@ class Movie extends PureComponent {
 
 function mapStateToProps(state) {
   return {
-    movie: state.selectedMovie
+    movie: state.videos.selectedMovie
   };
 }
 

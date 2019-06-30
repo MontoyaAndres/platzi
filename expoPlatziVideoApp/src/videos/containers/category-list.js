@@ -1,14 +1,16 @@
 import React, { PureComponent } from "react";
 import { FlatList } from "react-native";
+import { connect } from "react-redux";
+import { NavigationActions } from "react-navigation";
+
 import Empty from "../components/empty";
 import Separator from "../../sections/components/horizontal-separator";
 import Category from "../components/category";
 import Layout from "../components/category-list-layout";
-import { connect } from "react-redux";
 
 function mapStateToProps(state) {
   return {
-    list: state.categoryList
+    list: state.videos.categoryList
   };
 }
 
@@ -19,8 +21,26 @@ class CategoryList extends PureComponent {
 
   itemSeparator = () => <Separator />;
 
+  viewCategory = item => {
+    this.props.dispatch(
+      NavigationActions.navigate({
+        routeName: "Category",
+        params: {
+          genre: item.genres[0]
+        }
+      })
+    );
+  };
+
   renderItem = ({ item }) => {
-    return <Category {...item} />;
+    return (
+      <Category
+        {...item}
+        onPress={() => {
+          this.viewCategory(item);
+        }}
+      />
+    );
   };
 
   render() {
