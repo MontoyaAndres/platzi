@@ -2,7 +2,8 @@ import React from "react";
 import {
   createStackNavigator,
   createBottomTabNavigator,
-  createSwitchNavigator
+  createSwitchNavigator,
+  createDrawerNavigator
 } from "react-navigation";
 
 import Home from "./screens/containers/home";
@@ -15,16 +16,19 @@ import Lucky from "./screens/containers/lucky";
 import Loading from "./screens/containers/loading";
 import Login from "./screens/containers/login";
 import Icon from "./sections/components/icon";
+import Drawer from "./sections/components/drawer";
 
 const Main = createStackNavigator(
   {
     Home,
-    Movie,
     Category
   },
   {
     navigationOptions: {
       header: Header
+    },
+    cardStyle: {
+      backgroundColor: "white"
     }
   }
 );
@@ -42,14 +46,16 @@ const TabNavigator = createBottomTabNavigator(
       screen: About,
       navigationOptions: {
         title: "Sobre esta app",
-        tabBarIcon: <Icon icon="🤓" />
+        tabBarIcon: <Icon icon="🤓" />,
+        drawerIcon: <Icon icon="🤓" />
       }
     },
     Lucky: {
       screen: Lucky,
       navigationOptions: {
         title: "Voy a tener suerte",
-        tabBarIcon: <Icon icon="⭐️" />
+        tabBarIcon: <Icon icon="⭐️" />,
+        drawerIcon: <Icon icon="⭐️" />
       }
     },
     Profile: {
@@ -68,9 +74,75 @@ const TabNavigator = createBottomTabNavigator(
   }
 );
 
+const WithModal = createStackNavigator(
+  {
+    Main: {
+      screen: TabNavigator
+    },
+    Movie
+  },
+  {
+    mode: "modal",
+    headerMode: "none",
+    cardStyle: {
+      backgroundColor: "white"
+    },
+    navigationOptions: {
+      gesturesEnabled: true
+    }
+  }
+);
+
+const DrawerNavigator = createDrawerNavigator(
+  {
+    Main: {
+      screen: WithModal,
+      navigationOptions: {
+        title: "Inicio",
+        drawerIcon: <Icon icon="🏠" />
+      }
+    },
+    About: {
+      screen: About,
+      navigationOptions: {
+        title: "Sobre esta app",
+        drawerIcon: <Icon icon="🤓" />
+      }
+    },
+    Lucky: {
+      screen: Lucky,
+      navigationOptions: {
+        title: "Voy a tener suerte",
+        drawerIcon: <Icon icon="⭐️" />
+      }
+    }
+  },
+  {
+    // drawerWidth: 200,
+    drawerBackgroundColor: "#f6f6f6",
+    contentComponent: Drawer,
+    contentOptions: {
+      activeBackgroundColor: "#7aba2f",
+      activeTintColor: "white",
+      inactiveTintColor: "#828282",
+      inactiveBackgroundColor: "white",
+      itemStyle: {
+        borderBottomWidth: 0.5,
+        borderBottomColor: "rgba(0,0,0,.5)"
+      },
+      labelStyle: {
+        marginHorizontal: 0
+      },
+      iconContainerStyle: {
+        marginHorizontal: 5
+      }
+    }
+  }
+);
+
 const SwitchNavigator = createSwitchNavigator(
   {
-    App: TabNavigator,
+    App: DrawerNavigator,
     Login: Login,
     Loading: Loading
   },

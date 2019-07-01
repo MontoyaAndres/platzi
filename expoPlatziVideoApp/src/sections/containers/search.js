@@ -1,8 +1,9 @@
 import React, { PureComponent } from "react";
 import { TextInput, StyleSheet } from "react-native";
+import { connect } from "react-redux";
+import { NavigationActions } from "react-navigation";
 
 import API from "../../../utils/api";
-import { connect } from "react-redux";
 
 class Search extends PureComponent {
   state = {
@@ -17,6 +18,12 @@ class Search extends PureComponent {
         movie: movies[0]
       }
     });
+
+    this.props.dispatch(
+      NavigationActions.navigate({
+        routeName: "Movie"
+      })
+    );
   };
 
   handleChangeText = text => {
