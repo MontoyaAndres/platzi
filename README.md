@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1285-hablar-en-publico/11605-como-practicar-para-una-conferencia-exposicion-o-d/
+https://platzi.com/clases/1533-mongodb/18475-bases-de-datos-nosql/
 
 ## Tools for learning
 
