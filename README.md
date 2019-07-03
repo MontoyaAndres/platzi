@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1533-mongodb/18475-bases-de-datos-nosql/
+https://platzi.com/clases/1533-mongodb/18485-tipos-de-datos4815/
 
 ## Tools for learning
 
