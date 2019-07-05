@@ -30,8 +30,8 @@ Diferencia original entre char y varchar
 
 ¿Cuál es un ejemplo de base de datos optimizada para búsqueda? (not elasticsearch o bigquery)
 
-¿A que se traducen las entidades de un RDBMS en Firestore? (collections i guess)
+¿A que se traducen las entidades de un RDBMS en Firestore? (collections)
 
-¿A que se traducen las tuplas de un RDBMS en Firestore?
+¿A que se traducen las tuplas de un RDBMS en Firestore? (documents)
 
 ¿Cuál es el caso de uso principal de una base de datos basada en documentos? (guardar el estado actual)
