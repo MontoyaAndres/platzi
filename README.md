@@ -14,24 +14,32 @@ https://angularfirebase.com/lessons/image-thumbnail-resizer-cloud-function/
 
 https://platzi.com/tutoriales/50-sql-mysql-2016/1564-que-es-ddl-dml-dcl-y-tcl-integridad-referencial/
 
-¿Por que es importante tener un registro de información que perdure en el tiempo?
+¿Por que es importante tener un registro de información que perdure en el tiempo? (not porque es más fácil de clasificar)
 
 ¿Cuál es el otro nombre que se le da a las 12 reglas de Codd? (mandamientos)
 
-¿Cuáles son las formas en que una entidad puede ser débil? (no puede existir sin una entidad fuerte) (identidad y existencia)
+¿Cuáles son las formas en que una entidad puede ser débil? (identidad y existencia)
 
-¿Qué tipo de palabra se utiliza para denotar una relación entre dos entidades? (plural)
+¿Qué tipo de palabra se utiliza para denotar una relación entre dos entidades? (plural) (not sustantivo)
 
-Diferencia original entre char y varchar
+Diferencia original entre char y varchar (not a)
 
 ¿Por qué se les llama servicios administrados? (compañia dedicada)
 
-¿Qué de lo siguiente se puede lograr con la sentencia "ALTER TABLE"?
+¿En qué fase de un proyecto se utiliza más fuertemente el lenguaje DDL? (al inicio)
 
-¿Cuál es un ejemplo de base de datos optimizada para búsqueda? (not elasticsearch o bigquery)
+¿Qué de lo siguiente se puede lograr con la sentencia "ALTER TABLE"? (agregar una columna)
+
+¿Cual es el objeto principal en la base de datos Firestore? (not base de datos)
+
+Las top level collection son las colecciones que tienen un documento padre (false)
+
+Utilizamos subcolecciones cuando queremos acceder a sus documentos de manera independiente o son referenciados desde otras colecciones (false)
+
+¿Cuál es un ejemplo de base de datos optimizada para búsqueda? (bigquery)
 
 ¿A que se traducen las entidades de un RDBMS en Firestore? (collections)
 
 ¿A que se traducen las tuplas de un RDBMS en Firestore? (documents)
 
-¿Cuál es el caso de uso principal de una base de datos basada en documentos? (guardar el estado actual)
+¿Cuál es el caso de uso principal de una base de datos basada en documentos? (el estado actual de una aplicacion)
