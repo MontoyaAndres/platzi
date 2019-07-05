@@ -2,6 +2,8 @@
 
 https://platzi.com/clases/1533-mongodb/18485-tipos-de-datos4815/
 
+https://platzi.com/clases/autenticacion-oauth/
+
 ## Tools for learning
 
 webrtc
