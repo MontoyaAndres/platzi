@@ -28,10 +28,10 @@ Diferencia original entre char y varchar
 
 ¿Qué de lo siguiente se puede lograr con la sentencia "ALTER TABLE"?
 
-¿Cuál es un ejemplo de base de datos optimizada para búsqueda? (not neo4j)
+¿Cuál es un ejemplo de base de datos optimizada para búsqueda? (not elasticsearch o bigquery)
 
 ¿A que se traducen las entidades de un RDBMS en Firestore? (collections i guess)
 
 ¿A que se traducen las tuplas de un RDBMS en Firestore?
 
-¿Cuál es el caso de uso principal de una base de datos basada en documentos?
+¿Cuál es el caso de uso principal de una base de datos basada en documentos? (guardar el estado actual)
