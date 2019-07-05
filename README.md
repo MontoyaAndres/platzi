@@ -20,7 +20,7 @@ https://platzi.com/tutoriales/50-sql-mysql-2016/1564-que-es-ddl-dml-dcl-y-tcl-in
 
 ¿Cuáles son las formas en que una entidad puede ser débil?
 
-¿Qué tipo de palabra se utiliza para denotar una relación entre dos entidades?
+¿Qué tipo de palabra se utiliza para denotar una relación entre dos entidades? (plural)
 
 Diferencia original entre char y varchar
 
