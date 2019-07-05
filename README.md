@@ -16,7 +16,7 @@ https://platzi.com/tutoriales/50-sql-mysql-2016/1564-que-es-ddl-dml-dcl-y-tcl-in
 
 ¿Por que es importante tener un registro de información que perdure en el tiempo?
 
-¿Cuál es el otro nombre que se le da a las 12 reglas de Codd? (not leyes)
+¿Cuál es el otro nombre que se le da a las 12 reglas de Codd? (mandamientos)
 
 ¿Cuáles son las formas en que una entidad puede ser débil?
 
