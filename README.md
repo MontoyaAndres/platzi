@@ -18,7 +18,7 @@ https://platzi.com/tutoriales/50-sql-mysql-2016/1564-que-es-ddl-dml-dcl-y-tcl-in
 
 ¿Cuál es el otro nombre que se le da a las 12 reglas de Codd? (mandamientos)
 
-¿Cuáles son las formas en que una entidad puede ser débil?
+¿Cuáles son las formas en que una entidad puede ser débil? (no puede existir sin una entidad fuerte) (identidad y existencia)
 
 ¿Qué tipo de palabra se utiliza para denotar una relación entre dos entidades? (plural)
 
