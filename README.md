@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1533-mongodb/18485-tipos-de-datos4815/
+https://platzi.com/clases/1533-mongodb/18488-disenando-el-esquema-de-nuestra-base-de-datos/
 
 https://platzi.com/clases/autenticacion-oauth/
 
