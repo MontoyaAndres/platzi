@@ -12,6 +12,8 @@ https://angularfirebase.com/lessons/image-thumbnail-resizer-cloud-function/
 
 ## Questions
 
+### Fundamentos de bases de datos
+
 https://platzi.com/tutoriales/50-sql-mysql-2016/1564-que-es-ddl-dml-dcl-y-tcl-integridad-referencial/
 
 ¿Por que es importante tener un registro de información que perdure en el tiempo? (conocimiento perpetue)
@@ -43,3 +45,19 @@ Utilizamos subcolecciones cuando queremos acceder a sus documentos de manera ind
 ¿A que se traducen las tuplas de un RDBMS en Firestore? (documents)
 
 ¿Cuál es el caso de uso principal de una base de datos basada en documentos? (el estado actual de una aplicacion)
+
+### Mongodb
+
+¿En un cluster de MongoDB pueden haber muchas bases de datos?
+
+¿Los tipos de datos ObjectId y Date son soportados por JSON?
+
+¿Cual es la mejor forma de hacer relaciones uno a uno dentro de MongoDB?
+
+¿Es lo mismo { : { $eq: } } que { field: }? (es lo mismo)
+
+¿Qué ocurre si ejecuto db.collection.find({})?
+
+¿Si hacemos db.collection.aggregate([]) dentro del arreglo cuantas etapas pueden haber? (not 2)
+
+¿A partir de una instancia de MongoClient puedo hacer operaciones CRUD?
