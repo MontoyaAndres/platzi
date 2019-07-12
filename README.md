@@ -48,16 +48,18 @@ Utilizamos subcolecciones cuando queremos acceder a sus documentos de manera ind
 
 ### Mongodb
 
-¿En un cluster de MongoDB pueden haber muchas bases de datos?
+¿En un cluster de MongoDB pueden haber muchas bases de datos? (true)
 
-¿Los tipos de datos ObjectId y Date son soportados por JSON?
+¿Cuál es la unidad básica dentro de MongoDB? (cluster)
 
-¿Cual es la mejor forma de hacer relaciones uno a uno dentro de MongoDB?
+¿Los tipos de datos ObjectId y Date son soportados por JSON? (soportados por BSON)
+
+¿Cual es la mejor forma de hacer relaciones uno a uno dentro de MongoDB? (embedded document)
 
 ¿Es lo mismo { : { $eq: } } que { field: }? (es lo mismo)
 
-¿Qué ocurre si ejecuto db.collection.find({})?
+¿Qué ocurre si ejecuto db.collection.find({})? (me retorna todos los documentos)
 
-¿Si hacemos db.collection.aggregate([]) dentro del arreglo cuantas etapas pueden haber? (not 2)
+¿Si hacemos db.collection.aggregate([]) dentro del arreglo cuantas etapas pueden haber? (las etapas que sean necesarias)
 
-¿A partir de una instancia de MongoClient puedo hacer operaciones CRUD?
+¿A partir de una instancia de MongoClient puedo hacer operaciones CRUD? (maybe A)
