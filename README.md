@@ -1,7 +1,5 @@
 ## Courses
 
-https://platzi.com/clases/1533-mongodb/18488-disenando-el-esquema-de-nuestra-base-de-datos/
-
 https://platzi.com/clases/autenticacion-oauth/
 
 ## Tools for learning
