@@ -2,7 +2,8 @@ require("dotenv").config();
 
 const config = {
   authJwtSecret: process.env.AUTH_JWT_SECRET,
-  allowedOrigins: ["http://localhost:3000", "http://localhost:3001"]
+  spotifyClientId: process.env.SPOTIFY_CLIENT_ID,
+  spotifyClientSecret: process.env.SPOTIFY_CLIENT_SECRET
 };
 
 module.exports = { config };

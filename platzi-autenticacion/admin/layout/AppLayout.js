@@ -1,8 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React, { useState, useEffect } from "react";
 
 import AppNavbar from "./AppNavbar";
 import AppFooter from "./AppFooter";
+
+import AuthService from "../services/AuthService";
+import isEmptyObject from "../utils/isEmptyObject";
 
 import {
   generalStyles,
@@ -10,32 +12,59 @@ import {
   semanticStyles
 } from "../utils/globalStyles";
 
-const Layout = ({ children, isAuthenticated, loggedUser }) => (
-  <div className="layout">
-    <AppNavbar loggedUser={loggedUser} />
-    <main className="layout-content">{children}</main>
-    <AppFooter />
-    <style jsx global>
-      {generalStyles}
-    </style>
-    <style jsx global>
-      {visibilityStyles}
-    </style>
-    <style jsx global>
-      {semanticStyles}
-    </style>
-  </div>
-);
+function Layout({ children }) {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [loggedUser, setLoggedUser] = useState({});
+  const authService = new AuthService();
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-  isAuthenticated: PropTypes.bool.isRequired,
-  loggedUser: PropTypes.object.isRequired
-};
+  useEffect(() => {
+    const profile = authService.getProfile();
 
-Layout.defaultProps = {
-  isAuthenticated: false,
-  loggedUser: { name: 'Guillermo Rodas', email: 'me@guillermorodas.com' }
-};
+    if (!isEmptyObject(profile)) {
+      setIsAuthenticated(true);
+      setLoggedUser({
+        name: profile.display_name,
+        email: profile.email,
+        picture:
+          profile && profile.images.length > 0
+            ? profile.images[0].url
+            : "/static/images/empty-posts.svg"
+      });
+    } else {
+      setIsAuthenticated(false);
+    }
+  }, []);
+
+  function handleLogin() {
+    authService.login();
+  }
+
+  function handleLogout() {
+    authService.logout();
+    window.location.href = "/";
+  }
+
+  return (
+    <div className="layout">
+      <AppNavbar
+        handleLogin={handleLogin}
+        handleLogout={handleLogout}
+        isAuthenticated={isAuthenticated}
+        loggedUser={loggedUser}
+      />
+      <main className="layout-content">{children}</main>
+      <AppFooter />
+      <style jsx global>
+        {generalStyles}
+      </style>
+      <style jsx global>
+        {visibilityStyles}
+      </style>
+      <style jsx global>
+        {semanticStyles}
+      </style>
+    </div>
+  );
+}
 
 export default Layout;
