@@ -23,12 +23,11 @@ function Layout({ children }) {
     if (!isEmptyObject(profile)) {
       setIsAuthenticated(true);
       setLoggedUser({
-        name: profile.display_name,
+        name: profile.display_name || profile.name,
         email: profile.email,
         picture:
-          profile && profile.images.length > 0
-            ? profile.images[0].url
-            : "/static/images/empty-posts.svg"
+          profile.picture ||
+          (profile && profile.images && profile.images[0].url)
       });
     } else {
       setIsAuthenticated(false);

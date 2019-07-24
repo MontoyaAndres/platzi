@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "auth0-js": "^9.11.2",
     "dotenv-webpack": "^1.7.0",
     "isomorphic-fetch": "^2.2.1",
     "next": "^9.0.2",
