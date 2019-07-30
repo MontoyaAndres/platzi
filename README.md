@@ -2,6 +2,8 @@
 
 https://platzi.com/clases/1269-probabilidad-estadistica/10935-variaciones-permutaciones-y-combinacion/
 
+https://platzi.com/clases/1618-gatsby/21004-layout-en-gats-3/
+
 ## Tools for learning
 
 webrtc
