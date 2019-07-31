@@ -1,5 +1,7 @@
-export { default as Header } from "./header"
-export { default as Layout } from "./layout"
-export { default as SEO } from "./seo"
-export { default as Image } from "./image"
-export { default as Jumbo } from "./Jumbo"
+import Header from "./header"
+import Layout from "./layout"
+import SEO from "./seo"
+import Image from "./image"
+import Jumbo from "./Jumbo"
+
+export { Header, Layout, SEO, Image, Jumbo }
