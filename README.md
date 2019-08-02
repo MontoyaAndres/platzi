@@ -34,16 +34,16 @@ Multifactor Authentication es (c, you two steps obligatory)
 
 ### Gatsbyjs
 
-¿Qué ventajas encontramos en un sistema de SSR?
+¿Qué ventajas encontramos en un sistema de SSR? (consistencia en integración y rendimiento)
 
 ¿Dónde construye Gatsby nuestro sitio o aplicación?
 
-¿En qué propiedad de un query en Gatsby tenemos acceso a los elementos de una fuente de datos?
+¿En qué propiedad de un query en Gatsby tenemos acceso a los elementos de una fuente de datos? (node)
 
-¿Qué transforman los plugins de transformación?
+¿Qué transforman los plugins de transformación? (c)
 
-Styled components genera un componente copia de un: (not css)
+Styled components genera un componente copia de un: (html)
 
-La información de GraphQL en el método para crear páginas se envía al template gracias al:
+La información de GraphQL en el método para crear páginas se envía al template gracias al: (contexto)
 
 ¿En qué propiedad de React almacenamos los productos?
