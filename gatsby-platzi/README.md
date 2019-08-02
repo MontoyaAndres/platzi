@@ -1,0 +1,2 @@
+- `.env.development` For development variables
+- `.env.production` For production variables
