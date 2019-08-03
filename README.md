@@ -2,6 +2,8 @@
 
 https://platzi.com/clases/1269-probabilidad-estadistica/10935-variaciones-permutaciones-y-combinacion/
 
+https://platzi.com/clases/1601-react-avanzado/21255-clonar-el-codigo-de-github-e-instalacion-de-webp-2/
+
 ## Tools for learning
 
 webrtc
