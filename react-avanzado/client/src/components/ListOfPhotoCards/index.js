@@ -3,12 +3,12 @@ import React from "react";
 import { List, Item } from "./styles";
 import { PhotoCard } from "../PhotoCard";
 
-export const ListOfPhotoCards = () => {
+export const ListOfPhotoCardsComponent = ({ data: { photos = [] } }) => {
   return (
     <List>
-      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(photo => (
-        <Item key={photo}>
-          <PhotoCard />
+      {photos.map(photo => (
+        <Item key={photo.id}>
+          <PhotoCard {...photo} />
         </Item>
       ))}
     </List>
