@@ -2,7 +2,7 @@
 
 https://platzi.com/clases/1269-probabilidad-estadistica/10942-grafica-de-dispersion/
 
-https://platzi.com/clases/1601-react-avanzado/21272-que-es-graphql-y-react-apollo-inicializando-reac-5/
+https://platzi.com/clases/1601-react-avanzado/21286-mutaciones-para-registro/
 
 ## Tools for learning
 
