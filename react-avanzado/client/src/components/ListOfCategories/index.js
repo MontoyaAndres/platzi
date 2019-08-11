@@ -33,7 +33,7 @@ export function ListOfCategories() {
         ) : (
           categories.map(category => (
             <Item key={category.id}>
-              <Category {...category} />
+              <Category {...category} path={`/pet/${category.id}`} />
             </Item>
           ))
         )}

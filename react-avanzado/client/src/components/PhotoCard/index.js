@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "@reach/router";
 
 import { Article, Img, ImgWrapper } from "./styles";
 import { useNearScreen } from "../../hooks/useNearScreen";
@@ -16,11 +17,11 @@ export const PhotoCard = ({ id = 0, likes = 0, src = DEFAULT_IMAGE }) => {
     <Article ref={ref}>
       {show && (
         <>
-          <a href={`/?detail=${id}`}>
+          <Link to={`/detail/${id}`}>
             <ImgWrapper>
               <Img src={src} />
             </ImgWrapper>
-          </a>
+          </Link>
 
           <ToggleLikeMutation>
             {({ mutation }) => {

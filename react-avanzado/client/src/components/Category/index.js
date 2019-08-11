@@ -7,7 +7,7 @@ const DEFAULT_IMAGE =
 
 export function Category({ cover = DEFAULT_IMAGE, path, emoji = "?" }) {
   return (
-    <Link href={path}>
+    <Link to={path}>
       <Image src={cover} alt="" />
       {emoji}
     </Link>

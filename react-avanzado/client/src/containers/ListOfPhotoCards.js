@@ -5,8 +5,8 @@ import { Loading } from "../components/Loading";
 import { ListOfPhotoCardsComponent } from "../components/ListOfPhotoCards";
 import { GetPhotos } from "../graphql/query";
 
-export function ListOfPhotoCards() {
-  const { loading, data } = useQuery(GetPhotos);
+export function ListOfPhotoCards({ categoryId }) {
+  const { loading, data } = useQuery(GetPhotos, { variables: { categoryId } });
 
   if (loading) {
     return <Loading />;

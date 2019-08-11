@@ -1,13 +1,21 @@
 import styled from "styled-components";
+import { Link as LinkRouter } from "@reach/router";
 
 import { fadeIn } from "../../styles/animation";
 
-export const Link = styled.a`
+export const Link = styled(LinkRouter)`
   display: flex;
   flex-direction: column;
   text-align: center;
   text-decoration: none;
   width: 75px;
+
+  &[aria-current] {
+    transform: scale(0.8);
+    img {
+      box-shadow: 0 10px 14px rgba(239, 0, 239, 0.5);
+    }
+  }
 `;
 
 export const Image = styled.img`
