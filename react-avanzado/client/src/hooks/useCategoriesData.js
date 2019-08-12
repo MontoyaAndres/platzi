@@ -1,5 +1,10 @@
 import { useEffect, useState } from "react";
 
+const API =
+  process.env.NODE_ENV !== "production"
+    ? "http://localhost:3500/categories"
+    : `${process.env.REACT_APP_REST_API}/categories`;
+
 export const useCategoriesData = () => {
   const [categories, setCategoriesData] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -8,7 +13,7 @@ export const useCategoriesData = () => {
   useEffect(function() {
     setLoading(true);
     window
-      .fetch("http://localhost:3500/categories")
+      .fetch(API)
       .then(res => res.json())
       .then(categories => {
         setCategoriesData(categories);
