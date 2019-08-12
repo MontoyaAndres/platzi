@@ -1,5 +1,5 @@
-import React, { Suspense } from "react";
-import { Router } from "@reach/router";
+import React, { Suspense, useContext } from "react";
+import { Router, Redirect } from "@reach/router";
 
 import { GlobalStyles } from "./styles/GlobalStyles";
 import { Logo } from "./components/Logo";
@@ -12,35 +12,30 @@ import { Detail } from "./pages/Detail";
 import { Favs } from "./pages/Favs";
 import { Profile } from "./pages/Profile";
 import { NotRegistered } from "./pages/NotRegistered";
+import { NotFound } from "./pages/NotFound";
 
-import Context from "./Context";
+import { Context } from "./Context";
 
 function App() {
+  const { isAuth } = useContext(Context);
+
   return (
     <Suspense fallback={<Loading />}>
       <GlobalStyles />
       <Logo />
       <Router>
+        <NotFound default />
         <Home path="/" />
         <Home path="/pet/:id" />
         <Detail path="/detail/:id" />
-      </Router>
+        {!isAuth && <NotRegistered path="/login" />}
+        {!isAuth && <Redirect from="/favs" to="/login" />}
+        {!isAuth && <Redirect from="/user" to="/login" />}
+        {isAuth && <Redirect from="/login" to="/" noThrow />}
 
-      <Context.Consumer>
-        {({ isAuth }) =>
-          isAuth ? (
-            <Router>
-              <Favs path="favs" />
-              <Profile path="user" />
-            </Router>
-          ) : (
-            <Router>
-              <NotRegistered path="favs" />
-              <NotRegistered path="user" />
-            </Router>
-          )
-        }
-      </Context.Consumer>
+        <Favs path="favs" />
+        <Profile path="user" />
+      </Router>
       <NavBar />
     </Suspense>
   );

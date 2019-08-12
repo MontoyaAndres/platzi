@@ -4,12 +4,16 @@ import { Context } from "../../Context";
 import { UserForm } from "../../components/UserForm";
 import { RegisterMutation } from "../../containers/RegisterMutation";
 import { LoginMutation } from "../../containers/LoginMutation";
+import { Layout } from "../../components/Layout";
 
 export function NotRegistered() {
   const { activateAuth } = useContext(Context);
 
   return (
-    <>
+    <Layout
+      title="Autentificación"
+      subtitle="Inicia sesión o regístrate en Petgram para poder acceder a esta sección"
+    >
       <RegisterMutation>
         {({ signup }) => {
           const [mutation, { loading, error }] = signup;
@@ -57,6 +61,6 @@ export function NotRegistered() {
           );
         }}
       </LoginMutation>
-    </>
+    </Layout>
   );
 }
