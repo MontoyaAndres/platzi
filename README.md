@@ -2,7 +2,7 @@
 
 https://platzi.com/clases/1269-probabilidad-estadistica/10942-grafica-de-dispersion/
 
-https://platzi.com/clases/1601-react-avanzado/21294-react-helm-7/
+https://platzi.com/clases/examen/2ae455a1-2c46-466f-90ce-ed4aee72744f/examen_usuario/
 
 ## Tools for learning
 
