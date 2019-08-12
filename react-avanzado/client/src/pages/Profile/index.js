@@ -4,7 +4,7 @@ import { Context } from "../../Context";
 import { Layout } from "../../components/Layout";
 import { Button } from "../../components/Button";
 
-export function Profile() {
+function Profile() {
   const { removeAuth } = useContext(Context);
 
   return (

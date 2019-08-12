@@ -3,7 +3,7 @@ import React from "react";
 import { FavsQuery } from "../../containers/FavsQuery";
 import { Layout } from "../../components/Layout";
 
-export function Favs() {
+function Favs() {
   return (
     <Layout
       title="Tus favoritos"
@@ -13,3 +13,5 @@ export function Favs() {
     </Layout>
   );
 }
+
+export default Favs;
