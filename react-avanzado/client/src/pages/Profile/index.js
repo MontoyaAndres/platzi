@@ -1,5 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+
+import { Context } from "../../Context";
+import { Button } from "../../components/Button";
 
 export function Profile() {
-  return <h1>profile</h1>;
+  const { removeAuth } = useContext(Context);
+
+  return <Button onClick={removeAuth}>Cerrar sesión</Button>;
 }
+
+export default Profile;
