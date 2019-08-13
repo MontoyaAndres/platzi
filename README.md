@@ -2,7 +2,19 @@
 
 https://platzi.com/clases/1269-probabilidad-estadistica/10942-grafica-de-dispersion/
 
-https://platzi.com/clases/examen/2ae455a1-2c46-466f-90ce-ed4aee72744f/examen_usuario/
+# React avanzado
+
+StandardJS es... (linter)
+
+¿Qué es un High Order Component?
+
+¿Qué son las renderProps? (not a)
+
+¿Qué son las mutaciones en GraphQL?
+
+¿Para qué podemos utilizar React.memo?
+
+Cypress nos ofrece una forma de...
 
 ## Tools for learning
 
