@@ -6,15 +6,15 @@ https://platzi.com/clases/1269-probabilidad-estadistica/10942-grafica-de-dispers
 
 StandardJS es... (linter)
 
-¿Qué es un High Order Component?
+¿Qué es un High Order Component? (not a)
 
-¿Qué son las renderProps? (not a)
+¿Qué son las renderProps? (c)
 
-¿Qué son las mutaciones en GraphQL?
+¿Qué son las mutaciones en GraphQL? (b)
 
-¿Para qué podemos utilizar React.memo?
+¿Para qué podemos utilizar React.memo? (b)
 
-Cypress nos ofrece una forma de...
+Cypress nos ofrece una forma de... (not b)
 
 ## Tools for learning
 
