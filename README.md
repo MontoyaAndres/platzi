@@ -2,6 +2,8 @@
 
 https://platzi.com/clases/1269-probabilidad-estadistica/10942-grafica-de-dispersion/
 
+https://platzi.com/clases/1277-redes/11152-tecnologias-de-acceso-a-internet-banda-ancha-y-vel/
+
 # React avanzado
 
 StandardJS es... (linter)
