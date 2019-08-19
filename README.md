@@ -4,6 +4,8 @@ https://platzi.com/clases/1269-probabilidad-estadistica/10942-grafica-de-dispers
 
 https://platzi.com/clases/1277-redes/11152-tecnologias-de-acceso-a-internet-banda-ancha-y-vel/
 
+https://platzi.com/clases/1614-inteligencia-emocional/20895-la-empat-0/
+
 # React avanzado
 
 StandardJS es... (linter)
