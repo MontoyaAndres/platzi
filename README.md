@@ -18,7 +18,7 @@ StandardJS es... (linter)
 
 ¿Para qué podemos utilizar React.memo? (b)
 
-Cypress nos ofrece una forma de... (not b)
+Cypress nos ofrece una forma de... (not c and b)
 
 ## Tools for learning
 
