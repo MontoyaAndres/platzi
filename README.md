@@ -6,7 +6,7 @@ https://platzi.com/clases/1277-redes/11152-tecnologias-de-acceso-a-internet-band
 
 https://platzi.com/clases/1614-inteligencia-emocional/20896-otras-habilidades-social-8/
 
-# React avanzado
+### React avanzado
 
 StandardJS es... (linter)
 
@@ -19,6 +19,18 @@ StandardJS es... (linter)
 ¿Para qué podemos utilizar React.memo? (b)
 
 Cypress nos ofrece una forma de... (not c and b)
+
+### Inteligencia emocional
+
+Una buena definición de Inteligencia Emocional es:
+
+La autogestión emocional...
+
+¿Cuál de estas afirmaciones es verdadera?
+
+¿Cuál de las siguientes frases es asertiva?
+
+Un sociograma nos sirve para:
 
 ## Tools for learning
 
