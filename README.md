@@ -10,7 +10,7 @@ https://platzi.com/clases/1614-inteligencia-emocional/20896-otras-habilidades-so
 
 StandardJS es... (linter)
 
-¿Qué es un High Order Component? (not a)
+¿Qué es un High Order Component? componente de orden superior (not a)
 
 ¿Qué son las renderProps? (c)
 
@@ -18,7 +18,9 @@ StandardJS es... (linter)
 
 ¿Para qué podemos utilizar React.memo? (b)
 
-Cypress nos ofrece una forma de... (not c and b)
+Cypress nos ofrece una forma de... test to end? (not b and c)
+
+¿Para qué sirve la función React.lazy? (not c)
 
 ### Inteligencia emocional
 
