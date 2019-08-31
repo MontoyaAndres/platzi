@@ -18,18 +18,6 @@ Cypress nos ofrece una forma de... (d)
 
 ¿Para qué sirve la función React.lazy? (d)
 
-### Inteligencia emocional
-
-Una buena definición de Inteligencia Emocional es:
-
-La autogestión emocional...
-
-¿Cuál de estas afirmaciones es verdadera?
-
-¿Cuál de las siguientes frases es asertiva?
-
-Un sociograma nos sirve para:
-
 ## Tools for learning
 
 webrtc
