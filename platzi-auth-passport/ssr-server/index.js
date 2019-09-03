@@ -4,6 +4,7 @@ const session = require("express-session");
 const boom = require("@hapi/boom");
 const cookieParser = require("cookie-parser");
 const axios = require("axios");
+const helmet = require("helmet");
 
 const { config } = require("./config");
 
@@ -12,11 +13,13 @@ const app = express();
 app
   .use(express.json())
   .use(cookieParser())
+  .use(helmet())
+  // because twitter needs a session active
   .use(session({ secret: config.sessionSecret }))
   .use(passport.initialize())
   .use(passport.session());
 
-//  Basic strategy
+// Basic strategy
 require("./utils/auth/strategies/basic");
 
 // OAuth strategy
@@ -119,3 +122,47 @@ app.get(
     scope: ["email", "profile", "openid"]
   })
 );
+
+app.get(
+  "/auth/google-oauth/callback",
+  passport.authenticate("google-oauth", { session: false }),
+  function(req, res, next) {
+    if (!req.user) {
+      next(boom.unauthorized());
+    }
+
+    const { token, ...user } = req.user;
+
+    res.cookie("token", token, {
+      httpOnly: !config.dev,
+      secure: !config.dev
+    });
+
+    res.status(200).json(user);
+  }
+);
+
+app.get("/auth/twitter", passport.authenticate("twitter"));
+
+app.get(
+  "/auth/twitter/callback",
+  passport.authenticate("twitter", { session: false }),
+  function(req, res, next) {
+    if (!req.user) {
+      next(boom.unauthorized());
+    }
+
+    const { token, ...user } = req.user;
+
+    res.cookie("token", token, {
+      httpOnly: !config.dev,
+      secure: !config.dev
+    });
+
+    res.status(200).json(user);
+  }
+);
+
+app.listen(config.port, function() {
+  console.log(`Listening http://localhost:${config.port}`);
+});
