@@ -2,6 +2,8 @@
 
 https://platzi.com/clases/1277-redes/11163-capa-fisica-elementos-funciones-transferencia-de-d/
 
+https://platzi.com/clases/1269-probabilidad-estadistica/10942-grafica-de-dispersion/
+
 ### Passport
 
 Un JSON Web Token es una cadena de texto compuesta de tres partes encriptadas (false)
