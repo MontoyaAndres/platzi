@@ -2,7 +2,7 @@
 
 https://platzi.com/clases/1277-redes/11163-capa-fisica-elementos-funciones-transferencia-de-d/
 
-https://platzi.com/clases/1269-probabilidad-estadistica/10942-grafica-de-dispersion/
+https://platzi.com/clases/1269-probabilidad-estadistica/10946-varianza-y-desviacion-estandar6687/
 
 ## Tools for learning
 
