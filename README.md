@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1277-redes/11163-capa-fisica-elementos-funciones-transferencia-de-d/
+https://platzi.com/clases/1269-probabilidad-estadistica/10948-cuartiles-deciles-y-percentiles/
 
 https://platzi.com/clases/1269-probabilidad-estadistica/10946-varianza-y-desviacion-estandar6687/
 
