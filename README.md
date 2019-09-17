@@ -2,8 +2,6 @@
 
 https://platzi.com/clases/1269-probabilidad-estadistica/11266-examen-de-certificacion/
 
-https://platzi.com/clases/1269-probabilidad-estadistica/10946-varianza-y-desviacion-estandar6687/
-
 ### Probabilidad y estadistica
 
 ¿Cuál de las siguientes afirmaciones es FALSA? 
@@ -48,7 +46,20 @@ Calcular la mediana: c) 96.5
 Calcular la moda: a) 100
 
 La tabla siguiente, indica el número total de goles de Lionel Messi en LaLiga por partidos; es decir, desde su debut en la temporada 2004-2005, hasta la temporada 2016-2017, la suma de todos primeros partidos fue de 13 goles; si sumamos todos los goles anotados en los segundos partidos de estas 13 temporadas, son 7 goles y así sucesivamente:
-Calcular la media aritmética.
+Calcular la media aritmética: c) 9.18
+Calcular la mediana: b) 9
+¿Qué elemento no corresponde a la moda?: b) 8
+
+Teniendo en cuenta el problema anterior, y la referencia es la misma tabla.
+Siendo la variable independiente el número de partidos (del 1 al 38) y la variable dependiente, el número de goles anotados en cada uno de ellos, resuelve:
+¿Cuál es el valor de XiYi para Xi=20? b) 220
+¿Cuál es el valor de la covarianza para este mismo ejercicio? b) 2.806
+A partir del resultado de la covarianza, determina ¿qué tipo de correlación existe entre las variables?: a) directa
+¿Qué diagrama de dispersión describe el comportamiento de las variables?: a)
+
+Se quieren estandarizar el tamaño de las zanahorias que son llevadas a una empaquetadora. Por tanto, tienen como muestras, zanahorias de 18, 20, 16, y 14 cm.
+Ayudándote de la varianza y desviación estándar, determina, cuál es el límite de tamaño (mínimo y máximo) para ser consideradas normales y separarlas de las chicas y grandes:
+- b) 19.236cm – 14.764cm
 
 ## Tools for learning
 
