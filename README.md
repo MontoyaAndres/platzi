@@ -61,6 +61,8 @@ Se quieren estandarizar el tamaño de las zanahorias que son llevadas a una empa
 Ayudándote de la varianza y desviación estándar, determina, cuál es el límite de tamaño (mínimo y máximo) para ser consideradas normales y separarlas de las chicas y grandes:
 - b) 19.236cm – 14.764cm
 
+De la siguiente tabla, obtener la ecuación de la forma xt=a+bt para predecir un valor futuro, sabiendo que ti es el valor del mes en que se fabricaron zapatos (de noviembre a abril) en una empresa; y xi es el número de pares de zapatos fabricados por mes.
+
 ## Tools for learning
 
 webrtc
