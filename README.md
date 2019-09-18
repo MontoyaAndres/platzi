@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1319-discretas/12210-tablas-de-verdad/
+https://platzi.com/clases/1319-discretas/12212-mas-ejemplos-de-tabla-de-verdad/
 
 ### Probabilidad y estadistica
 
@@ -17,7 +17,7 @@ Una urna tiene 3 bolas blancas, 6 negras, 3 rojas y 9 azules. Si se extrae una b
 - c) 0.428
 
 Se lanza tres veces una moneda al aire. ¿Cuál es la probabilidad de obtener como resultado dos caras y una cruz, sin importar el orden en el que se van obteniendo?
-- c) 1/8
+- b) 37.5%
 
 Es el suceso formado por todos los resultados que cumplen A y cumplen B:
 - b) Intersección de A y B
@@ -55,7 +55,7 @@ Siendo la variable independiente el número de partidos (del 1 al 38) y la varia
 ¿Cuál es el valor de XiYi para Xi=20? b) 220
 ¿Cuál es el valor de la covarianza para este mismo ejercicio? b) 2.806
 A partir del resultado de la covarianza, determina ¿qué tipo de correlación existe entre las variables?: a) directa
-¿Qué diagrama de dispersión describe el comportamiento de las variables?: a) x (b))
+¿Qué diagrama de dispersión describe el comportamiento de las variables?: c)
 
 Se quieren estandarizar el tamaño de las zanahorias que son llevadas a una empaquetadora. Por tanto, tienen como muestras, zanahorias de 18, 20, 16, y 14 cm.
 Ayudándote de la varianza y desviación estándar, determina, cuál es el límite de tamaño (mínimo y máximo) para ser consideradas normales y separarlas de las chicas y grandes:
