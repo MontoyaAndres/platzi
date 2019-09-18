@@ -11,7 +11,7 @@ Cuando lanzamos un dado esperando obtener cierto resultado, a partir de la cara 
 - b) Numérico
 
 Es el conjunto de elementos que representan a todos los posibles resultados de un experimento:
-- a) Suceso elemental X
+- b) Espacio muestral
 
 Una urna tiene 3 bolas blancas, 6 negras, 3 rojas y 9 azules. Si se extrae una bola al azar, calcular la probabilidad de que sea roja o negra:
 - c) 0.428
@@ -20,7 +20,7 @@ Se lanza tres veces una moneda al aire. ¿Cuál es la probabilidad de obtener co
 - a) 0.0375 X
 
 Es el suceso formado por todos los resultados que cumplen A y cumplen B:
-- a) Unión de A y B X
+- b) Intersección de A y B
 
 Se sabe que el 70% de la población ingiere bebidas alcohólicas, un 15% padece enfermedades hepáticas y que el 5% ingiere bebidas alcohólicas y tiene padece alguna enfermedad hepática. ¿Cuál es la probabilidad de que una persona elegida al azar sea una persona que ingiere bebidas alcohólicas o padezca alguna enfermedad en el hígado?
 - a) 80%
@@ -35,7 +35,7 @@ La lista de calificaciones en el examen de probabilidad y estadística de 20 alu
 Calcular: La frecuencia absoluta para Xi= 97
 - b) 3
 Calcular: La frecuencia relativa para Xi=100
-- c) 5 X
+- b) 0.3
 
 Tomando en cuenta el ejercicio anterior, y agrupando en rangos de calificaciones de 81-85, 86-90, 91-95 y 96-100, ¿qué gráfica refleja los resultados de las calificaciones?
 - a)
@@ -55,7 +55,7 @@ Siendo la variable independiente el número de partidos (del 1 al 38) y la varia
 ¿Cuál es el valor de XiYi para Xi=20? b) 220
 ¿Cuál es el valor de la covarianza para este mismo ejercicio? b) 2.806
 A partir del resultado de la covarianza, determina ¿qué tipo de correlación existe entre las variables?: a) directa
-¿Qué diagrama de dispersión describe el comportamiento de las variables?: a) X
+¿Qué diagrama de dispersión describe el comportamiento de las variables?: a) x (b))
 
 Se quieren estandarizar el tamaño de las zanahorias que son llevadas a una empaquetadora. Por tanto, tienen como muestras, zanahorias de 18, 20, 16, y 14 cm.
 Ayudándote de la varianza y desviación estándar, determina, cuál es el límite de tamaño (mínimo y máximo) para ser consideradas normales y separarlas de las chicas y grandes:
@@ -65,7 +65,7 @@ De la siguiente tabla, obtener la ecuación de la forma xt=a+bt para predecir un
 - b) xt = 1746.67 + 77.14
 
 A partir del resultado del ejercicio anterior, ¿cuántos pares de zapatos aproximadamente, elaborará la fábrica en junio próximo?
-- a) 2287 pares X
+- a) 2287 pares (c) 2364)
 
 ## Tools for learning
 
