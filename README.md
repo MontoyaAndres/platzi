@@ -62,6 +62,10 @@ Ayudándote de la varianza y desviación estándar, determina, cuál es el lími
 - b) 19.236cm – 14.764cm
 
 De la siguiente tabla, obtener la ecuación de la forma xt=a+bt para predecir un valor futuro, sabiendo que ti es el valor del mes en que se fabricaron zapatos (de noviembre a abril) en una empresa; y xi es el número de pares de zapatos fabricados por mes.
+- b) xt = 1746.67 + 77.14
+
+A partir del resultado del ejercicio anterior, ¿cuántos pares de zapatos aproximadamente, elaborará la fábrica en junio próximo?
+- a) 2287 pares
 
 ## Tools for learning
 
