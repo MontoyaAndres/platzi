@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1269-probabilidad-estadistica/11266-examen-de-certificacion/
+https://platzi.com/clases/1319-discretas/12210-tablas-de-verdad/
 
 ### Probabilidad y estadistica
 
