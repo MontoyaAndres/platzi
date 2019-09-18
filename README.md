@@ -17,7 +17,7 @@ Una urna tiene 3 bolas blancas, 6 negras, 3 rojas y 9 azules. Si se extrae una b
 - c) 0.428
 
 Se lanza tres veces una moneda al aire. ¿Cuál es la probabilidad de obtener como resultado dos caras y una cruz, sin importar el orden en el que se van obteniendo?
-- a) 0.0375 X
+- c) 1/8
 
 Es el suceso formado por todos los resultados que cumplen A y cumplen B:
 - b) Intersección de A y B
