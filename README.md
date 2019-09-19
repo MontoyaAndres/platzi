@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1319-discretas/12212-mas-ejemplos-de-tabla-de-verdad/
+https://platzi.com/clases/1393-fundamentos-matematicas/14411-radicacion-y-sus-propiedades/
 
 ### Probabilidad y estadistica
 
