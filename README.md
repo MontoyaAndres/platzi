@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1393-fundamentos-matematicas/14411-radicacion-y-sus-propiedades/
+https://platzi.com/clases/1393-fundamentos-matematicas/14415-principios-del-algebra/
 
 ### Probabilidad y estadistica
 
