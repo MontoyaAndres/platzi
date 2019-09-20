@@ -72,3 +72,5 @@ A partir del resultado del ejercicio anterior, ¿cuántos pares de zapatos aprox
 webrtc
 
 mongodb -> "embedded document" and "aggregate"
+
+Faunadb stuff -> https://fauna-community.slack.com/archives/CALF684S2/p1568917246150300?thread_ts=1568917246.150300&cid=CALF684S2
