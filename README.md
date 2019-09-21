@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1393-fundamentos-matematicas/14415-principios-del-algebra/
+https://platzi.com/clases/1393-fundamentos-matematicas/14422-polinomios/
 
 ### Probabilidad y estadistica
 
