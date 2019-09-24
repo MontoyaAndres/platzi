@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1393-fundamentos-matematicas/14422-polinomios/
+https://platzi.com/clases/1393-fundamentos-matematicas/14426-que-es-una-funcion/
 
 ### Probabilidad y estadistica
 
