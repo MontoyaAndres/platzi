@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1393-fundamentos-matematicas/14426-que-es-una-funcion/
+https://platzi.com/clases/1393-fundamentos-matematicas/14432-como-identificar-funciones-lineales-a-partir-de-un/
 
 ### Probabilidad y estadistica
 
