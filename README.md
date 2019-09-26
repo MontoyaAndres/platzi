@@ -67,6 +67,14 @@ De la siguiente tabla, obtener la ecuación de la forma xt=a+bt para predecir un
 A partir del resultado del ejercicio anterior, ¿cuántos pares de zapatos aproximadamente, elaborará la fábrica en junio próximo?
 - a) 2287 pares (c) 2364)
 
+## Fundamentos de Matemáticas
+
+¿Para qué podríamos utilizar una pendiente?
+
+¿Cómo podemos interpretar una función? (not b "metodo")
+
+¿Qué es una ecuación?
+
 ## Tools for learning
 
 webrtc
