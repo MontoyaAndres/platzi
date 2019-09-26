@@ -75,6 +75,8 @@ A partir del resultado del ejercicio anterior, ¿cuántos pares de zapatos aprox
 
 ¿Qué es una ecuación?
 
+4P⁴Q³R³S + 8P⁵Q³R³S - 24P²Q³R³S + P²Q³R³ (b)
+
 ## Tools for learning
 
 webrtc
