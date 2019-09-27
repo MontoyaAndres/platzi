@@ -69,11 +69,11 @@ A partir del resultado del ejercicio anterior, ¿cuántos pares de zapatos aprox
 
 ## Fundamentos de Matemáticas
 
-¿Para qué podríamos utilizar una pendiente?
+¿Para qué podríamos utilizar una pendiente? (not b)
 
-¿Cómo podemos interpretar una función? (not b "metodo")
+¿Cómo podemos interpretar una función? (not b "metodo") Una caja negra, valores de entrada y devuelve valores de salida.
 
-¿Qué es una ecuación?
+¿Qué es una ecuación? (c) Dos expresiones separadas por el signo de igualdad y que tienen exactamente el mismo valor
 
 4P⁴Q³R³S + 8P⁵Q³R³S - 24P²Q³R³S + P²Q³R³ (b)
 
