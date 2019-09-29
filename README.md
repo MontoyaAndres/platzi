@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1267-calculo-datos/10996-formulas-basicas-de-derivacion/
+https://platzi.com/clases/1267-calculo-datos/11000-optimizacion/
 
 ### Probabilidad y estadistica
 
