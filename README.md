@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1267-calculo-datos/11007-introduccion-al-calculo-multivariable-derivadas-pa/
+https://platzi.com/clases/1267-calculo-datos/11390-examen-de-calculo-para-analisis-de-datos/
 
 ### Probabilidad y estadistica
 
