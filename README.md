@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1267-calculo-datos/11000-optimizacion/
+https://platzi.com/clases/1267-calculo-datos/11007-introduccion-al-calculo-multivariable-derivadas-pa/
 
 ### Probabilidad y estadistica
 
