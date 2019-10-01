@@ -77,6 +77,28 @@ A partir del resultado del ejercicio anterior, ¿cuántos pares de zapatos aprox
 
 4P⁴Q³R³S + 8P⁵Q³R³S - 24P²Q³R³S + P²Q³R³ (b)
 
+## Cálculo para Análisis de Datos
+
+1. Calcular el dominio de la siguientes funciones:
+
+1.1 f(x) = 6x^2 + 7x - 3 (a) (-∞,∞)
+
+1.2 f(x) = 13x^3 (a) (-∞,∞)
+
+1.3 f(x) = x-5 / raiz de x-2 (b) (2, ∞)
+
+2. Calcular el contradominio de la función 100x^4 (c) (-∞,∞)
+
+3. Determinar la gráfica que corresponde a la función: f(x) = x^2 + 2 (a)
+
+4. Determinar la gráfica que corresponde a la función: f(x) = 4x - 6 (b)
+
+5. Derivar las siguientes funciones:
+
+5.1. y = x^4 - 2x (b) 4x^3 - 2
+
+5.2. y = 3x^3 - 2x^2 + x - 1 (c) 9x^2 - 4x + 1
+
 ## Tools for learning
 
 webrtc
