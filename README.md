@@ -99,6 +99,24 @@ A partir del resultado del ejercicio anterior, ¿cuántos pares de zapatos aprox
 
 5.2. y = 3x^3 - 2x^2 + x - 1 (c) 9x^2 - 4x + 1
 
+5.3 y = (x^2 + 1)(x^2 - 1) (b) (4x^3)
+
+5.4 y = (3x^5 + 7)(x^2 + x + 1) (a) 21x^6 + 18x^5 + 15x^4 + 14x + 7
+
+5.5 y = ln(3x^4) (a) 4 / x
+
+5.6 y = a^7x^5 (c) a^7x^5 ln 35ax^4
+
+5.7 y = ex^3+x^2-x (b) (3x^2 + 2x - 1)e^x^3+x^2-x
+
+5.8 y = Sen 7x (c) 7Cos 7x
+
+5.9 y = 8tan (6x^2 + 2) (a) 96xSec^2(6x^2 + 2)
+
+6. Resuelve mediante la Regla de la cadena:
+
+g(x) = √x4-3x+8 (a)
+
 ## Tools for learning
 
 webrtc
