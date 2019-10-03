@@ -117,6 +117,42 @@ A partir del resultado del ejercicio anterior, ¿cuántos pares de zapatos aprox
 
 g(x) = √x4-3x+8 (a)
 
+7. Resolver las siguientes integrales
+
+7.1 ∫ 3a^7x^6 dx (c)
+
+7.2 ∫ (3x^2 + 2x + 1) dx (b)
+
+7.3 ∫ dx / √8-x^2 dx (c)
+
+7.4 ∫ xsenx dx (a) -xCos(x) + Sin(x) + C
+
+7.5 ∫ Cos^2x dx (c)
+
+7.6 ∫ 7x^3 dx (a) (7x^4)/4 + c
+
+7.7 ∫ x^2/3 dx (c) (3x^5/3)/5 + c
+
+7.8 ∫ Cotg x dx ln sen x + c
+
+8. Queremos fabricar una caja sin tapa con base cuadrada y con un área de 300 cm2. Si queremos que el volumen sea el máximo, ¿cuál es el valor de la altura ‘y’?
+
+9. El beneficio neto mensual, en millones de dólares, de una empresa que fabrica autos, viene dado por la función:
+
+A(X) = 1.2x - (0.1x)^3
+
+Donde x es el número de autos fabricados en un mes. Calcula la producción mensual de autos que hace el máximo beneficio.
+
+10. Calcular las derivadas parciales (∂f/∂x, ∂f/∂y) de la siguiente función:
+
+f(x) = 3x^2 + 2y^4 (c) 6x, 8y^3
+
+11. Calcula el gradiente de la función:
+
+f(x,y) = (x+y) / (xy) (b) (-1/x^2   -1/y^2)
+
+12. Calcular el área bajo la curva entre la función y=9-x2 y el eje X tal como se muestra en la figura: https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%202018-05-17%2010.18.18-f88f6ba1-3ee0-479e-8967-c77e0e915813.jpg
+
 ## Tools for learning
 
 webrtc
