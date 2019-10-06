@@ -123,7 +123,7 @@ g(x) = √x4-3x+8 (b)
 
 7.2 ∫ (3x^2 + 2x + 1) dx (b)
 
-7.3 ∫ dx / √8-x^2 dx (not c) (a)
+7.3 ∫ dx / √8-x^2 dx (a)
 
 7.4 ∫ xsenx dx (a) -xCos(x) + Sin(x) + C
 
@@ -135,7 +135,7 @@ g(x) = √x4-3x+8 (b)
 
 7.8 ∫ Cotg x dx (b) ln sen x + c
 
-8. Queremos fabricar una caja sin tapa con base cuadrada y con un área de 300 cm2. Si queremos que el volumen sea el máximo, ¿cuál es el valor de la altura ‘y’? (not a) (b)
+8. Queremos fabricar una caja sin tapa con base cuadrada y con un área de 300 cm2. Si queremos que el volumen sea el máximo, ¿cuál es el valor de la altura ‘y’? (b)
 
 9. El beneficio neto mensual, en millones de dólares, de una empresa que fabrica autos, viene dado por la función:
 
@@ -149,7 +149,7 @@ f(x) = 3x^2 + 2y^4 (c) 6x, 8y^3
 
 f(x,y) = (x+y) / (xy) (b) (-1/x^2   -1/y^2)
 
-12. Calcular el área bajo la curva entre la función y=9-x2 y el eje X tal como se muestra en la figura: (not b) (c)
+12. Calcular el área bajo la curva entre la función y=9-x2 y el eje X tal como se muestra en la figura: (c)
 
 ## Tools for learning
 
