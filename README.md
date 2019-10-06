@@ -1,6 +1,8 @@
 ## Courses
 
-https://platzi.com/clases/1275-excel/11108-sientete-comodo-con-la-barra-de-menu/
+Excel para análisis de datos https://platzi.com/clases/1275-excel/11108-sientete-comodo-con-la-barra-de-menu/
+
+Álgebra lineal https://platzi.com/clases/algebra-lineal/
 
 ### Probabilidad y estadistica
 
