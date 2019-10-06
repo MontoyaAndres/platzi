@@ -87,7 +87,7 @@ A partir del resultado del ejercicio anterior, ¿cuántos pares de zapatos aprox
 
 1.3 f(x) = x-5 / raiz de x-2 (b) (2, ∞)
 
-2. Calcular el contradominio de la función 100x^4 (c) (-∞,∞)
+2. Calcular el contradominio de la función 100x^4 (b) (0, ∞)
 
 3. Determinar la gráfica que corresponde a la función: f(x) = x^2 + 2 (a)
 
@@ -115,7 +115,7 @@ A partir del resultado del ejercicio anterior, ¿cuántos pares de zapatos aprox
 
 6. Resuelve mediante la Regla de la cadena:
 
-g(x) = √x4-3x+8 (a)
+g(x) = √x4-3x+8 (b)
 
 7. Resolver las siguientes integrales
 
@@ -123,7 +123,7 @@ g(x) = √x4-3x+8 (a)
 
 7.2 ∫ (3x^2 + 2x + 1) dx (b)
 
-7.3 ∫ dx / √8-x^2 dx (c)
+7.3 ∫ dx / √8-x^2 dx (not c) (a)
 
 7.4 ∫ xsenx dx (a) -xCos(x) + Sin(x) + C
 
@@ -133,15 +133,13 @@ g(x) = √x4-3x+8 (a)
 
 7.7 ∫ x^2/3 dx (c) (3x^5/3)/5 + c
 
-7.8 ∫ Cotg x dx ln sen x + c
+7.8 ∫ Cotg x dx (b) ln sen x + c
 
-8. Queremos fabricar una caja sin tapa con base cuadrada y con un área de 300 cm2. Si queremos que el volumen sea el máximo, ¿cuál es el valor de la altura ‘y’?
+8. Queremos fabricar una caja sin tapa con base cuadrada y con un área de 300 cm2. Si queremos que el volumen sea el máximo, ¿cuál es el valor de la altura ‘y’? (not a) (b)
 
 9. El beneficio neto mensual, en millones de dólares, de una empresa que fabrica autos, viene dado por la función:
 
-A(X) = 1.2x - (0.1x)^3
-
-Donde x es el número de autos fabricados en un mes. Calcula la producción mensual de autos que hace el máximo beneficio.
+A(X) = 1.2x - (0.1x)^3 => (b) x = 20
 
 10. Calcular las derivadas parciales (∂f/∂x, ∂f/∂y) de la siguiente función:
 
@@ -151,7 +149,7 @@ f(x) = 3x^2 + 2y^4 (c) 6x, 8y^3
 
 f(x,y) = (x+y) / (xy) (b) (-1/x^2   -1/y^2)
 
-12. Calcular el área bajo la curva entre la función y=9-x2 y el eje X tal como se muestra en la figura: https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%202018-05-17%2010.18.18-f88f6ba1-3ee0-479e-8967-c77e0e915813.jpg
+12. Calcular el área bajo la curva entre la función y=9-x2 y el eje X tal como se muestra en la figura: (not b) (c)
 
 ## Tools for learning
 
