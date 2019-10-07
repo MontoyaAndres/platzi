@@ -2,7 +2,7 @@
 
 Excel para análisis de datos https://platzi.com/clases/1275-excel/11108-sientete-comodo-con-la-barra-de-menu/
 
-Álgebra lineal https://platzi.com/clases/1278-algebra-lineal/11201-solucion-de-sistemas-por-metodo-de-eliminacion/
+Álgebra lineal https://platzi.com/clases/1278-algebra-lineal/11202-solucion-por-metodo-gauss/
 
 ### Probabilidad y estadistica
 
