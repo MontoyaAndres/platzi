@@ -2,7 +2,7 @@
 
 Excel para análisis de datos https://platzi.com/clases/1275-excel/11108-sientete-comodo-con-la-barra-de-menu/
 
-Álgebra lineal https://platzi.com/clases/1278-algebra-lineal/11204-que-es-un-vector/
+Álgebra lineal https://platzi.com/clases/1278-algebra-lineal/11213-introduccion-y-tipo-de-matrices/
 
 ### Probabilidad y estadistica
 
