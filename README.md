@@ -181,8 +181,6 @@ La matriz de transformación representa: (a) Una reflexión
 | 1  0 |
 | 0 -1 |
 
-Un determinante representa: (b) El número de elementos de mi matriz
-
 ¿Qué pasa si multiplico una matriz por su matriz inversa? (d) Da como resultado la matriz identidad
 
 ¿Cuál es la condición para sumar dos matrices? (b) Que las matrices sean del mismo tamaño
@@ -197,8 +195,6 @@ Un determinante representa: (b) El número de elementos de mi matriz
 
 Si el producto escalar entre dos vectores es cero: (a) Los vectores son ortogonales entre sí
 
-¿Cuál es la mayor utilidad del producto punto o escalar? (d) Nos índica si los vectores están en dos o tres dimensiones
-
 En la multiplicación de un vector por escalar: (c) El vector cambia su magnitud, y si el escalar es negativo cambia su dirección
 
 Un sistema de ecuaciones lineales cuya gráfica son dos líneas paralelas entre que nunca se tocan entre sí significa: (c) Un sistema sin solución
@@ -207,15 +203,23 @@ El objetivo de solución por el método de eliminación es: (b) Eliminar variabl
 
 ¿Cuántos tipos de soluciones tiene un sistema de ecuaciones lineales? (a) Tres tipos de soluciones (única, infinitas o sin solución).
 
-¿Qué es la transpuesta de una matriz? pasar las filas a columnas
+¿Qué es la transpuesta de una matriz? (b) Cambiar filas por columnas
 
-¿Cuál es la matriz neutra? Matriz identidad
+¿Cuál es la matriz neutra? (b) La matriz identidad
 
-¿Cuál es el resultado del producto cruz? en 3D en el eje z y el resultado es ortogonal
+¿Cuál es el resultado del producto cruz? Un vector ortogonal a los dos vectores multiplicados
 
-¿Qué es un vector? Es un ente matematico que tiene magnitud y dirección o sentido
+¿Qué es un vector? (d) Un ente matemático que posee magnitud y dirección
 
-¿Cuál de los siguientes es un sistema de ecuaciones lineales?
+¿Cuál de los siguientes es un sistema de ecuaciones lineales? (d) ax1 + bx2 + cx3 = d
+
+¿Cuál es la mayor utilidad del producto punto o escalar? 
+(a) Nos sirve para ubicar los vectores en sus respectivos cuadrantes
+NO (d) Nos índica si los vectores están en dos o tres dimensiones
+
+Un determinante representa:
+(c) El área obtenida después de realizar una transformación lineal
+NO (b) El número de elementos de mi matriz
 
 ## Tools for learning
 
