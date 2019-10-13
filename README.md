@@ -2,8 +2,6 @@
 
 Excel para análisis de datos https://platzi.com/clases/1275-excel/11108-sientete-comodo-con-la-barra-de-menu/
 
-Álgebra lineal https://platzi.com/clases/1278-algebra-lineal/11222-comprensiones-y-expansiones/
-
 ### Probabilidad y estadistica
 
 ¿Cuál de las siguientes afirmaciones es FALSA? 
@@ -152,6 +150,72 @@ f(x) = 3x^2 + 2y^4 (c) 6x, 8y^3
 f(x,y) = (x+y) / (xy) (b) (-1/x^2   -1/y^2)
 
 12. Calcular el área bajo la curva entre la función y=9-x2 y el eje X tal como se muestra en la figura: (c)
+
+## Curso de Álgebra Lineal
+
+Una matriz aumentada de un sistema de ecuaciones lineales es: (c) Una representación de los coeficientes y constantes del sistema
+
+¿Cuáles son las operaciones que podemos utilizar en el método de Gauss? (d) Intercambio, escalamiento, eliminacion
+
+El objetivo del sistema gauss es: (a) Obtener una matriz con ceros por debajo de la diagonal en mi matrizz de coeficientes.
+
+El sistema de solución Gauss Jordan es: (d) Una variación del sistema gauss donde buscamos una matriz identidad
+
+¿Es posible sumar vectores? (a) Si, y es igual a la suma de sus componentes
+
+¿Cuáles son las letras que generalmente representan los vectores unitarios? (c) i,j,k
+
+¿Para qué me sirve una transformación lineal? (c) Modificar una serie de puntos vectores o funciones entre espacios de acuerdo a mis necesidades
+
+La siguiente matriz de transformación representa: (d) Una rotación
+| cos0 -sin0 |
+| sin0 cos0  |
+
+¿Para qué nos sirve la regla de Cramer? (d) Para solucionar sistemas de ecuaciones utilizando determinantes
+
+La siguiente matriz de transformación representa: (b) Una compresión o expansión
+| c 0 |
+| 0 1 |
+
+La matriz de transformación representa: (a) Una reflexión
+| 1  0 |
+| 0 -1 |
+
+Un determinante representa: (b) El número de elementos de mi matriz
+
+¿Qué pasa si multiplico una matriz por su matriz inversa? (d) Da como resultado la matriz identidad
+
+¿Cuál es la condición para sumar dos matrices? (b) Que las matrices sean del mismo tamaño
+
+¿Cuál es la condición para multiplicar dos matrices? (c) Que el número de columnas de la primera sea igual al número de filas de la segunda
+
+¿Qué necesito para encontrar la ecuación de un plano? (b) Dos vectores, uno que incluya el plano y otro ortogonal al plano
+
+¿Cuál es el producto punto de estos vectores A=(3,1,2) B=(2,3,4)? (a) A.B=17
+
+¿Qué son los vectores unitarios? (b) Vectores de magnitud 1 que están sobre los ejes coordenados
+
+Si el producto escalar entre dos vectores es cero: (a) Los vectores son ortogonales entre sí
+
+¿Cuál es la mayor utilidad del producto punto o escalar? (d) Nos índica si los vectores están en dos o tres dimensiones
+
+En la multiplicación de un vector por escalar: (c) El vector cambia su magnitud, y si el escalar es negativo cambia su dirección
+
+Un sistema de ecuaciones lineales cuya gráfica son dos líneas paralelas entre que nunca se tocan entre sí significa: (c) Un sistema sin solución
+
+El objetivo de solución por el método de eliminación es: (b) Eliminar variables hasta obtener un sistema de una variables con una ecuación.
+
+¿Cuántos tipos de soluciones tiene un sistema de ecuaciones lineales? (a) Tres tipos de soluciones (única, infinitas o sin solución).
+
+¿Qué es la transpuesta de una matriz? pasar las filas a columnas
+
+¿Cuál es la matriz neutra? Matriz identidad
+
+¿Cuál es el resultado del producto cruz? en 3D en el eje z y el resultado es ortogonal
+
+¿Qué es un vector? Es un ente matematico que tiene magnitud y dirección o sentido
+
+¿Cuál de los siguientes es un sistema de ecuaciones lineales?
 
 ## Tools for learning
 
