@@ -1,6 +1,6 @@
 ## Courses
 
-Excel para análisis de datos https://platzi.com/clases/1275-excel/11108-sientete-comodo-con-la-barra-de-menu/
+Curso de cálculo multivariable https://platzi.com/clases/1280-calculo-multivariable/11307-sistemas-tridimensionales-de-coordenadas/
 
 ### Probabilidad y estadistica
 
