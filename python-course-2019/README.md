@@ -1,1 +1,0 @@
-https://platzi.com/clases/1104-python/7102-que-es-una-busqueda-binaria/
