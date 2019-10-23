@@ -1,6 +1,6 @@
 ## Courses
 
-Curso de cálculo multivariable https://platzi.com/clases/1280-calculo-multivariable/11310-que-es-un-vector2136/
+Curso de cálculo multivariable https://platzi.com/clases/1280-calculo-multivariable/11320-que-es-una-funcion-de-varias-variables/
 
 ### Probabilidad y estadistica
 
