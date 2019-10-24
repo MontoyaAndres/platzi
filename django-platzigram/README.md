@@ -1,3 +1,5 @@
+# No lo termine porque puedo hacer la misma cosa con Node.js.
+
 https://platzi.com/clases/1318-django/12405-creacion-de-la-primera-app/
 
 # Platzigram
