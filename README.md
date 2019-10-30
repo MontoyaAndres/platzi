@@ -1,6 +1,6 @@
 ## Courses
 
-Curso de cálculo multivariable https://platzi.com/clases/1280-calculo-multivariable/11320-que-es-una-funcion-de-varias-variables/
+https://platzi.com/clases/1319-discretas/12356-ejercicios-teoria-de-conjuntos/
 
 ### Probabilidad y estadistica
 
