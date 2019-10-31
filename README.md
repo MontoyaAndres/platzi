@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1319-discretas/12356-ejercicios-teoria-de-conjuntos/
+https://platzi.com/clases/1319-discretas/12228-introduccion-a-los-arboles/
 
 ### Probabilidad y estadistica
 
