@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1319-discretas/12228-introduccion-a-los-arboles/
+https://platzi.com/clases/1319-discretas/12236-algoritmo-de-prim/
 
 ### Probabilidad y estadistica
 
