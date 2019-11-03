@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1319-discretas/12236-algoritmo-de-prim/
+https://platzi.com/clases/1320-ecuaciones/12451-para-que-nos-sirven-las-ecuaciones-diferenciales/
 
 ### Probabilidad y estadistica
 
