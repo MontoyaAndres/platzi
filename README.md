@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1320-ecuaciones/12451-para-que-nos-sirven-las-ecuaciones-diferenciales/
+https://platzi.com/clases/1320-ecuaciones/12455-que-es-una-ecuacion-separable/
 
 ### Probabilidad y estadistica
 
