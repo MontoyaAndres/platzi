@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1320-ecuaciones/12455-que-es-una-ecuacion-separable/
+https://platzi.com/clases/1320-ecuaciones/12459-ejemplo-de-sustitucion-lineal/
 
 ### Probabilidad y estadistica
 
