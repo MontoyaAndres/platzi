@@ -1,10 +1,14 @@
 {
   "version": 2,
   "name": "petgram",
-  "builds": [{ "src": "package.json", "use": "@now/static-build" }],
-  "routes": [
-    { "src": "/(.*).js", "dest": "/$1.js" },
-    { "src": "/(.*).json", "dest": "/$1.json" },
-    { "src": "/.*", "dest": "/index.html" }
-  ]
+  "env": {
+    "REACT_APP_GRAPHQL_API": "https://petgram-api-andres.now.sh/graphql",
+    "REACT_APP_REST_API": "https://petgram-api-andres.now.sh"
+  },
+  "build": {
+    "env": {
+      "REACT_APP_GRAPHQL_API": "https://petgram-api-andres.now.sh/graphql",
+      "REACT_APP_REST_API": "https://petgram-api-andres.now.sh"
+    }
+  }
 }

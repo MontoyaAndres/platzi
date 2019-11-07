@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API =
-  process.env.NODE_ENV !== "production"
-    ? "http://localhost:3500/categories"
-    : `${process.env.REACT_APP_REST_API}/categories`;
+const API = `${process.env.REACT_APP_REST_API}/categories`;
 
 export const useCategoriesData = () => {
   const [categories, setCategoriesData] = useState([]);

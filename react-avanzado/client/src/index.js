@@ -8,10 +8,7 @@ import Context from "./Context";
 import * as serviceWorker from "./serviceWorker";
 
 const client = new ApolloClient({
-  uri:
-    process.env.NODE_ENV !== "production"
-      ? "http://localhost:3500/graphql"
-      : process.env.REACT_APP_GRAPHQL_API,
+  uri: process.env.REACT_APP_GRAPHQL_API,
   request: operation => {
     const token = window.sessionStorage.getItem("token");
     const authorization = token ? `Bearer ${token}` : "";
