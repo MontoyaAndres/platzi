@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1320-ecuaciones/12459-ejemplo-de-sustitucion-lineal/
+https://platzi.com/clases/1320-ecuaciones/12461-ejemplo8234/
 
 ### Probabilidad y estadistica
 
