@@ -1,6 +1,6 @@
 ## Courses
 
-https://platzi.com/clases/1320-ecuaciones/12461-ejemplo8234/
+https://platzi.com/clases/1320-ecuaciones/12464-ecuaciones-con-coeficientes-lineales/
 
 ### Probabilidad y estadistica
 
