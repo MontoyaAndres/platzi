@@ -1,7 +1,5 @@
 ## Courses
 
-https://platzi.com/clases/1320-ecuaciones/12476-resolucion-del-desafio/
-
 ### Probabilidad y estadistica
 
 ¿Cuál de las siguientes afirmaciones es FALSA? 
@@ -220,6 +218,24 @@ NO (d) Nos índica si los vectores están en dos o tres dimensiones
 Un determinante representa:
 (c) El área obtenida después de realizar una transformación lineal
 NO (b) El número de elementos de mi matriz
+
+## Curso de Álgebra
+
+¿Qué opción describe un signo de relación?
+
+Es el resultado de dividir 25xy² entre 5y: 5xy³
+
+Son los sumandos que forman los miembros: (no positivos) (ecuación)
+
+SI x+y+z=2
+-x+3y+2z=8
+4x+y=4 Encontrar el valor de x, y y z.
+
+x = 0
+y = 4
+z = -2
+
+Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)²
 
 ## Tools for learning
 
