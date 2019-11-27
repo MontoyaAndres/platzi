@@ -221,11 +221,13 @@ NO (b) El número de elementos de mi matriz
 
 ## Curso de Álgebra
 
-¿Qué opción describe un signo de relación?
+¿Qué opción describe un signo de relación? (no entre)
 
-Es el resultado de dividir 25xy² entre 5y: 5xy³
+Son los sumandos que forman los miembros: (positivos)
 
-Son los sumandos que forman los miembros: (no positivos) (ecuación)
+Es el resultado de dividir 25xy² entre 5y: 5xy
+
+Son los sumandos que forman los miembros: (no positivos) (no incógnitas)
 
 SI x+y+z=2
 -x+3y+2z=8
