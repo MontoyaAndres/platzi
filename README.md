@@ -221,13 +221,13 @@ NO (b) El número de elementos de mi matriz
 
 ## Curso de Álgebra
 
-¿Qué opción describe un signo de relación? (no entre)
+¿Qué opción describe un signo de relación? (no entre) (no división) (no corchetes)
 
 Son los sumandos que forman los miembros: (positivos)
 
 Es el resultado de dividir 25xy² entre 5y: 5xy
 
-Son los sumandos que forman los miembros: (no positivos) (no incógnitas)
+Son los sumandos que forman los miembros: (Términos)
 
 SI x+y+z=2
 -x+3y+2z=8
@@ -237,7 +237,7 @@ x = 0
 y = 4
 z = -2
 
-Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)²
+Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)² (-2x⁵+1)²
 
 ## Tools for learning
 
