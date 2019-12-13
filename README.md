@@ -239,6 +239,70 @@ z = -2
 
 Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)² (-2x⁵+1)²
 
+## Fundamentos Matemáticos para Inteligencia Artificial
+
+### without response
+
+¿Cómo se hallan los puntos de corte con el eje X de una función? (not a) realizando un producto escalar
+
+¿Por qué al realizar una integral indefinida debes sumar una constante? (not b) (not a)
+
+¿Qué relación hay entre la regresión logística y la regresión lineal? (not d) (not c)
+
+---
+
+Tienes 20 libros favoritos pero tienes que elegir entre 4 de ellos. ¿Cuántas combinaciones distintas puedes elegir? (a) 4844
+
+¿Cuántos números distintos de 4 cifras se pueden escribir usando el 1 y el 3? (c) 16
+
+¿Qué es un diagrama de Venn? (d) una visualización de las intersecciones, uniones, sumas y/o restas de conjuntos
+
+¿Qué es un grafo? (a) una estructura de datos no lineales de naturaleza dinámica
+
+¿Qué es un árbol? (d) un grafo dirigido y enraizado
+
+¿En qué consiste optimizar una función? (a) en hallar su máximo y/o su mínimo
+
+¿En qué se basa el Deep Learning? (d) en redes neuronales con neuronas interconectadas en forma de bucle
+
+Señala qué función es periódica: (b) cos(x)
+
+¿Por qué se llama algoritmo perezoso al K-Nearest Neighbours? (d) no construye ningun modelo
+
+¿Cuál es el objetivo de los algoritmos de clasificación? (a) predecir etiquetas de clase categoricas de un grupo de instancias nuevas a partir de observaciones pasadas
+
+¿Qué tipo de aprendizaje es el Q-Learning? (c) Aprendizaje por refuerzo
+
+La matriz identidad es, en matrices, equivalente a (d) El número uno
+
+¿En qué consiste la kernelización? (d)
+
+¿En qué se basa el algoritmo de Ant Colony? (d)
+
+El producto escalar entre dos vectores da como resultado... (c) Un número real
+
+¿Qué tipo de aprendizaje es el algoritmo de clustering? (c) Aprendizaje supervisado
+
+¿Qué técnica permite derivar una función de varias variables? (a)
+
+¿Cuál es la derivada de f(x)=sin(3x)? (c) 3cos(3x)
+
+¿Qué es el valor esperado o esperanza? (d)
+
+¿Cuáles son las aplicaciones de la programación lógica inductiva? (c)
+
+¿Qué es un sistema compatible indeterminado? (c)
+
+¿En qué consiste la disyunción exclusiva? (b)
+
+¿En qué consiste triangular una matriz? (d) En hacer ceros por debajo de la diagonal principal por medio de operaciones entre filas o columnas
+
+¿Qué dos tipos de árboles de decisión existen? (c) arboles de clasificacion y arboles de regrasion
+
+Una asíntota es... (a) una linea recta que, prolongada indefinidamente, se acerca progresivamente a una curva sin llegar nunca a encontrarla
+
+¿Qué son las redes bayesianas? (b) un algoritmo basado en probabilidades
+
 ## Tools for learning
 
 webrtc
