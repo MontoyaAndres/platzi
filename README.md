@@ -243,25 +243,37 @@ Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)² (-2x⁵+1)²
 
 ### without response
 
-Tienes 20 libros favoritos pero tienes que elegir entre 4 de ellos. ¿Cuántas combinaciones distintas puedes elegir? (4844)
+¿Cómo se hallan los puntos de corte con el eje X de una función? (not a) realizando un producto escalar
 
-¿Cuántos números distintos de 4 cifras se pueden escribir usando el 1 y el 3? (not 24) (2)
+¿Por qué al realizar una integral indefinida debes sumar una constante? (not b) (not a)
 
-¿Qué es un diagrama de Venn?
+¿Qué relación hay entre la regresión logística y la regresión lineal? (not d) (not c)
 
 ---
 
-¿Por qué al realizar una integral indefinida debes sumar una constante? (not "derivada da 0")
+Tienes 20 libros favoritos pero tienes que elegir entre 4 de ellos. ¿Cuántas combinaciones distintas puedes elegir? (a) 4844
+
+¿Cuántos números distintos de 4 cifras se pueden escribir usando el 1 y el 3? (c) 16
+
+¿Qué es un diagrama de Venn? (d) una visualización de las intersecciones, uniones, sumas y/o restas de conjuntos
+
+¿Qué es un grafo? (a) una estructura de datos no lineales de naturaleza dinámica
+
+¿Qué es un árbol? (d) un grafo dirigido y enraizado
+
+¿En qué consiste optimizar una función? (a) en hallar su máximo y/o su mínimo
+
+¿En qué se basa el Deep Learning? (d) en redes neuronales con neuronas interconectadas en forma de bucle
+
+Señala qué función es periódica: (b) cos(x)
 
 ¿Por qué se llama algoritmo perezoso al K-Nearest Neighbours? (d) no construye ningun modelo
 
 ¿Cuál es el objetivo de los algoritmos de clasificación? (a) predecir etiquetas de clase categoricas de un grupo de instancias nuevas a partir de observaciones pasadas
 
-¿Qué relación hay entre la regresión logística y la regresión lineal? (not d) la regresion logistica es un caso particular de la regresion lineal
-
 ¿Qué tipo de aprendizaje es el Q-Learning? (c) Aprendizaje por refuerzo
 
-La matriz identidad es, en matrices, equivalente a
+La matriz identidad es, en matrices, equivalente a (d) El número uno
 
 ¿En qué consiste la kernelización? (d)
 
