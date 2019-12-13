@@ -1,0 +1,1 @@
+https://platzi.com/clases/1718-ionic-avanzado/23383-css-y-custom-properties-de-los-componentes-de-ioni/
