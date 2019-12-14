@@ -1,0 +1,76 @@
+<ion-content class="ion-padding">
+  <figure class="ion-text-center">
+    <img src="assets/img/logo.png" alt="Logo Platzi Music" />
+  </figure>
+
+  <form
+    action="POST"
+    class="form"
+    [formGroup]="validationsForm"
+    (ngSubmit)="loginUser(validationsForm.value)"
+  >
+    <ion-item>
+      <ion-label position="floating" color="primary">Email</ion-label>
+      <ion-icon name="mail-open" slot="start"></ion-icon>
+      <ion-input type="email" formControlName="email"></ion-input>
+    </ion-item>
+
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validationMessages.email">
+        <div
+          class="error-message"
+          *ngIf="validationsForm.get('email').hasError(validation.type) && (validationsForm.get('email').dirty || validationsForm.get('email').touched)"
+        >
+          {{validation.message}}
+        </div>
+      </ng-container>
+    </div>
+
+    <ion-item>
+      <ion-label position="floating" color="primary">Password</ion-label>
+      <ion-icon name="lock" slot="start"></ion-icon>
+      <ion-input
+        type="password"
+        formControlName="password"
+        class="form-control"
+        required
+      >
+      </ion-input>
+    </ion-item>
+
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validationMessages.password">
+        <div
+          class="error-message"
+          *ngIf="validationsForm.get('password').hasError(validation.type) && (validationsForm.get('password').dirty || validationsForm.get('password').touched)"
+        >
+          {{validation.message}}
+        </div>
+      </ng-container>
+    </div>
+
+    <ion-button
+      color="success"
+      shape="round"
+      class="submit-btn button-block"
+      type="submit"
+      [disabled]="!validationsForm.valid"
+    >
+      Log In
+    </ion-button>
+
+    <label class="error-message">{{errorMessage}}</label>
+  </form>
+</ion-content>
+
+<ion-footer class="ion-padding">
+  <ion-button
+    color="success"
+    shape="round"
+    fill="outline"
+    class="button-block"
+    type="submit"
+    (click)="goToRegisterPage()"
+    >Click para registrar</ion-button
+  >
+</ion-footer>
