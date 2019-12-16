@@ -21,8 +21,8 @@ export class HomePage {
 
   ionViewDidEnter() {
     this.musicService.getNewReleases().then(newReleases => {
-      this.newReleases = this.artists = this.favorites =
-        newReleases.albums.items;
+      this.newReleases = this.favorites = newReleases.albums.items;
+      this.artists = this.musicService.getArtists();
     });
   }
 
