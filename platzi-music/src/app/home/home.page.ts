@@ -25,4 +25,6 @@ export class HomePage {
         newReleases.albums.items;
     });
   }
+
+  showSongs(artist) {}
 }
