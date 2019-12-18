@@ -31,7 +31,7 @@ export class MenuPage implements OnInit {
     },
     {
       title: "Configuraciones",
-      url: "/menu/configuraciones",
+      url: "/menu/settings",
       icon: "settings"
     }
   ];

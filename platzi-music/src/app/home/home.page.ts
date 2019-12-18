@@ -1,8 +1,14 @@
 import { Component } from "@angular/core";
-import { ModalController } from '@ionic/angular'
+import { ModalController } from "@ionic/angular";
 
 import { PlatziMusicService } from "../services/platzi-music.service";
-import { SongsModalPage } from '../songs-modal/songs-modal.page'
+import { SongsModalPage } from "../songs-modal/songs-modal.page";
+
+interface SongType {
+  preview_url: string;
+  playing: boolean;
+  name: string;
+}
 
 @Component({
   selector: "app-home",
@@ -19,14 +25,18 @@ export class HomePage {
   newReleases = [];
   artists = [];
   favorites = [];
-  song = {
+  song: SongType = {
+    preview_url: "",
     playing: false,
-    preview_url: ""
-  }
+    name: ""
+  };
   currentSong: HTMLAudioElement;
   newTime: number;
 
-  constructor(private musicService: PlatziMusicService, private modalController: ModalController) { }
+  constructor(
+    private musicService: PlatziMusicService,
+    private modalController: ModalController
+  ) {}
 
   ionViewDidEnter() {
     this.musicService.getNewReleases().then(newReleases => {
@@ -36,7 +46,7 @@ export class HomePage {
   }
 
   async showSongs(artist) {
-    const songs = await this.musicService.getArtistTopTracks(artist.id)
+    const songs = await this.musicService.getArtistTopTracks(artist.id);
     const modal = await this.modalController.create({
       component: SongsModalPage,
       componentProps: {
@@ -47,9 +57,9 @@ export class HomePage {
 
     modal.onDidDismiss().then(dataReturned => {
       this.song = dataReturned.data;
-    })
+    });
 
-    return await modal.present()
+    return await modal.present();
   }
 
   async showSongsByAlbum(album) {
@@ -73,8 +83,9 @@ export class HomePage {
     this.currentSong = new Audio(this.song.preview_url);
     this.currentSong.play();
     this.currentSong.addEventListener("timeupdate", () => {
-      this.newTime = (1 / this.currentSong.duration) * this.currentSong.currentTime;
-    })
+      this.newTime =
+        (1 / this.currentSong.duration) * this.currentSong.currentTime;
+    });
 
     this.song.playing = true;
   }
@@ -84,21 +95,23 @@ export class HomePage {
     this.song.playing = false;
   }
 
-  parseTime(time = "0.00") {
-    const partTime = parseInt(time.toString().split(".")[0], 10);
+  parseTime(time: number) {
+    if (time) {
+      const partTime = parseInt(time.toString().split(".")[0], 10);
 
-    let minutes = Math.floor(partTime / 60).toString();
+      let minutes = Math.floor(partTime / 60).toString();
 
-    if (minutes.length === 1) {
-      minutes = "0" + minutes;
+      if (minutes.length === 1) {
+        minutes = "0" + minutes;
+      }
+
+      let seconds = (partTime % 60).toString();
+
+      if (seconds.length === 1) {
+        seconds = "0" + seconds;
+      }
+
+      return minutes + ":" + seconds;
     }
-
-    let seconds = (partTime % 60).toString();
-
-    if (seconds.length === 1) {
-      seconds = "0" + seconds;
-    }
-
-    return minutes + ":" + seconds;
   }
 }
