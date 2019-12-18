@@ -9,6 +9,7 @@ import { IonicStorageModule } from "@ionic/storage";
 
 import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app-routing.module";
+import { SongsModalPageModule } from './songs-modal/songs-modal.module'
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,7 +18,8 @@ import { AppRoutingModule } from "./app-routing.module";
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    IonicStorageModule.forRoot()
+    SongsModalPageModule,
+    IonicStorageModule.forRoot(),
   ],
   providers: [
     StatusBar,

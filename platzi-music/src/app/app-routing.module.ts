@@ -27,6 +27,10 @@ const routes: Routes = [
     loadChildren: () =>
       import("./menu/menu.module").then(m => m.MenuPageModule),
     canActivate: [LoginGuard, IntroGuard]
+  },
+  {
+    path: "songs-modal",
+    loadChildren: () => import("./songs-modal/songs-modal.module").then( m => m.SongsModalPageModule)
   }
 ];
 
