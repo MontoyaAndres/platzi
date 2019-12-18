@@ -23,10 +23,10 @@ export class HomePage {
     playing: false,
     preview_url: ""
   }
-  currentSong;
-  newTime;
+  currentSong: HTMLAudioElement;
+  newTime: number;
 
-  constructor(private musicService: PlatziMusicService, private modalController: ModalController) {}
+  constructor(private musicService: PlatziMusicService, private modalController: ModalController) { }
 
   ionViewDidEnter() {
     this.musicService.getNewReleases().then(newReleases => {
@@ -54,7 +54,6 @@ export class HomePage {
 
   async showSongsByAlbum(album) {
     const songs = await this.musicService.getAlbumTracks(album.id);
-    console.log(songs)
     const modal = await this.modalController.create({
       component: SongsModalPage,
       componentProps: {
