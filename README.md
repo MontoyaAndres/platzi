@@ -303,6 +303,10 @@ Una asíntota es... (a) una linea recta que, prolongada indefinidamente, se acer
 
 ¿Qué son las redes bayesianas? (b) un algoritmo basado en probabilidades
 
+¿Cuál es el producto punto de estos vectores A=(3,4) B=(2,6)? (a) 30
+
+Queremos fabricar una caja sin tapa con base cuadrada y con un área de 300 cm2. Si queremos que el volumen sea el máximo, ¿Cuál es el valor de la altura y? (b) 5
+
 ## Tools for learning
 
 webrtc
