@@ -249,7 +249,21 @@ Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)² (-2x⁵+1)²
 
 ¿Qué relación hay entre la regresión logística y la regresión lineal? (not d) (not c)
 
+Las curvas de nivel nos sirven para: (not a)
+
+Cuando importamos una imagen a una matriz usando np.array(list(imagen.getdata(band=0)), float) obtenemos (not a)
+
+¿Cúal es el orden al despejar una ecuación? (not d)
+
 ---
+
+x(y^2) es un factor integrante de (son iguales)
+
+Cuando aplicamos la descomposición SVD a una imagen podemos (a)
+
+Una forma simple de visualizar el efecto que la aplicación de una matriz A de 2x2 tiene es (a)
+
+¿Cuántos términos posee un TCP? (3)
 
 Tienes 20 libros favoritos pero tienes que elegir entre 4 de ellos. ¿Cuántas combinaciones distintas puedes elegir? (a) 4844
 
