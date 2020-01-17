@@ -255,7 +255,30 @@ Cuando importamos una imagen a una matriz usando np.array(list(imagen.getdata(ba
 
 ¿Cúal es el orden al despejar una ecuación? (not d)
 
+Necesitas que las opciones de respuesta de Cargo se desplieguen de acuerdo al Área que la persona ingresó previamente en otra pregunta de una encuesta. ¿Cómo lo puedes hacer? (not a)
+
+Necesitas identificar a los vendedores de una compañía como excelentes, buenos, y con oportunidad de mejora, dependiendo del nivel de ventas que hayan alcanzado en el año. ¿Qué herramienta podrías utilizar? (not a)
+
+
+Un especialista quiere adicionar un semáforo en un modelo que está preparando. Quiere que sea verde cuando se supera la meta de ventas, amarillo cuando se iguala y rojo cuando no se logra. ¿Qué pasos debe seguir para lograrlo? (not a)
+
 ---
+
+¿Cuál es el flujo máximo de a hasta d ? (bigger one)
+
+Cuál es la pseudoinversa de Moore Penrose de la matriz
+[[1 2]
+[3 4]
+[5 6]]
+
+R// [[-1.33333333 -0.33333333  0.66666667]
+ [ 1.08333333  0.33333333 -0.41666667]]
+
+¿Cuánto dinero debes invertir para obtener en 5 años 600000 COP si la tasa de interés es del 7% compuesto continuamente? (d)
+
+Debes formular una tabla que te permita revisar todos los meses, en una base de datos, el número de personas que trabaja en cada una de las sedes de una empresa. ¿Cuál es la forma más sencilla y eficiente de lograrlo? (a)
+
+La encargada del área de análisis de información está identificando clientes potenciales a través del estado de resultados de estos clientes. Para trasladar la información debe utilizar un BuscarH porque los indicadores están organizados en filas. ¿De qué se debe asegurar? (a)
 
 x(y^2) es un factor integrante de (son iguales)
 
