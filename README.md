@@ -247,9 +247,9 @@ Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)² (-2x⁵+1)²
 
 ¿Por qué al realizar una integral indefinida debes sumar una constante? (not b) (not a)
 
-¿Qué relación hay entre la regresión logística y la regresión lineal? (not d) (not c)
+Calcule la transformada de laplace para f(t) = sin(3t)e^2t (not c) (try a)
 
-Las curvas de nivel nos sirven para: (not a)
+Las curvas de nivel nos sirven para: (not a) (not d)
 
 Cuando importamos una imagen a una matriz usando np.array(list(imagen.getdata(band=0)), float) obtenemos (not a)
 
@@ -259,12 +259,23 @@ Necesitas que las opciones de respuesta de Cargo se desplieguen de acuerdo al Á
 
 Necesitas identificar a los vendedores de una compañía como excelentes, buenos, y con oportunidad de mejora, dependiendo del nivel de ventas que hayan alcanzado en el año. ¿Qué herramienta podrías utilizar? (not a)
 
-
 Un especialista quiere adicionar un semáforo en un modelo que está preparando. Quiere que sea verde cuando se supera la meta de ventas, amarillo cuando se iguala y rojo cuando no se logra. ¿Qué pasos debe seguir para lograrlo? (not a)
+
+Un supervisor logístico está verificando que un dato de transporte por región haya quedado de forma correcta. Para esto debe revisar de manera rápida el dato que reporta cada una de las ciudades. ¿Cómo se puede facilitar esta tarea? (not b)
 
 ---
 
 ¿Cuál es el flujo máximo de a hasta d ? (bigger one)
+
+La estrategia más útil para reconocer una superficie cuadrática rápidamente es: (b)
+
+Un practicante de una empresa de consultoría recibe un archivo con unas fórmulas en ciertas celdas que debe replicar en el resto del archivo. La forma del archivo se debe mantener independientemente de las fórmulas que contenga. ¿Qué debe tener en cuenta? (c)
+
+Un gerente está revisando una tabla con las ventas de cada uno de sus vendedores en los últimos años. ¿Qué puede hacer para obtener información de los vendedores con mayores ventas? (b)
+
+Una matriz A cuadrada a la que puedo calcularle sus autovalores y autovectores asociados se puede descomponer como: (c)
+
+¿Qué relación hay entre la regresión logística y la regresión lineal? (a)
 
 Cuál es la pseudoinversa de Moore Penrose de la matriz
 [[1 2]
@@ -343,6 +354,9 @@ Una asíntota es... (a) una linea recta que, prolongada indefinidamente, se acer
 ¿Cuál es el producto punto de estos vectores A=(3,4) B=(2,6)? (a) 30
 
 Queremos fabricar una caja sin tapa con base cuadrada y con un área de 300 cm2. Si queremos que el volumen sea el máximo, ¿Cuál es el valor de la altura y? (b) 5
+
+Determine el grado de cada uno de los vértices y concluya si hay un camino euleriano o no, concluya si hay un ciclo euleriano o no y por qué. R//
+"(a) = 2 (b) = 4 (c) = 3 (d) = 2 (e) = 3 (f) = 2 (g) = 4 (h) = 4 Si existe camino, No existe Ciclo"
 
 ## Tools for learning
 
