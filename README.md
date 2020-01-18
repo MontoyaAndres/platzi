@@ -243,13 +243,15 @@ Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)² (-2x⁵+1)²
 
 ### without response
 
+¿Cómo puedo conocer el orden de una ecuación diferencial? (not d)
+
 ¿Cómo se hallan los puntos de corte con el eje X de una función? (not a) realizando un producto escalar
 
 ¿Por qué al realizar una integral indefinida debes sumar una constante? (not b) (not a)
 
-Calcule la transformada de laplace para f(t) = sin(3t)e^2t (not c) (try a)
+¿Es posible obtener una recta tangente a mi superficie en cualquier dirección? (not a) (but is a derivate)
 
-Las curvas de nivel nos sirven para: (not a) (not d)
+Calcule la transformada de laplace para f(t) = sin(3t)e^2t (not c) (try a)
 
 Cuando importamos una imagen a una matriz usando np.array(list(imagen.getdata(band=0)), float) obtenemos (not a)
 
@@ -261,13 +263,22 @@ Necesitas identificar a los vendedores de una compañía como excelentes, buenos
 
 Un especialista quiere adicionar un semáforo en un modelo que está preparando. Quiere que sea verde cuando se supera la meta de ventas, amarillo cuando se iguala y rojo cuando no se logra. ¿Qué pasos debe seguir para lograrlo? (not a)
 
+
+Un especialista quiere grabar una macro que le permita enviar por correo el mismo archivo a unos destinatarios específicos. ¿Qué debe tener en cuenta? (not d)
+
 Un supervisor logístico está verificando que un dato de transporte por región haya quedado de forma correcta. Para esto debe revisar de manera rápida el dato que reporta cada una de las ciudades. ¿Cómo se puede facilitar esta tarea? (not b)
 
 ---
 
-¿Cuál es el flujo máximo de a hasta d ? (bigger one)
+¿Cuál es el flujo máximo de a hasta d ? (12)
+
+Las curvas de nivel nos sirven para: (b)
+
+¿Cómo podemos encontrar los máximos y mínimos de una función (b)
 
 La estrategia más útil para reconocer una superficie cuadrática rápidamente es: (b)
+
+Cuando importamos una imagen a una matriz usando np.array(list(imagen.getdata(band=0)), float) obtenemos (c)
 
 Un practicante de una empresa de consultoría recibe un archivo con unas fórmulas en ciertas celdas que debe replicar en el resto del archivo. La forma del archivo se debe mantener independientemente de las fórmulas que contenga. ¿Qué debe tener en cuenta? (c)
 
