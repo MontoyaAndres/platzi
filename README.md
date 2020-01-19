@@ -213,11 +213,9 @@ El objetivo de solución por el método de eliminación es: (b) Eliminar variabl
 
 ¿Cuál es la mayor utilidad del producto punto o escalar? 
 (a) Nos sirve para ubicar los vectores en sus respectivos cuadrantes
-NO (d) Nos índica si los vectores están en dos o tres dimensiones
 
 Un determinante representa:
 (c) El área obtenida después de realizar una transformación lineal
-NO (b) El número de elementos de mi matriz
 
 ## Curso de Álgebra
 
@@ -242,6 +240,8 @@ Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)² (-2x⁵+1)²
 ## Fundamentos Matemáticos para Inteligencia Artificial
 
 ### without response
+
+es falsa, siendo p una proposición verdadera determine los valores de verdad de q,r y s (not c)
 
 ¿Cómo puedo conocer el orden de una ecuación diferencial? (not d)
 
@@ -268,9 +268,20 @@ Un especialista quiere grabar una macro que le permita enviar por correo el mism
 
 Un supervisor logístico está verificando que un dato de transporte por región haya quedado de forma correcta. Para esto debe revisar de manera rápida el dato que reporta cada una de las ciudades. ¿Cómo se puede facilitar esta tarea? (not b)
 
+Usar np.linalg.svd para descomponer una matriz por el método SVD nos devuelve 3 objetos U, D, y V donde D es (not d)
+
+Al descomponer por SVD a una matriz que contiene los pixeles de una imagen podemos reducir su tamaño y consecuentemente la definición al (not d)
+
 ---
 
 ¿Cuál es el flujo máximo de a hasta d ? (12)
+
+Encuentre los valores necesarios para la traslación:
+(x+y+4)dx+(-x+3y+2)dy = 0 (d)
+
+Una especialista está utilizando la fórmula SUMAR.SI para obtener las ventas por ciudad (7 ciudades) a partir de una gran base de datos. ¿Qué celdas y qué rangos deben ser fijos y cuáles no? (a)
+
+Ana recibe los resultados relacionados con su producto: ventas, participación de mercado por región, resultados de los comerciales de televisión y visibilidad en punto de venta por ciudad. Sabe que las tablas dinámicas son una herramienta que permite mezclar información y analizarla. ¿Qué debe tener en cuenta para poderlo hacer? (a)
 
 Las curvas de nivel nos sirven para: (b)
 
