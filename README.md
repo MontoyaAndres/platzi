@@ -211,8 +211,7 @@ El objetivo de solución por el método de eliminación es: (b) Eliminar variabl
 
 ¿Cuál de los siguientes es un sistema de ecuaciones lineales? (d) ax1 + bx2 + cx3 = d
 
-¿Cuál es la mayor utilidad del producto punto o escalar? 
-(a) Nos sirve para ubicar los vectores en sus respectivos cuadrantes
+¿Cuál es la mayor utilidad del producto punto o escalar? (not a) (not d)
 
 Un determinante representa:
 (c) El área obtenida después de realizar una transformación lineal
@@ -241,13 +240,19 @@ Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)² (-2x⁵+1)²
 
 ### without response
 
+¿Qué es un máximo de una función? (not b)
+
 es falsa, siendo p una proposición verdadera determine los valores de verdad de q,r y s (not c)
+
+Un analista de una empresa de videojuegos está organizando una muestra de producto de un lanzamiento reciente. Debe solicitar una información a diferentes regionales de ventas para realizar el presupuesto del evento. ¿Cuál es la mejor forma de realizar este proceso? (not a)
+
+Una programadora descarga la información de horarios de entrada de cada uno de los trabajadores de una empresa, para poder analizar la información y hacer un reporte tiene que pasar a Excel esta información que está en texto plano (solo caracteres). ¿Cómo lo puede hacer? (not a)
 
 ¿Cómo puedo conocer el orden de una ecuación diferencial? (not d)
 
 ¿Cómo se hallan los puntos de corte con el eje X de una función? (not a) realizando un producto escalar
 
-¿Por qué al realizar una integral indefinida debes sumar una constante? (not b) (not a)
+¿Por qué al realizar una integral indefinida debes sumar una constante? (not b) (not a) (not d)
 
 ¿Es posible obtener una recta tangente a mi superficie en cualquier dirección? (not a) (but is a derivate)
 
@@ -257,12 +262,9 @@ Cuando importamos una imagen a una matriz usando np.array(list(imagen.getdata(ba
 
 ¿Cúal es el orden al despejar una ecuación? (not d)
 
-Necesitas que las opciones de respuesta de Cargo se desplieguen de acuerdo al Área que la persona ingresó previamente en otra pregunta de una encuesta. ¿Cómo lo puedes hacer? (not a)
-
 Necesitas identificar a los vendedores de una compañía como excelentes, buenos, y con oportunidad de mejora, dependiendo del nivel de ventas que hayan alcanzado en el año. ¿Qué herramienta podrías utilizar? (not a)
 
 Un especialista quiere adicionar un semáforo en un modelo que está preparando. Quiere que sea verde cuando se supera la meta de ventas, amarillo cuando se iguala y rojo cuando no se logra. ¿Qué pasos debe seguir para lograrlo? (not a)
-
 
 Un especialista quiere grabar una macro que le permita enviar por correo el mismo archivo a unos destinatarios específicos. ¿Qué debe tener en cuenta? (not d)
 
@@ -275,6 +277,16 @@ Al descomponer por SVD a una matriz que contiene los pixeles de una imagen podem
 ---
 
 ¿Cuál es el flujo máximo de a hasta d ? (12)
+
+¿Cómo podemos representar gráficamente los números? (b) A través de la recta numética
+
+Necesitas que las opciones de respuesta de Cargo se desplieguen de acuerdo al Área que la persona ingresó previamente en otra pregunta de una encuesta. ¿Cómo lo puedes hacer? (c)
+
+Cuando preparamos nuestros datos para aplicar PCA es importante que estén entre [0,1] o [-1,1] y estandarizarlos (por ejemplo dividir todos los elementos por el máximo valor que pueden tomar nuestros datos) porque (b)
+
+Un analista de datos necesita crear un modelo que dependiendo del indicador y el mes que se elija, arroje el resultado que está dentro de una base de datos. ¿Qué herramientas podría utilizar para realizar esta operación? (d)
+
+Un especialista de información recibe un insumo de diferentes personas para realizar un informe. Varias de estas palabras son las mismas pero están escritas de diferentes formas (bogota, Bogotá, Bogotá D.C., bogota dc). ¿Cómo puede limpiar esta información y dejarla toda igual? (d)
 
 Encuentre los valores necesarios para la traslación:
 (x+y+4)dx+(-x+3y+2)dy = 0 (d)
