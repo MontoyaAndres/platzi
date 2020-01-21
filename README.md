@@ -240,7 +240,7 @@ Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)² (-2x⁵+1)²
 
 ### without response
 
-¿Qué es un máximo de una función? (not b)
+¿Cuál de las siguientes afirmaciones es verdadera? (not b) Las funciones trigonométricas siempre están representadas en coordenadas polares.
 
 es falsa, siendo p una proposición verdadera determine los valores de verdad de q,r y s (not c)
 
@@ -256,8 +256,6 @@ Una programadora descarga la información de horarios de entrada de cada uno de 
 
 ¿Es posible obtener una recta tangente a mi superficie en cualquier dirección? (not a) (but is a derivate)
 
-Calcule la transformada de laplace para f(t) = sin(3t)e^2t (not c) (try a)
-
 Cuando importamos una imagen a una matriz usando np.array(list(imagen.getdata(band=0)), float) obtenemos (not a)
 
 ¿Cúal es el orden al despejar una ecuación? (not d)
@@ -270,13 +268,31 @@ Un especialista quiere grabar una macro que le permita enviar por correo el mism
 
 Un supervisor logístico está verificando que un dato de transporte por región haya quedado de forma correcta. Para esto debe revisar de manera rápida el dato que reporta cada una de las ciudades. ¿Cómo se puede facilitar esta tarea? (not b)
 
-Usar np.linalg.svd para descomponer una matriz por el método SVD nos devuelve 3 objetos U, D, y V donde D es (not d)
+Usar np.linalg.svd para descomponer una matriz por el método SVD nos devuelve 3 objetos U, D, y V donde D es (not d) (not a)
 
 Al descomponer por SVD a una matriz que contiene los pixeles de una imagen podemos reducir su tamaño y consecuentemente la definición al (not d)
 
+Una matriz A no cuadrada se puede descomponer cuando (not a)
+
+El número de personas que viven en un pueblo es de 10000. Si después de una década hay 20000 personas en dicho pueblo. ¿Cuánto tiempo pasará para que hayan 50000 habitantes? (not b)
+
 ---
 
+¿Qué es un máximo de una función? (a)
+
 ¿Cuál es el flujo máximo de a hasta d ? (12)
+
+Calcule la transformada de laplace para f(t) = sin(3t)e^2t (a)
+
+Para solucionar las integrales dobles debemos: (a)
+
+¿Qué representa la siguiente ecuación? x^2/a^2 + y^2/b^2 = z/c (d) Un paraboloide elíptico
+
+Actualmente tienes 1500 amigos en Facebook. Tu red de amigos de Facebook crece actualmente a una tasa de 10 amigos nuevos por semana, ¿cuánto tiempo tardaras en alcanzar el limite permitido de los 5000 amigos en Facebook? (a)
+
+¿Cómo se calcula la integral de una función en varias variables? (a)
+
+(1+e^xy+xe^xy)dx+(xe^x+2)dy=0 (a)
 
 ¿Cómo podemos representar gráficamente los números? (b) A través de la recta numética
 
@@ -287,6 +303,10 @@ Cuando preparamos nuestros datos para aplicar PCA es importante que estén entre
 Un analista de datos necesita crear un modelo que dependiendo del indicador y el mes que se elija, arroje el resultado que está dentro de una base de datos. ¿Qué herramientas podría utilizar para realizar esta operación? (d)
 
 Un especialista de información recibe un insumo de diferentes personas para realizar un informe. Varias de estas palabras son las mismas pero están escritas de diferentes formas (bogota, Bogotá, Bogotá D.C., bogota dc). ¿Cómo puede limpiar esta información y dejarla toda igual? (d)
+
+Un especialista necesita implementar una fórmula condicional de dos condiciones para identificar en una base de datos a los empleados bilingües que lleven más de 5 años. ¿Cómo lo debe hacer? (b)
+
+Un emprendedor quiere calcular cuál es el número de unidades que debe vender para alcanzar el punto de equilibrio (utilidad = 0). Construye un modelo que calcula los ingresos y los costos con base en valores unitarios que son fijos y que contribuyen a generar una pérdida o una utilidad. ¿Qué herramienta puede utilizar? (d)
 
 Encuentre los valores necesarios para la traslación:
 (x+y+4)dx+(-x+3y+2)dy = 0 (d)
