@@ -240,7 +240,7 @@ Es el resultado de factorizar el TCP 1+4x^10-4x^5 = (2x⁵-1)² (-2x⁵+1)²
 
 ### without response
 
-¿Cuál de las siguientes afirmaciones es verdadera? (not b) Las funciones trigonométricas siempre están representadas en coordenadas polares.
+¿Cuál de las siguientes afirmaciones es verdadera? (not b) (not a)
 
 es falsa, siendo p una proposición verdadera determine los valores de verdad de q,r y s (not c)
 
@@ -279,6 +279,14 @@ El número de personas que viven en un pueblo es de 10000. Si después de una d�
 ---
 
 ¿Qué es un máximo de una función? (a)
+
+Al aplicar una matriz a un vector lo que obtenemos es: (a)
+
+¿Cómo se hallan los puntos de corte con el eje X de una función? (c)
+
+Usando el algoritmo PCA de la librería sklearn.decomposition, ¿cómo especifico que quiero conservar el 80% de la varianza contenida en los datos? (d)
+
+El área de Talento Humano quiere evaluar una capacitación que realizó recientemente. Para esto, ha organizado una serie de preguntas numéricas y de texto. ¿Qué herramienta se debería tener en cuenta si se pretende que las respuestas sean homogéneas? (c)
 
 ¿Cuál es el flujo máximo de a hasta d ? (12)
 
